@@ -30,6 +30,9 @@ DerivedData/
 *.dSYM.zip
 *.dSYM
 
+## R.Swift
+*.generated.swift
+
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
