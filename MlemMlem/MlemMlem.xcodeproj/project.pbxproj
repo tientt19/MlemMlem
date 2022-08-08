@@ -49,7 +49,6 @@
 		52D9A9C8289FEE560085A327 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A974289FEE560085A327 /* Error.swift */; };
 		52D9A9C9289FEE560085A327 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A976289FEE560085A327 /* UIView.swift */; };
 		52D9A9CA289FEE560085A327 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A977289FEE560085A327 /* UIColor.swift */; };
-		52D9A9CB289FEE560085A327 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A978289FEE560085A327 /* UICollectionView.swift */; };
 		52D9A9CC289FEE560085A327 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A979289FEE560085A327 /* UITableView.swift */; };
 		52D9A9CD289FEE560085A327 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A97A289FEE560085A327 /* UIDevice.swift */; };
 		52D9A9CE289FEE560085A327 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A97B289FEE560085A327 /* UIImageView.swift */; };
@@ -103,6 +102,20 @@
 		52D9AA01289FEE570085A327 /* SKToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C2289FEE560085A327 /* SKToast.swift */; };
 		52D9AA02289FEE570085A327 /* SKUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C4289FEE560085A327 /* SKUserDefault.swift */; };
 		52D9AA03289FEE570085A327 /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C6289FEE560085A327 /* InternetConnection.swift */; };
+		FF4033B828A0B9CA00EFCD24 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033AF28A0B9CA00EFCD24 /* Inter-Medium.ttf */; };
+		FF4033B928A0B9CA00EFCD24 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B028A0B9CA00EFCD24 /* Inter-Light.ttf */; };
+		FF4033BA28A0B9CA00EFCD24 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B128A0B9CA00EFCD24 /* Inter-Thin.ttf */; };
+		FF4033BB28A0B9CA00EFCD24 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B228A0B9CA00EFCD24 /* Inter-Bold.ttf */; };
+		FF4033BC28A0B9CA00EFCD24 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B328A0B9CA00EFCD24 /* Inter-Regular.ttf */; };
+		FF4033BD28A0B9CA00EFCD24 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B428A0B9CA00EFCD24 /* Inter-ExtraBold.ttf */; };
+		FF4033BE28A0B9CA00EFCD24 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B528A0B9CA00EFCD24 /* Inter-ExtraLight.ttf */; };
+		FF4033BF28A0B9CA00EFCD24 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B628A0B9CA00EFCD24 /* Inter-Black.ttf */; };
+		FF4033C028A0B9CA00EFCD24 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B728A0B9CA00EFCD24 /* Inter-SemiBold.ttf */; };
+		FF4033C728A0D9B000EFCD24 /* SignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4033C228A0D9B000EFCD24 /* SignUpRouter.swift */; };
+		FF4033C828A0D9B000EFCD24 /* SignUpInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4033C328A0D9B000EFCD24 /* SignUpInteractorInput.swift */; };
+		FF4033C928A0D9B000EFCD24 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4033C428A0D9B000EFCD24 /* SignUpViewController.swift */; };
+		FF4033CA28A0D9B000EFCD24 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4033C528A0D9B000EFCD24 /* SignUpViewModel.swift */; };
+		FF4033CB28A0D9B000EFCD24 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF4033C628A0D9B000EFCD24 /* SignUpViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,7 +164,6 @@
 		52D9A974289FEE560085A327 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		52D9A976289FEE560085A327 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		52D9A977289FEE560085A327 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		52D9A978289FEE560085A327 /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		52D9A979289FEE560085A327 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		52D9A97A289FEE560085A327 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
 		52D9A97B289FEE560085A327 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
@@ -206,6 +218,20 @@
 		52D9A9C4289FEE560085A327 /* SKUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKUserDefault.swift; sourceTree = "<group>"; };
 		52D9A9C6289FEE560085A327 /* InternetConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
 		F84CB0CA2E650CB51B41FFF7 /* Pods-MlemMlem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MlemMlem.release.xcconfig"; path = "Target Support Files/Pods-MlemMlem/Pods-MlemMlem.release.xcconfig"; sourceTree = "<group>"; };
+		FF4033AF28A0B9CA00EFCD24 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		FF4033B028A0B9CA00EFCD24 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		FF4033B128A0B9CA00EFCD24 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		FF4033B228A0B9CA00EFCD24 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		FF4033B328A0B9CA00EFCD24 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		FF4033B428A0B9CA00EFCD24 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FF4033B528A0B9CA00EFCD24 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FF4033B628A0B9CA00EFCD24 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		FF4033B728A0B9CA00EFCD24 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		FF4033C228A0D9B000EFCD24 /* SignUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRouter.swift; sourceTree = "<group>"; };
+		FF4033C328A0D9B000EFCD24 /* SignUpInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInteractorInput.swift; sourceTree = "<group>"; };
+		FF4033C428A0D9B000EFCD24 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FF4033C528A0D9B000EFCD24 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		FF4033C628A0D9B000EFCD24 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,9 +275,9 @@
 				52D9A98D289FEE560085A327 /* Enum */,
 				52CB18D0289FF29C00B2DFEC /* Base */,
 				52D9A972289FEE560085A327 /* Extension */,
+				FF4033AD28A0B31800EFCD24 /* Models */,
 				52D9A98F289FEE560085A327 /* Services */,
 				52D9A99B289FEE560085A327 /* Utilities */,
-				52D9A96A289FEAEF0085A327 /* Models */,
 				52D9A969289FEAE50085A327 /* ViewController */,
 			);
 			path = MlemMlem;
@@ -325,6 +351,7 @@
 		52D9A967289FEABA0085A327 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF4033AE28A0B9CA00EFCD24 /* Inter */,
 				52CB18D5289FF2D800B2DFEC /* Averta Std CY  */,
 				52CB18CC289FF12600B2DFEC /* R.generated.swift */,
 				52191AA7289E9E1B0054D72E /* AppDelegate.swift */,
@@ -350,15 +377,9 @@
 			children = (
 				52CB18F6289FF2E400B2DFEC /* SplashViewController */,
 				52CB18F7289FF2F800B2DFEC /* LoginViewController */,
+				FF4033C128A0D98D00EFCD24 /* SignUpViewController */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		52D9A96A289FEAEF0085A327 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		52D9A972289FEE560085A327 /* Extension */ = {
@@ -381,7 +402,6 @@
 			children = (
 				52D9A976289FEE560085A327 /* UIView.swift */,
 				52D9A977289FEE560085A327 /* UIColor.swift */,
-				52D9A978289FEE560085A327 /* UICollectionView.swift */,
 				52D9A979289FEE560085A327 /* UITableView.swift */,
 				52D9A97A289FEE560085A327 /* UIDevice.swift */,
 				52D9A97B289FEE560085A327 /* UIImageView.swift */,
@@ -622,6 +642,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FF4033AD28A0B31800EFCD24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF4033AE28A0B9CA00EFCD24 /* Inter */ = {
+			isa = PBXGroup;
+			children = (
+				FF4033AF28A0B9CA00EFCD24 /* Inter-Medium.ttf */,
+				FF4033B028A0B9CA00EFCD24 /* Inter-Light.ttf */,
+				FF4033B128A0B9CA00EFCD24 /* Inter-Thin.ttf */,
+				FF4033B228A0B9CA00EFCD24 /* Inter-Bold.ttf */,
+				FF4033B328A0B9CA00EFCD24 /* Inter-Regular.ttf */,
+				FF4033B428A0B9CA00EFCD24 /* Inter-ExtraBold.ttf */,
+				FF4033B528A0B9CA00EFCD24 /* Inter-ExtraLight.ttf */,
+				FF4033B628A0B9CA00EFCD24 /* Inter-Black.ttf */,
+				FF4033B728A0B9CA00EFCD24 /* Inter-SemiBold.ttf */,
+			);
+			path = Inter;
+			sourceTree = "<group>";
+		};
+		FF4033C128A0D98D00EFCD24 /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF4033C228A0D9B000EFCD24 /* SignUpRouter.swift */,
+				FF4033C328A0D9B000EFCD24 /* SignUpInteractorInput.swift */,
+				FF4033C428A0D9B000EFCD24 /* SignUpViewController.swift */,
+				FF4033C528A0D9B000EFCD24 /* SignUpViewModel.swift */,
+				FF4033C628A0D9B000EFCD24 /* SignUpViewController.xib */,
+			);
+			path = SignUpViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -686,24 +741,34 @@
 				52191AB4289E9E1E0054D72E /* LaunchScreen.storyboard in Resources */,
 				52CB18ED289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-BlackItalic_1.otf in Resources */,
 				52CB190B289FF36300B2DFEC /* LoginViewController.xib in Resources */,
+				FF4033BD28A0B9CA00EFCD24 /* Inter-ExtraBold.ttf in Resources */,
 				52CB18EA289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Bold_1.otf in Resources */,
 				52CB18EB289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Regular_3.otf in Resources */,
 				52CB18EF289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-SemiboldItalic_1.otf in Resources */,
+				FF4033BF28A0B9CA00EFCD24 /* Inter-Black.ttf in Resources */,
+				FF4033BE28A0B9CA00EFCD24 /* Inter-ExtraLight.ttf in Resources */,
 				52CB18F1289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-ExtraboldItalic_1.otf in Resources */,
 				52CB18E6289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-ThinItalic_1.otf in Resources */,
 				52CB18F2289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Black_1.otf in Resources */,
 				52CB18F0289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Light_1.otf in Resources */,
+				FF4033BC28A0B9CA00EFCD24 /* Inter-Regular.ttf in Resources */,
+				FF4033B928A0B9CA00EFCD24 /* Inter-Light.ttf in Resources */,
 				52CB18EC289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Thin_1.otf in Resources */,
 				52CB1901289FF34600B2DFEC /* SplashViewController.xib in Resources */,
 				52CB18CF289FF1B700B2DFEC /* Color.xcassets in Resources */,
 				52CB18F5289FF2D800B2DFEC /* Intelligent Design - AvertaStdCy-Extrathin_1.otf in Resources */,
 				52CB18F4289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-LightItalic_1.otf in Resources */,
+				FF4033BB28A0B9CA00EFCD24 /* Inter-Bold.ttf in Resources */,
+				FF4033B828A0B9CA00EFCD24 /* Inter-Medium.ttf in Resources */,
 				52191AB1289E9E1E0054D72E /* Assets.xcassets in Resources */,
+				FF4033BA28A0B9CA00EFCD24 /* Inter-Thin.ttf in Resources */,
 				52CB18E9289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-BoldItalic_1.otf in Resources */,
 				52CB18F3289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Extrabold_1.otf in Resources */,
 				52CB18EE289FF2D800B2DFEC /* Intelligent Design - AvertaStdCy-ExtrathinItalic_1.otf in Resources */,
 				52CB18E8289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-RegularItalic_1.otf in Resources */,
+				FF4033C028A0B9CA00EFCD24 /* Inter-SemiBold.ttf in Resources */,
 				52CB18E7289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Semibold_1.otf in Resources */,
+				FF4033CB28A0D9B000EFCD24 /* SignUpViewController.xib in Resources */,
 				52191AAF289E9E1B0054D72E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -806,7 +871,6 @@
 				52D9A9D1289FEE560085A327 /* EmptyDataSetView+Extension.swift in Sources */,
 				52CB1909289FF36300B2DFEC /* LoginViewController.swift in Sources */,
 				52CB18CD289FF12600B2DFEC /* R.generated.swift in Sources */,
-				52D9A9CB289FEE560085A327 /* UICollectionView.swift in Sources */,
 				52D9A9E3289FEE560085A327 /* Result.swift in Sources */,
 				52CB18FE289FF34600B2DFEC /* SplashInteractorInput.swift in Sources */,
 				52D9A9FC289FEE570085A327 /* CloseButton.swift in Sources */,
@@ -826,16 +890,20 @@
 				52D9A9D8289FEE560085A327 /* TimeInterval.swift in Sources */,
 				52D9A9E9289FEE570085A327 /* Units.swift in Sources */,
 				52D9A9DF289FEE560085A327 /* ServiceAPI.swift in Sources */,
+				FF4033C728A0D9B000EFCD24 /* SignUpRouter.swift in Sources */,
 				52D9A9F0289FEE570085A327 /* PanModalHeight.swift in Sources */,
 				52191AAA289E9E1B0054D72E /* SceneDelegate.swift in Sources */,
 				52D9A9DB289FEE560085A327 /* Common.swift in Sources */,
 				52CB18FF289FF34600B2DFEC /* SplashViewController.swift in Sources */,
+				FF4033C928A0D9B000EFCD24 /* SignUpViewController.swift in Sources */,
 				52D9A9CC289FEE560085A327 /* UITableView.swift in Sources */,
+				FF4033C828A0D9B000EFCD24 /* SignUpInteractorInput.swift in Sources */,
 				52D9A9D5289FEE560085A327 /* Number.swift in Sources */,
 				52D9A9CF289FEE560085A327 /* UIAlertController.swift in Sources */,
 				52CB1908289FF36300B2DFEC /* LoginInteractorInput.swift in Sources */,
 				52D9A9C8289FEE560085A327 /* Error.swift in Sources */,
 				52D9AA00289FEE570085A327 /* LocalNotification.swift in Sources */,
+				FF4033CA28A0D9B000EFCD24 /* SignUpViewModel.swift in Sources */,
 				52D9AA03289FEE570085A327 /* InternetConnection.swift in Sources */,
 				52D9A9FE289FEE570085A327 /* TagListView.swift in Sources */,
 				52D9A9CD289FEE560085A327 /* UIDevice.swift in Sources */,
@@ -998,7 +1066,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CY4CXRJ4H3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "/Users/Valerian/Documents/MlemMlem/Support Files/Info.plist";
+				INFOPLIST_FILE = "Support Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1028,7 +1096,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CY4CXRJ4H3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "/Users/Valerian/Documents/MlemMlem/Support Files/Info.plist";
+				INFOPLIST_FILE = "Support Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
