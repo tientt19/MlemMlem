@@ -11,6 +11,7 @@ import UIKit
 
 // MARK: - RouterProtocol
 protocol SignUpRouterProtocol {
+    func onConfirmSignUp()
 }
 
 // MARK: - SignUp Router
@@ -35,5 +36,9 @@ class SignUpRouter {
 
 // MARK: - SignUp RouterProtocol
 extension SignUpRouter: SignUpRouterProtocol {
-    
+    func onConfirmSignUp() {
+        let viewController = ConfirmSignUpRouter.setupModule()
+        viewController.modalPresentationStyle = .fullScreen
+        self.viewController?.navigationController?.show(viewController, sender: nil)
+    }
 }

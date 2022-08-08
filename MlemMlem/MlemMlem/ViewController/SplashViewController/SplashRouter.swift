@@ -37,7 +37,10 @@ class SplashRouter {
 // MARK: - Splash RouterProtocol
 extension SplashRouter: SplashRouterProtocol {
     func gotoLoginScreen() {
-        let viewController = LoginRouter.setupModule()
+        let viewController = BaseNavigationController(rootViewController: LoginRouter.setupModule())
+        viewController.setHiddenNavigationBarViewControllers([LoginViewController.self,
+                                                              SignUpViewController.self,
+                                                              ConfirmSignUpViewController.self])
         viewController.modalPresentationStyle = .fullScreen
         self.viewController?.present(viewController, animated: true)
     }
