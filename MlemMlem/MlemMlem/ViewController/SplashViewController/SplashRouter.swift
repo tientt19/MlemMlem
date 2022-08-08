@@ -11,7 +11,7 @@ import UIKit
 
 // MARK: - RouterProtocol
 protocol SplashRouterProtocol {
-
+    func gotoLoginScreen()
 }
 
 // MARK: - Splash Router
@@ -36,5 +36,9 @@ class SplashRouter {
 
 // MARK: - Splash RouterProtocol
 extension SplashRouter: SplashRouterProtocol {
-    
+    func gotoLoginScreen() {
+        let viewController = LoginRouter.setupModule()
+        viewController.modalPresentationStyle = .fullScreen
+        self.viewController?.present(viewController, animated: true)
+    }
 }

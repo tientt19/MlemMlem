@@ -1,16 +1,16 @@
 //
 //  
-//  LoginViewController.swift
+//  SignUpViewController.swift
 //  MlemMlem
 //
-//  Created by Valerian on 07/08/2022.
+//  Created by Tiến Trần on 08/08/2022.
 //
 //
 
 import UIKit
 
 // MARK: - ViewProtocol
-protocol LoginViewProtocol: AnyObject {
+protocol SignUpViewProtocol: AnyObject {
     func showHud()
     func hideHud()
     
@@ -18,15 +18,16 @@ protocol LoginViewProtocol: AnyObject {
     //func onReloadData()
 }
 
-// MARK: - Login ViewController
-class LoginViewController: BaseViewController {
-    var router: LoginRouterProtocol!
-    var viewModel: LoginViewModelProtocol!
+// MARK: - SignUp ViewController
+class SignUpViewController: BaseViewController {
+    var router: SignUpRouterProtocol!
+    var viewModel: SignUpViewModelProtocol!
     
     @IBOutlet weak var view_background: UIView!
-    @IBOutlet weak var lbl_login: UILabel!
-    @IBOutlet weak var img_element: UIImageView!
     @IBOutlet weak var view_loginComponents: UIView!
+    @IBOutlet weak var img_element: UIImageView!
+    @IBOutlet weak var lbl_login: UILabel!
+    @IBOutlet weak var btn_back: UIButton!
     
     // MARK: - LifeCycle
     override func viewDidLoad() {
@@ -38,7 +39,6 @@ class LoginViewController: BaseViewController {
     // MARK: - Init
     private func setupInit() {
         self.makeLinearGradient()
-
     }
     
     private func makeLinearGradient() {
@@ -60,22 +60,23 @@ class LoginViewController: BaseViewController {
         self.view_background.layer.addSublayer(gradientLayer)
         self.view_background.bringSubviewToFront(self.img_element)
         self.view_background.bringSubviewToFront(self.lbl_login)
+        self.view_background.bringSubviewToFront(self.view_loginComponents)
+        self.view_background.bringSubviewToFront(self.btn_back)
         
         self.view_loginComponents.clipsToBounds = true
         self.view_loginComponents.cornerRadius = 35
         self.view_loginComponents.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-
     }
     
     // MARK: - Action
     
-    @IBAction func onSignUpAction(_ sender: Any) {
-        self.router.gotoSignUp()
+    @IBAction func onDismis(_ sender: UIButton) {
+        self.dismiss(animated: true)
     }
 }
 
-// MARK: - Login ViewProtocol
-extension LoginViewController: LoginViewProtocol {
+// MARK: - SignUp ViewProtocol
+extension SignUpViewController: SignUpViewProtocol {
     func showHud() {
         self.showProgressHud()
     }

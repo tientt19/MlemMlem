@@ -53,6 +53,10 @@ class SplashViewController: BaseViewController {
         
         self.view.bringSubviewToFront(self.view_groundElement)
         self.view.bringSubviewToFront(self.view_logo)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.router.gotoLoginScreen()
+        }
     }
     
     // MARK: - Action

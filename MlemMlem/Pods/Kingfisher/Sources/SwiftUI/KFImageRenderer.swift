@@ -46,7 +46,7 @@ struct KFImageRenderer<HoldingView> : View where HoldingView: KFImageHoldingView
             if binder.loadedImage == nil {
                 Group {
                     if let placeholder = context.placeholder, let view = placeholder(binder.progress) {
-                        Color.clear.overlay(view)
+                        view
                     } else {
                         Color.clear
                     }
