@@ -39,6 +39,6 @@ extension LoginRouter: LoginRouterProtocol {
     func gotoSignUp() {
         let viewController = SignUpRouter.setupModule()
         viewController.modalPresentationStyle = .fullScreen
-        self.viewController?.present(viewController, animated: true)
+        self.viewController?.navigationController?.pushViewController(viewController, animated: true)
     }
 }

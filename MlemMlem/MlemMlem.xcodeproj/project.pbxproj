@@ -13,6 +13,11 @@
 		52191AAF289E9E1B0054D72E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52191AAD289E9E1B0054D72E /* Main.storyboard */; };
 		52191AB1289E9E1E0054D72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52191AB0289E9E1E0054D72E /* Assets.xcassets */; };
 		52191AB4289E9E1E0054D72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52191AB2289E9E1E0054D72E /* LaunchScreen.storyboard */; };
+		529617D228A157FA00C7BFE4 /* ConfirmSignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529617CD28A157F900C7BFE4 /* ConfirmSignUpRouter.swift */; };
+		529617D328A157FA00C7BFE4 /* ConfirmSignUpInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529617CE28A157F900C7BFE4 /* ConfirmSignUpInteractorInput.swift */; };
+		529617D428A157FA00C7BFE4 /* ConfirmSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529617CF28A157F900C7BFE4 /* ConfirmSignUpViewController.swift */; };
+		529617D528A157FA00C7BFE4 /* ConfirmSignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529617D028A157F900C7BFE4 /* ConfirmSignUpViewModel.swift */; };
+		529617D628A157FA00C7BFE4 /* ConfirmSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529617D128A157F900C7BFE4 /* ConfirmSignUpViewController.xib */; };
 		52CB18CD289FF12600B2DFEC /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB18CC289FF12600B2DFEC /* R.generated.swift */; };
 		52CB18CF289FF1B700B2DFEC /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18CE289FF1B700B2DFEC /* Color.xcassets */; };
 		52CB18D3289FF29D00B2DFEC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB18D1289FF29C00B2DFEC /* BaseViewController.swift */; };
@@ -128,6 +133,11 @@
 		52191AB0289E9E1E0054D72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52191AB3289E9E1E0054D72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52191AB5289E9E1E0054D72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529617CD28A157F900C7BFE4 /* ConfirmSignUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpRouter.swift; sourceTree = "<group>"; };
+		529617CE28A157F900C7BFE4 /* ConfirmSignUpInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpInteractorInput.swift; sourceTree = "<group>"; };
+		529617CF28A157F900C7BFE4 /* ConfirmSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpViewController.swift; sourceTree = "<group>"; };
+		529617D028A157F900C7BFE4 /* ConfirmSignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpViewModel.swift; sourceTree = "<group>"; };
+		529617D128A157F900C7BFE4 /* ConfirmSignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmSignUpViewController.xib; sourceTree = "<group>"; };
 		52CB18CC289FF12600B2DFEC /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		52CB18CE289FF1B700B2DFEC /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		52CB18D1289FF29C00B2DFEC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -281,6 +291,18 @@
 				52D9A969289FEAE50085A327 /* ViewController */,
 			);
 			path = MlemMlem;
+			sourceTree = "<group>";
+		};
+		529617CC28A157DC00C7BFE4 /* ConfirmView */ = {
+			isa = PBXGroup;
+			children = (
+				529617CD28A157F900C7BFE4 /* ConfirmSignUpRouter.swift */,
+				529617CE28A157F900C7BFE4 /* ConfirmSignUpInteractorInput.swift */,
+				529617CF28A157F900C7BFE4 /* ConfirmSignUpViewController.swift */,
+				529617D028A157F900C7BFE4 /* ConfirmSignUpViewModel.swift */,
+				529617D128A157F900C7BFE4 /* ConfirmSignUpViewController.xib */,
+			);
+			path = ConfirmView;
 			sourceTree = "<group>";
 		};
 		52CB18D0289FF29C00B2DFEC /* Base */ = {
@@ -673,6 +695,7 @@
 				FF4033C428A0D9B000EFCD24 /* SignUpViewController.swift */,
 				FF4033C528A0D9B000EFCD24 /* SignUpViewModel.swift */,
 				FF4033C628A0D9B000EFCD24 /* SignUpViewController.xib */,
+				529617CC28A157DC00C7BFE4 /* ConfirmView */,
 			);
 			path = SignUpViewController;
 			sourceTree = "<group>";
@@ -748,6 +771,7 @@
 				FF4033BF28A0B9CA00EFCD24 /* Inter-Black.ttf in Resources */,
 				FF4033BE28A0B9CA00EFCD24 /* Inter-ExtraLight.ttf in Resources */,
 				52CB18F1289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-ExtraboldItalic_1.otf in Resources */,
+				529617D628A157FA00C7BFE4 /* ConfirmSignUpViewController.xib in Resources */,
 				52CB18E6289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-ThinItalic_1.otf in Resources */,
 				52CB18F2289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Black_1.otf in Resources */,
 				52CB18F0289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Light_1.otf in Resources */,
@@ -848,6 +872,7 @@
 				52D9A9FD289FEE570085A327 /* TagView.swift in Sources */,
 				52D9A9CE289FEE560085A327 /* UIImageView.swift in Sources */,
 				52D9A9E6289FEE570085A327 /* BaseModel.swift in Sources */,
+				529617D528A157FA00C7BFE4 /* ConfirmSignUpViewModel.swift in Sources */,
 				52D9A9E1289FEE560085A327 /* APIError.swift in Sources */,
 				52CB18FD289FF34600B2DFEC /* SplashRouter.swift in Sources */,
 				52D9A9EC289FEE570085A327 /* Network.swift in Sources */,
@@ -881,6 +906,7 @@
 				52D9A9DE289FEE560085A327 /* ProgressPosition.swift in Sources */,
 				52D9A9F8289FEE570085A327 /* PanContainerView.swift in Sources */,
 				52D9A9CA289FEE560085A327 /* UIColor.swift in Sources */,
+				529617D328A157FA00C7BFE4 /* ConfirmSignUpInteractorInput.swift in Sources */,
 				52D9A9EE289FEE570085A327 /* PanModalPresentable.swift in Sources */,
 				52CB1907289FF36300B2DFEC /* LoginRouter.swift in Sources */,
 				52D9A9EA289FEE570085A327 /* Utils.swift in Sources */,
@@ -891,6 +917,7 @@
 				52D9A9E9289FEE570085A327 /* Units.swift in Sources */,
 				52D9A9DF289FEE560085A327 /* ServiceAPI.swift in Sources */,
 				FF4033C728A0D9B000EFCD24 /* SignUpRouter.swift in Sources */,
+				529617D428A157FA00C7BFE4 /* ConfirmSignUpViewController.swift in Sources */,
 				52D9A9F0289FEE570085A327 /* PanModalHeight.swift in Sources */,
 				52191AAA289E9E1B0054D72E /* SceneDelegate.swift in Sources */,
 				52D9A9DB289FEE560085A327 /* Common.swift in Sources */,
@@ -899,6 +926,7 @@
 				52D9A9CC289FEE560085A327 /* UITableView.swift in Sources */,
 				FF4033C828A0D9B000EFCD24 /* SignUpInteractorInput.swift in Sources */,
 				52D9A9D5289FEE560085A327 /* Number.swift in Sources */,
+				529617D228A157FA00C7BFE4 /* ConfirmSignUpRouter.swift in Sources */,
 				52D9A9CF289FEE560085A327 /* UIAlertController.swift in Sources */,
 				52CB1908289FF36300B2DFEC /* LoginInteractorInput.swift in Sources */,
 				52D9A9C8289FEE560085A327 /* Error.swift in Sources */,
