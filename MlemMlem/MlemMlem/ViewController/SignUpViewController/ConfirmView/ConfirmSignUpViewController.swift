@@ -44,6 +44,9 @@ class ConfirmSignUpViewController: BaseViewController {
     @IBAction func onDismis(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
     }
+    @IBAction func registerTap(_ sender: UIButton) {
+        self.router.gotoServicePack()
+    }
 }
 
 // MARK: - ConfirmSignUp ViewProtocol

@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import Rswift
 
 class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
     
