@@ -68,9 +68,12 @@ class LoginViewController: BaseViewController {
     }
     
     // MARK: - Action
-    
     @IBAction func onSignUpAction(_ sender: Any) {
         self.router.gotoSignUp()
+    }
+    
+    @IBAction func onSignInAction(_ sender: Any) {
+        self.router.goToRestaurantUpdate()
     }
 }
 
