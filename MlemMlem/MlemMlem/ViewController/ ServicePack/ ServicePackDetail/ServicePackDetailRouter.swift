@@ -11,7 +11,7 @@ import UIKit
 
 // MARK: - RouterProtocol
 protocol ServicePackDetailRouterProtocol {
-
+    func gotoPaymentMethod()
 }
 
 // MARK: - ServicePackDetail Router
@@ -36,5 +36,10 @@ class ServicePackDetailRouter {
 
 // MARK: - ServicePackDetail RouterProtocol
 extension ServicePackDetailRouter: ServicePackDetailRouterProtocol {
-    
+    func gotoPaymentMethod() {
+        let viewController = PaymentMethodRouter.setupModule()
+        viewController.modalPresentationStyle = .overFullScreen
+        viewController.modalTransitionStyle = .crossDissolve
+        self.viewController?.present(viewController, animated: true)
+    }
 }
