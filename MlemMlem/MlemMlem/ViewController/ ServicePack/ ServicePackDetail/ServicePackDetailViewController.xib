@@ -148,6 +148,9 @@
                                     <real key="value" value="15"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="pcikNowTap:" destination="-1" eventType="touchUpInside" id="hwO-9k-RR3"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -175,7 +178,7 @@
                 <constraint firstItem="KlH-tW-6zV" firstAttribute="trailing" secondItem="CKb-01-8CJ" secondAttribute="trailing" constant="30" id="vhx-ZK-MQd"/>
                 <constraint firstItem="KlH-tW-6zV" firstAttribute="bottom" secondItem="dl0-wy-p5L" secondAttribute="bottom" id="zN6-SI-F7W"/>
             </constraints>
-            <point key="canvasLocation" x="418.39999999999998" y="158.77061469265368"/>
+            <point key="canvasLocation" x="729" y="100"/>
         </view>
     </objects>
     <resources>
