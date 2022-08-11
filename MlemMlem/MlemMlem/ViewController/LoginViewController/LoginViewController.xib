@@ -189,6 +189,9 @@
                                     <real key="value" value="15"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="onSignInAction:" destination="-1" eventType="touchUpInside" id="nKo-aY-hga"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhW-im-cCY">
                             <rect key="frame" x="288" y="153" width="93" height="27"/>

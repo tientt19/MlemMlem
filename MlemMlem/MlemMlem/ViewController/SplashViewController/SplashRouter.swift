@@ -40,7 +40,9 @@ extension SplashRouter: SplashRouterProtocol {
         let viewController = BaseNavigationController(rootViewController: LoginRouter.setupModule())
         viewController.setHiddenNavigationBarViewControllers([LoginViewController.self,
                                                               SignUpViewController.self,
-                                                              ConfirmSignUpViewController.self])
+                                                              ConfirmSignUpViewController.self,
+                                                              RestaurantUpdateViewController.self,
+                                                              PaymentMethodViewController.self])
         viewController.modalPresentationStyle = .fullScreen
         self.viewController?.present(viewController, animated: true)
     }

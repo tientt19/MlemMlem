@@ -18,6 +18,16 @@
 		529617D428A157FA00C7BFE4 /* ConfirmSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529617CF28A157F900C7BFE4 /* ConfirmSignUpViewController.swift */; };
 		529617D528A157FA00C7BFE4 /* ConfirmSignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529617D028A157F900C7BFE4 /* ConfirmSignUpViewModel.swift */; };
 		529617D628A157FA00C7BFE4 /* ConfirmSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529617D128A157F900C7BFE4 /* ConfirmSignUpViewController.xib */; };
+		52C05E5528A549AC006A68A2 /* RestaurantUpdateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5028A549AC006A68A2 /* RestaurantUpdateRouter.swift */; };
+		52C05E5628A549AC006A68A2 /* RestaurantUpdateInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5128A549AC006A68A2 /* RestaurantUpdateInteractorInput.swift */; };
+		52C05E5728A549AC006A68A2 /* RestaurantUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5228A549AC006A68A2 /* RestaurantUpdateViewController.swift */; };
+		52C05E5828A549AC006A68A2 /* RestaurantUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5328A549AC006A68A2 /* RestaurantUpdateViewModel.swift */; };
+		52C05E5928A549AC006A68A2 /* RestaurantUpdateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C05E5428A549AC006A68A2 /* RestaurantUpdateViewController.xib */; };
+		52C05E6028A5552D006A68A2 /* PaymentMethodRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5B28A5552D006A68A2 /* PaymentMethodRouter.swift */; };
+		52C05E6128A5552D006A68A2 /* PaymentMethodInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5C28A5552D006A68A2 /* PaymentMethodInteractorInput.swift */; };
+		52C05E6228A5552D006A68A2 /* PaymentMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5D28A5552D006A68A2 /* PaymentMethodViewController.swift */; };
+		52C05E6328A5552D006A68A2 /* PaymentMethodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5E28A5552D006A68A2 /* PaymentMethodViewModel.swift */; };
+		52C05E6428A5552E006A68A2 /* PaymentMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C05E5F28A5552D006A68A2 /* PaymentMethodViewController.xib */; };
 		52CB18CD289FF12600B2DFEC /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB18CC289FF12600B2DFEC /* R.generated.swift */; };
 		52CB18CF289FF1B700B2DFEC /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18CE289FF1B700B2DFEC /* Color.xcassets */; };
 		52CB18D3289FF29D00B2DFEC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB18D1289FF29C00B2DFEC /* BaseViewController.swift */; };
@@ -138,6 +148,16 @@
 		529617CF28A157F900C7BFE4 /* ConfirmSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpViewController.swift; sourceTree = "<group>"; };
 		529617D028A157F900C7BFE4 /* ConfirmSignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpViewModel.swift; sourceTree = "<group>"; };
 		529617D128A157F900C7BFE4 /* ConfirmSignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmSignUpViewController.xib; sourceTree = "<group>"; };
+		52C05E5028A549AC006A68A2 /* RestaurantUpdateRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUpdateRouter.swift; sourceTree = "<group>"; };
+		52C05E5128A549AC006A68A2 /* RestaurantUpdateInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUpdateInteractorInput.swift; sourceTree = "<group>"; };
+		52C05E5228A549AC006A68A2 /* RestaurantUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUpdateViewController.swift; sourceTree = "<group>"; };
+		52C05E5328A549AC006A68A2 /* RestaurantUpdateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUpdateViewModel.swift; sourceTree = "<group>"; };
+		52C05E5428A549AC006A68A2 /* RestaurantUpdateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantUpdateViewController.xib; sourceTree = "<group>"; };
+		52C05E5B28A5552D006A68A2 /* PaymentMethodRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodRouter.swift; sourceTree = "<group>"; };
+		52C05E5C28A5552D006A68A2 /* PaymentMethodInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodInteractorInput.swift; sourceTree = "<group>"; };
+		52C05E5D28A5552D006A68A2 /* PaymentMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodViewController.swift; sourceTree = "<group>"; };
+		52C05E5E28A5552D006A68A2 /* PaymentMethodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodViewModel.swift; sourceTree = "<group>"; };
+		52C05E5F28A5552D006A68A2 /* PaymentMethodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentMethodViewController.xib; sourceTree = "<group>"; };
 		52CB18CC289FF12600B2DFEC /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		52CB18CE289FF1B700B2DFEC /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
 		52CB18D1289FF29C00B2DFEC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -305,6 +325,31 @@
 			path = ConfirmView;
 			sourceTree = "<group>";
 		};
+		52C05E4F28A54956006A68A2 /* RestaurantUpdateViewController */ = {
+			isa = PBXGroup;
+			children = (
+				52C05E5028A549AC006A68A2 /* RestaurantUpdateRouter.swift */,
+				52C05E5128A549AC006A68A2 /* RestaurantUpdateInteractorInput.swift */,
+				52C05E5228A549AC006A68A2 /* RestaurantUpdateViewController.swift */,
+				52C05E5328A549AC006A68A2 /* RestaurantUpdateViewModel.swift */,
+				52C05E5428A549AC006A68A2 /* RestaurantUpdateViewController.xib */,
+				52C05E5A28A55512006A68A2 /* PaymentMethod */,
+			);
+			path = RestaurantUpdateViewController;
+			sourceTree = "<group>";
+		};
+		52C05E5A28A55512006A68A2 /* PaymentMethod */ = {
+			isa = PBXGroup;
+			children = (
+				52C05E5B28A5552D006A68A2 /* PaymentMethodRouter.swift */,
+				52C05E5C28A5552D006A68A2 /* PaymentMethodInteractorInput.swift */,
+				52C05E5D28A5552D006A68A2 /* PaymentMethodViewController.swift */,
+				52C05E5E28A5552D006A68A2 /* PaymentMethodViewModel.swift */,
+				52C05E5F28A5552D006A68A2 /* PaymentMethodViewController.xib */,
+			);
+			path = PaymentMethod;
+			sourceTree = "<group>";
+		};
 		52CB18D0289FF29C00B2DFEC /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -400,6 +445,7 @@
 				52CB18F6289FF2E400B2DFEC /* SplashViewController */,
 				52CB18F7289FF2F800B2DFEC /* LoginViewController */,
 				FF4033C128A0D98D00EFCD24 /* SignUpViewController */,
+				52C05E4F28A54956006A68A2 /* RestaurantUpdateViewController */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -779,6 +825,8 @@
 				FF4033B928A0B9CA00EFCD24 /* Inter-Light.ttf in Resources */,
 				52CB18EC289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Thin_1.otf in Resources */,
 				52CB1901289FF34600B2DFEC /* SplashViewController.xib in Resources */,
+				52C05E6428A5552E006A68A2 /* PaymentMethodViewController.xib in Resources */,
+				52C05E5928A549AC006A68A2 /* RestaurantUpdateViewController.xib in Resources */,
 				52CB18CF289FF1B700B2DFEC /* Color.xcassets in Resources */,
 				52CB18F5289FF2D800B2DFEC /* Intelligent Design - AvertaStdCy-Extrathin_1.otf in Resources */,
 				52CB18F4289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-LightItalic_1.otf in Resources */,
@@ -866,6 +914,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52CB18D3289FF29D00B2DFEC /* BaseViewController.swift in Sources */,
+				52C05E5528A549AC006A68A2 /* RestaurantUpdateRouter.swift in Sources */,
 				52D9A9D6289FEE560085A327 /* Encodable.swift in Sources */,
 				52D9A9C9289FEE560085A327 /* UIView.swift in Sources */,
 				52D9A9F3289FEE570085A327 /* PanModalPresenter.swift in Sources */,
@@ -893,11 +942,13 @@
 				52D9A9FF289FEE570085A327 /* PushNotiModel.swift in Sources */,
 				52191AA8289E9E1B0054D72E /* AppDelegate.swift in Sources */,
 				52D9A9F9289FEE570085A327 /* DimmedView.swift in Sources */,
+				52C05E6028A5552D006A68A2 /* PaymentMethodRouter.swift in Sources */,
 				52D9A9D1289FEE560085A327 /* EmptyDataSetView+Extension.swift in Sources */,
 				52CB1909289FF36300B2DFEC /* LoginViewController.swift in Sources */,
 				52CB18CD289FF12600B2DFEC /* R.generated.swift in Sources */,
 				52D9A9E3289FEE560085A327 /* Result.swift in Sources */,
 				52CB18FE289FF34600B2DFEC /* SplashInteractorInput.swift in Sources */,
+				52C05E5828A549AC006A68A2 /* RestaurantUpdateViewModel.swift in Sources */,
 				52D9A9FC289FEE570085A327 /* CloseButton.swift in Sources */,
 				52D9A9D2289FEE560085A327 /* EmptyDataSetSource.swift in Sources */,
 				52D9AA01289FEE570085A327 /* SKToast.swift in Sources */,
@@ -909,6 +960,7 @@
 				529617D328A157FA00C7BFE4 /* ConfirmSignUpInteractorInput.swift in Sources */,
 				52D9A9EE289FEE570085A327 /* PanModalPresentable.swift in Sources */,
 				52CB1907289FF36300B2DFEC /* LoginRouter.swift in Sources */,
+				52C05E5728A549AC006A68A2 /* RestaurantUpdateViewController.swift in Sources */,
 				52D9A9EA289FEE570085A327 /* Utils.swift in Sources */,
 				52D9A9E2289FEE560085A327 /* Log.swift in Sources */,
 				52D9A9DC289FEE560085A327 /* SignInConfig.swift in Sources */,
@@ -925,7 +977,9 @@
 				FF4033C928A0D9B000EFCD24 /* SignUpViewController.swift in Sources */,
 				52D9A9CC289FEE560085A327 /* UITableView.swift in Sources */,
 				FF4033C828A0D9B000EFCD24 /* SignUpInteractorInput.swift in Sources */,
+				52C05E5628A549AC006A68A2 /* RestaurantUpdateInteractorInput.swift in Sources */,
 				52D9A9D5289FEE560085A327 /* Number.swift in Sources */,
+				52C05E6328A5552D006A68A2 /* PaymentMethodViewModel.swift in Sources */,
 				529617D228A157FA00C7BFE4 /* ConfirmSignUpRouter.swift in Sources */,
 				52D9A9CF289FEE560085A327 /* UIAlertController.swift in Sources */,
 				52CB1908289FF36300B2DFEC /* LoginInteractorInput.swift in Sources */,
@@ -941,9 +995,11 @@
 				52D9A9F2289FEE570085A327 /* UIViewController+PanModalPresenter.swift in Sources */,
 				52D9A9EB289FEE570085A327 /* ErrorView.swift in Sources */,
 				52D9A9ED289FEE570085A327 /* PanModalPresentable+Defaults.swift in Sources */,
+				52C05E6128A5552D006A68A2 /* PaymentMethodInteractorInput.swift in Sources */,
 				52CB18D4289FF29D00B2DFEC /* BaseNavigationController.swift in Sources */,
 				52D9A9F1289FEE570085A327 /* PanModalPresentable+UIViewController.swift in Sources */,
 				52D9A9EF289FEE570085A327 /* PanModalPresentable+LayoutHelpers.swift in Sources */,
+				52C05E6228A5552D006A68A2 /* PaymentMethodViewController.swift in Sources */,
 				52D9A9FA289FEE570085A327 /* RemoteConfigManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

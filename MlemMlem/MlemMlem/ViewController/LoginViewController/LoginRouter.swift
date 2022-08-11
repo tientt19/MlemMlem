@@ -12,6 +12,7 @@ import UIKit
 // MARK: - RouterProtocol
 protocol LoginRouterProtocol {
     func gotoSignUp()
+    func goToRestaurantUpdate()
 }
 
 // MARK: - Login Router
@@ -40,5 +41,11 @@ extension LoginRouter: LoginRouterProtocol {
         let viewController = SignUpRouter.setupModule()
         viewController.modalPresentationStyle = .fullScreen
         self.viewController?.navigationController?.pushViewController(viewController, animated: true)
+    }
+    
+    func goToRestaurantUpdate() {
+        let viewController = RestaurantUpdateRouter.setupModule()
+        viewController.modalPresentationStyle = .fullScreen
+        self.viewController?.navigationController?.show(viewController, sender: nil)
     }
 }
