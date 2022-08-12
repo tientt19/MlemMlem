@@ -25,7 +25,21 @@ class PaymentMethodViewController: BaseViewController {
     
     @IBOutlet weak var view_imageBackground: UIView!
     @IBOutlet weak var view_EWallet: UIView!
+    @IBOutlet weak var view_Credit: UIView!
     
+    @IBOutlet weak var view_CashTap: UIView!
+    @IBOutlet weak var view_EWalletTap: UIView!
+    @IBOutlet weak var view_CreditTap: UIView!
+    
+    @IBOutlet weak var lbl_CashTitle: UILabel!
+    @IBOutlet weak var lbl_EWalletTitle: UILabel!
+    @IBOutlet weak var lbl_CreditTitle: UILabel!
+    
+    @IBOutlet weak var btn_CashTap: UIButton!
+    @IBOutlet weak var btn_EWalletTap: UIButton!
+    @IBOutlet weak var btn_CreditTap: UIButton!
+    
+
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,37 +52,66 @@ class PaymentMethodViewController: BaseViewController {
         self.view_imageBackground.clipsToBounds = true
         self.view_imageBackground.cornerRadius = 35
         self.view_imageBackground.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
+        
+        self.view_CashTap.backgroundColor = UIColor(hex: "FE7A3E")
+        self.btn_CashTap.setImage(R.image.ic_check_chosen(), for: .normal)
+        self.lbl_CashTitle.textColor = .white
     }
     
     // MARK: - Action
     @IBAction func onEWallAction(_ sender: UIButton) {
-        UIView.animate(withDuration: 1, delay: 0, animations: {
-            self.view_EWallet.isHidden = false
-        })
+        self.view_EWalletTap.backgroundColor = UIColor(hex: "FE7A3E")
+        self.btn_EWalletTap.setImage(R.image.ic_check_chosen(), for: .normal)
+        self.lbl_EWalletTitle.textColor = .white
         
-        UIView.animate(withDuration: 0.5, delay: 0, animations: {
-            self.view_EWallet.alpha = 1;
-        })
+        self.view_CashTap.backgroundColor = .white
+        self.btn_CashTap.setImage(UIImage(named: ""), for: .normal)
+        self.lbl_CashTitle.textColor = .black
+        
+        self.view_CreditTap.backgroundColor = .white
+        self.btn_CreditTap.setImage(UIImage(named: ""), for: .normal)
+        self.lbl_CreditTitle.textColor = .black
+        
+        self.view_EWallet.isHidden = false
+        self.view_Credit.isHidden = true
     }
     
     @IBAction func onCashAction(_ sender: UIButton) {
-        UIView.animate(withDuration: 1, delay: 0, animations: {
-            self.view_EWallet.isHidden = true
-        })
+        self.view_CashTap.backgroundColor = UIColor(hex: "FE7A3E")
+        self.btn_CashTap.setImage(R.image.ic_check_chosen(), for: .normal)
+        self.lbl_CashTitle.textColor = .white
         
-        UIView.animate(withDuration: 0.5, delay: 0, animations: {
-            self.view_EWallet.alpha = 0;
-        })
+        self.view_EWalletTap.backgroundColor = .white
+        self.lbl_EWalletTitle.textColor = .black
+        self.btn_EWalletTap.setImage(UIImage(named: ""), for: .normal)
+        
+        self.view_CreditTap.backgroundColor = .white
+        self.lbl_CreditTitle.textColor = .black
+        self.btn_CreditTap.setImage(UIImage(named: ""), for: .normal)
+        
+        self.view_EWallet.isHidden = true
+        self.view_Credit.isHidden = true
     }
     
     @IBAction func onVisaAction(_ sender: UIButton) {
-        UIView.animate(withDuration: 1, delay: 0, animations: {
-            self.view_EWallet.isHidden = true
-        })
+        self.view_CreditTap.backgroundColor = UIColor(hex: "FE7A3E")
+        self.lbl_CreditTitle.textColor = .white
+        self.btn_CreditTap.setImage(R.image.ic_check_chosen(), for: .normal)
         
-        UIView.animate(withDuration: 0.5, delay: 0, animations: {
-            self.view_EWallet.alpha = 0;
-        })
+        self.view_EWalletTap.backgroundColor = .white
+        self.lbl_EWalletTitle.textColor = .black
+        self.btn_EWalletTap.setImage(UIImage(named: ""), for: .normal)
+        
+        self.view_CashTap.backgroundColor = .white
+        self.lbl_CashTitle.textColor = .black
+        self.btn_CashTap.setImage(UIImage(named: ""), for: .normal)
+        
+        self.view_EWallet.isHidden = true
+        self.view_Credit.isHidden = false
+    }
+    
+    @IBAction func onDismiss(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
     }
 }
 
