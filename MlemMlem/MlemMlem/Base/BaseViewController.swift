@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import Rswift
 
 class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
     
@@ -28,6 +29,10 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
         self.viewNoInternetConnection = self.createNoInternetConnectionView()
         self.setObserverInternetConnection()
         self.addIndicator()
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.updateViewConstraints()
     }
 }
 

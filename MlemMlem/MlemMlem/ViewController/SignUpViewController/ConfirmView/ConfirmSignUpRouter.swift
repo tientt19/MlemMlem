@@ -11,7 +11,7 @@ import UIKit
 
 // MARK: - RouterProtocol
 protocol ConfirmSignUpRouterProtocol {
-
+    func gotoServicePack()
 }
 
 // MARK: - ConfirmSignUp Router
@@ -36,5 +36,9 @@ class ConfirmSignUpRouter {
 
 // MARK: - ConfirmSignUp RouterProtocol
 extension ConfirmSignUpRouter: ConfirmSignUpRouterProtocol {
-    
+    func gotoServicePack() {
+        let viewController = ServicePackRouter.setupModule()
+        viewController.modalPresentationStyle = .fullScreen
+        self.viewController?.navigationController?.pushViewController(viewController, animated: true)
+    }
 }

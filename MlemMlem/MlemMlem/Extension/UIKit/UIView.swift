@@ -57,6 +57,16 @@ extension UIView {
 }
 // MARK: - SKShadow
 extension UIView {
+    func constraintToAllSides(of container: UIView, leftOffset: CGFloat = 0, rightOffset: CGFloat = 0, topOffset: CGFloat = 0, bottomOffset: CGFloat = 0) {
+        translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            topAnchor.constraint(equalTo: container.topAnchor, constant: topOffset),
+            leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: leftOffset),
+            trailingAnchor.constraint(equalTo: container.trailingAnchor, constant: rightOffset),
+            bottomAnchor.constraint(equalTo: container.bottomAnchor, constant: bottomOffset)
+        ])
+    }
+    
     func addSKShadow(shadowColor: UIColor, offset: CGSize, radius: CGFloat, opacity: Float = 1) {
         layoutIfNeeded()
         layer.shadowColor = shadowColor.cgColor

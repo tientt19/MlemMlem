@@ -117,6 +117,49 @@
 		52D9AA01289FEE570085A327 /* SKToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C2289FEE560085A327 /* SKToast.swift */; };
 		52D9AA02289FEE570085A327 /* SKUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C4289FEE560085A327 /* SKUserDefault.swift */; };
 		52D9AA03289FEE570085A327 /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C6289FEE560085A327 /* InternetConnection.swift */; };
+		ADA51A8428A7B0C80099DCA2 /* ServicePackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A6428A7B0C80099DCA2 /* ServicePackViewModel.swift */; };
+		ADA51A8528A7B0C80099DCA2 /* ServicePackRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A6528A7B0C80099DCA2 /* ServicePackRouter.swift */; };
+		ADA51A8628A7B0C80099DCA2 /* ServicePackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A6628A7B0C80099DCA2 /* ServicePackViewController.swift */; };
+		ADA51A8C28A7B0C80099DCA2 /* ServicePackInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A6D28A7B0C80099DCA2 /* ServicePackInteractorInput.swift */; };
+		ADA51A8D28A7B0C80099DCA2 /* ServicePackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51A6F28A7B0C80099DCA2 /* ServicePackTableViewCell.xib */; };
+		ADA51A8E28A7B0C80099DCA2 /* ServicePackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7028A7B0C80099DCA2 /* ServicePackTableViewCell.swift */; };
+		ADA51A8F28A7B0C80099DCA2 /* PopupPaymentSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51A7228A7B0C80099DCA2 /* PopupPaymentSuccessViewController.xib */; };
+		ADA51A9028A7B0C80099DCA2 /* PopupPaymentSuccessRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7328A7B0C80099DCA2 /* PopupPaymentSuccessRouter.swift */; };
+		ADA51A9128A7B0C80099DCA2 /* PopupPaymentSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7428A7B0C80099DCA2 /* PopupPaymentSuccessViewController.swift */; };
+		ADA51A9228A7B0C80099DCA2 /* PopupPaymentSuccessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7528A7B0C80099DCA2 /* PopupPaymentSuccessViewModel.swift */; };
+		ADA51A9328A7B0C80099DCA2 /* PopupPaymentSuccessInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7628A7B0C80099DCA2 /* PopupPaymentSuccessInteractorInput.swift */; };
+		ADA51A9428A7B0C80099DCA2 /* ServicePackDetailInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7828A7B0C80099DCA2 /* ServicePackDetailInteractorInput.swift */; };
+		ADA51A9528A7B0C80099DCA2 /* ServicePackDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7928A7B0C80099DCA2 /* ServicePackDetailViewModel.swift */; };
+		ADA51A9628A7B0C80099DCA2 /* ServicePackDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7A28A7B0C80099DCA2 /* ServicePackDetailRouter.swift */; };
+		ADA51A9728A7B0C80099DCA2 /* ServicePackDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51A7B28A7B0C80099DCA2 /* ServicePackDetailViewController.xib */; };
+		ADA51A9828A7B0C80099DCA2 /* ServicePackDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7C28A7B0C80099DCA2 /* ServicePackDetailViewController.swift */; };
+		ADA51A9928A7B0C80099DCA2 /* ServicePackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51A7D28A7B0C80099DCA2 /* ServicePackViewController.xib */; };
+		ADA51A9A28A7B0C80099DCA2 /* CreditCardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7F28A7B0C80099DCA2 /* CreditCardRouter.swift */; };
+		ADA51A9B28A7B0C80099DCA2 /* CreditCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51A8028A7B0C80099DCA2 /* CreditCardViewController.xib */; };
+		ADA51A9C28A7B0C80099DCA2 /* CreditCardInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A8128A7B0C80099DCA2 /* CreditCardInteractorInput.swift */; };
+		ADA51A9D28A7B0C80099DCA2 /* CreditCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A8228A7B0C80099DCA2 /* CreditCardViewModel.swift */; };
+		ADA51A9E28A7B0C80099DCA2 /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A8328A7B0C80099DCA2 /* CreditCardViewController.swift */; };
+		ADA51AA328A7B1A50099DCA2 /* BackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51AA128A7B1A50099DCA2 /* BackgroundView.xib */; };
+		ADA51AA428A7B1A50099DCA2 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AA228A7B1A50099DCA2 /* BackgroundView.swift */; };
+		ADA51AA728A7B1B20099DCA2 /* InterfaceRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AA528A7B1B20099DCA2 /* InterfaceRepresentable.swift */; };
+		ADA51AA828A7B1B20099DCA2 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AA628A7B1B20099DCA2 /* CustomView.swift */; };
+		ADA51AAF28A7B3950099DCA2 /* PaymentEWalletMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51AAA28A7B3950099DCA2 /* PaymentEWalletMethodViewController.xib */; };
+		ADA51AB928A7B4D30099DCA2 /* PaymentEWalletMethodRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AB428A7B4D30099DCA2 /* PaymentEWalletMethodRouter.swift */; };
+		ADA51ABA28A7B4D30099DCA2 /* PaymentEWalletMethodInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AB528A7B4D30099DCA2 /* PaymentEWalletMethodInteractorInput.swift */; };
+		ADA51ABB28A7B4D30099DCA2 /* PaymentEWalletMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AB628A7B4D30099DCA2 /* PaymentEWalletMethodViewController.swift */; };
+		ADA51ABC28A7B4D30099DCA2 /* PaymentEWalletMethodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AB728A7B4D30099DCA2 /* PaymentEWalletMethodViewModel.swift */; };
+		ADA51AC628A7B7650099DCA2 /* ListMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AC128A7B7650099DCA2 /* ListMenuRouter.swift */; };
+		ADA51AC728A7B7650099DCA2 /* ListMenuInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AC228A7B7650099DCA2 /* ListMenuInteractorInput.swift */; };
+		ADA51AC828A7B7650099DCA2 /* ListMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AC328A7B7650099DCA2 /* ListMenuViewController.swift */; };
+		ADA51AC928A7B7650099DCA2 /* ListMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AC428A7B7650099DCA2 /* ListMenuViewModel.swift */; };
+		ADA51ACA28A7B7650099DCA2 /* ListMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51AC528A7B7650099DCA2 /* ListMenuViewController.xib */; };
+		ADF1EF2428A7CFC400C36065 /* ListMenuCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF1EF2228A7CFC400C36065 /* ListMenuCellTableViewCell.swift */; };
+		ADF1EF2528A7CFC400C36065 /* ListMenuCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF1EF2328A7CFC400C36065 /* ListMenuCellTableViewCell.xib */; };
+		ADF1EF2C28A7E07B00C36065 /* DishRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF1EF2728A7E07B00C36065 /* DishRouter.swift */; };
+		ADF1EF2D28A7E07B00C36065 /* DishInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF1EF2828A7E07B00C36065 /* DishInteractorInput.swift */; };
+		ADF1EF2E28A7E07B00C36065 /* DishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF1EF2928A7E07B00C36065 /* DishViewController.swift */; };
+		ADF1EF2F28A7E07B00C36065 /* DishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF1EF2A28A7E07B00C36065 /* DishViewModel.swift */; };
+		ADF1EF3028A7E07B00C36065 /* DishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF1EF2B28A7E07B00C36065 /* DishViewController.xib */; };
 		FF4033B828A0B9CA00EFCD24 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033AF28A0B9CA00EFCD24 /* Inter-Medium.ttf */; };
 		FF4033B928A0B9CA00EFCD24 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B028A0B9CA00EFCD24 /* Inter-Light.ttf */; };
 		FF4033BA28A0B9CA00EFCD24 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B128A0B9CA00EFCD24 /* Inter-Thin.ttf */; };
@@ -247,6 +290,49 @@
 		52D9A9C2289FEE560085A327 /* SKToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKToast.swift; sourceTree = "<group>"; };
 		52D9A9C4289FEE560085A327 /* SKUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKUserDefault.swift; sourceTree = "<group>"; };
 		52D9A9C6289FEE560085A327 /* InternetConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
+		ADA51A6428A7B0C80099DCA2 /* ServicePackViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicePackViewModel.swift; sourceTree = "<group>"; };
+		ADA51A6528A7B0C80099DCA2 /* ServicePackRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicePackRouter.swift; sourceTree = "<group>"; };
+		ADA51A6628A7B0C80099DCA2 /* ServicePackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicePackViewController.swift; sourceTree = "<group>"; };
+		ADA51A6D28A7B0C80099DCA2 /* ServicePackInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicePackInteractorInput.swift; sourceTree = "<group>"; };
+		ADA51A6F28A7B0C80099DCA2 /* ServicePackTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServicePackTableViewCell.xib; sourceTree = "<group>"; };
+		ADA51A7028A7B0C80099DCA2 /* ServicePackTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicePackTableViewCell.swift; sourceTree = "<group>"; };
+		ADA51A7228A7B0C80099DCA2 /* PopupPaymentSuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupPaymentSuccessViewController.xib; sourceTree = "<group>"; };
+		ADA51A7328A7B0C80099DCA2 /* PopupPaymentSuccessRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupPaymentSuccessRouter.swift; sourceTree = "<group>"; };
+		ADA51A7428A7B0C80099DCA2 /* PopupPaymentSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupPaymentSuccessViewController.swift; sourceTree = "<group>"; };
+		ADA51A7528A7B0C80099DCA2 /* PopupPaymentSuccessViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupPaymentSuccessViewModel.swift; sourceTree = "<group>"; };
+		ADA51A7628A7B0C80099DCA2 /* PopupPaymentSuccessInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupPaymentSuccessInteractorInput.swift; sourceTree = "<group>"; };
+		ADA51A7828A7B0C80099DCA2 /* ServicePackDetailInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicePackDetailInteractorInput.swift; sourceTree = "<group>"; };
+		ADA51A7928A7B0C80099DCA2 /* ServicePackDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicePackDetailViewModel.swift; sourceTree = "<group>"; };
+		ADA51A7A28A7B0C80099DCA2 /* ServicePackDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicePackDetailRouter.swift; sourceTree = "<group>"; };
+		ADA51A7B28A7B0C80099DCA2 /* ServicePackDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServicePackDetailViewController.xib; sourceTree = "<group>"; };
+		ADA51A7C28A7B0C80099DCA2 /* ServicePackDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicePackDetailViewController.swift; sourceTree = "<group>"; };
+		ADA51A7D28A7B0C80099DCA2 /* ServicePackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServicePackViewController.xib; sourceTree = "<group>"; };
+		ADA51A7F28A7B0C80099DCA2 /* CreditCardRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardRouter.swift; sourceTree = "<group>"; };
+		ADA51A8028A7B0C80099DCA2 /* CreditCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditCardViewController.xib; sourceTree = "<group>"; };
+		ADA51A8128A7B0C80099DCA2 /* CreditCardInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardInteractorInput.swift; sourceTree = "<group>"; };
+		ADA51A8228A7B0C80099DCA2 /* CreditCardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardViewModel.swift; sourceTree = "<group>"; };
+		ADA51A8328A7B0C80099DCA2 /* CreditCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardViewController.swift; sourceTree = "<group>"; };
+		ADA51AA128A7B1A50099DCA2 /* BackgroundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackgroundView.xib; sourceTree = "<group>"; };
+		ADA51AA228A7B1A50099DCA2 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		ADA51AA528A7B1B20099DCA2 /* InterfaceRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceRepresentable.swift; sourceTree = "<group>"; };
+		ADA51AA628A7B1B20099DCA2 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		ADA51AAA28A7B3950099DCA2 /* PaymentEWalletMethodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentEWalletMethodViewController.xib; sourceTree = "<group>"; };
+		ADA51AB428A7B4D30099DCA2 /* PaymentEWalletMethodRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentEWalletMethodRouter.swift; sourceTree = "<group>"; };
+		ADA51AB528A7B4D30099DCA2 /* PaymentEWalletMethodInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentEWalletMethodInteractorInput.swift; sourceTree = "<group>"; };
+		ADA51AB628A7B4D30099DCA2 /* PaymentEWalletMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentEWalletMethodViewController.swift; sourceTree = "<group>"; };
+		ADA51AB728A7B4D30099DCA2 /* PaymentEWalletMethodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentEWalletMethodViewModel.swift; sourceTree = "<group>"; };
+		ADA51AC128A7B7650099DCA2 /* ListMenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenuRouter.swift; sourceTree = "<group>"; };
+		ADA51AC228A7B7650099DCA2 /* ListMenuInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenuInteractorInput.swift; sourceTree = "<group>"; };
+		ADA51AC328A7B7650099DCA2 /* ListMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenuViewController.swift; sourceTree = "<group>"; };
+		ADA51AC428A7B7650099DCA2 /* ListMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenuViewModel.swift; sourceTree = "<group>"; };
+		ADA51AC528A7B7650099DCA2 /* ListMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListMenuViewController.xib; sourceTree = "<group>"; };
+		ADF1EF2228A7CFC400C36065 /* ListMenuCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenuCellTableViewCell.swift; sourceTree = "<group>"; };
+		ADF1EF2328A7CFC400C36065 /* ListMenuCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListMenuCellTableViewCell.xib; sourceTree = "<group>"; };
+		ADF1EF2728A7E07B00C36065 /* DishRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishRouter.swift; sourceTree = "<group>"; };
+		ADF1EF2828A7E07B00C36065 /* DishInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishInteractorInput.swift; sourceTree = "<group>"; };
+		ADF1EF2928A7E07B00C36065 /* DishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishViewController.swift; sourceTree = "<group>"; };
+		ADF1EF2A28A7E07B00C36065 /* DishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishViewModel.swift; sourceTree = "<group>"; };
+		ADF1EF2B28A7E07B00C36065 /* DishViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishViewController.xib; sourceTree = "<group>"; };
 		F84CB0CA2E650CB51B41FFF7 /* Pods-MlemMlem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MlemMlem.release.xcconfig"; path = "Target Support Files/Pods-MlemMlem/Pods-MlemMlem.release.xcconfig"; sourceTree = "<group>"; };
 		FF4033AF28A0B9CA00EFCD24 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 		FF4033B028A0B9CA00EFCD24 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
@@ -300,6 +386,7 @@
 		52191AA6289E9E1B0054D72E /* MlemMlem */ = {
 			isa = PBXGroup;
 			children = (
+				ADA51A9F28A7B1A50099DCA2 /* CustomView */,
 				52D9A99F289FEE560085A327 /* App Kits */,
 				52D9A987289FEE560085A327 /* Config */,
 				52D9A98D289FEE560085A327 /* Enum */,
@@ -353,6 +440,8 @@
 		52CB18D0289FF29C00B2DFEC /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				ADA51AA628A7B1B20099DCA2 /* CustomView.swift */,
+				ADA51AA528A7B1B20099DCA2 /* InterfaceRepresentable.swift */,
 				52CB18D1289FF29C00B2DFEC /* BaseViewController.swift */,
 				52CB18D2289FF29C00B2DFEC /* BaseNavigationController.swift */,
 			);
@@ -442,6 +531,8 @@
 		52D9A969289FEAE50085A327 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				ADA51ABF28A7B7280099DCA2 /* CreateMenu */,
+				ADA51A6328A7B0C80099DCA2 /*  ServicePack */,
 				52CB18F6289FF2E400B2DFEC /* SplashViewController */,
 				52CB18F7289FF2F800B2DFEC /* LoginViewController */,
 				FF4033C128A0D98D00EFCD24 /* SignUpViewController */,
@@ -702,6 +793,140 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		ADA51A6328A7B0C80099DCA2 /*  ServicePack */ = {
+			isa = PBXGroup;
+			children = (
+				ADA51AA928A7B3950099DCA2 /* PaymentEWalletMethod */,
+				ADA51A6428A7B0C80099DCA2 /* ServicePackViewModel.swift */,
+				ADA51A6528A7B0C80099DCA2 /* ServicePackRouter.swift */,
+				ADA51A6D28A7B0C80099DCA2 /* ServicePackInteractorInput.swift */,
+				ADA51A6628A7B0C80099DCA2 /* ServicePackViewController.swift */,
+				ADA51A7D28A7B0C80099DCA2 /* ServicePackViewController.xib */,
+				ADA51A6E28A7B0C80099DCA2 /* Cell */,
+				ADA51A7128A7B0C80099DCA2 /* PopupPaymentSuccess */,
+				ADA51A7728A7B0C80099DCA2 /*  ServicePackDetail */,
+				ADA51A7E28A7B0C80099DCA2 /* CreditCard */,
+			);
+			path = " ServicePack";
+			sourceTree = "<group>";
+		};
+		ADA51A6E28A7B0C80099DCA2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				ADA51A6F28A7B0C80099DCA2 /* ServicePackTableViewCell.xib */,
+				ADA51A7028A7B0C80099DCA2 /* ServicePackTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		ADA51A7128A7B0C80099DCA2 /* PopupPaymentSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				ADA51A7228A7B0C80099DCA2 /* PopupPaymentSuccessViewController.xib */,
+				ADA51A7328A7B0C80099DCA2 /* PopupPaymentSuccessRouter.swift */,
+				ADA51A7428A7B0C80099DCA2 /* PopupPaymentSuccessViewController.swift */,
+				ADA51A7528A7B0C80099DCA2 /* PopupPaymentSuccessViewModel.swift */,
+				ADA51A7628A7B0C80099DCA2 /* PopupPaymentSuccessInteractorInput.swift */,
+			);
+			path = PopupPaymentSuccess;
+			sourceTree = "<group>";
+		};
+		ADA51A7728A7B0C80099DCA2 /*  ServicePackDetail */ = {
+			isa = PBXGroup;
+			children = (
+				ADA51A7828A7B0C80099DCA2 /* ServicePackDetailInteractorInput.swift */,
+				ADA51A7928A7B0C80099DCA2 /* ServicePackDetailViewModel.swift */,
+				ADA51A7A28A7B0C80099DCA2 /* ServicePackDetailRouter.swift */,
+				ADA51A7B28A7B0C80099DCA2 /* ServicePackDetailViewController.xib */,
+				ADA51A7C28A7B0C80099DCA2 /* ServicePackDetailViewController.swift */,
+			);
+			path = " ServicePackDetail";
+			sourceTree = "<group>";
+		};
+		ADA51A7E28A7B0C80099DCA2 /* CreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				ADA51A7F28A7B0C80099DCA2 /* CreditCardRouter.swift */,
+				ADA51A8028A7B0C80099DCA2 /* CreditCardViewController.xib */,
+				ADA51A8128A7B0C80099DCA2 /* CreditCardInteractorInput.swift */,
+				ADA51A8228A7B0C80099DCA2 /* CreditCardViewModel.swift */,
+				ADA51A8328A7B0C80099DCA2 /* CreditCardViewController.swift */,
+			);
+			path = CreditCard;
+			sourceTree = "<group>";
+		};
+		ADA51A9F28A7B1A50099DCA2 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				ADA51AA028A7B1A50099DCA2 /* BackgroundView */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		ADA51AA028A7B1A50099DCA2 /* BackgroundView */ = {
+			isa = PBXGroup;
+			children = (
+				ADA51AA128A7B1A50099DCA2 /* BackgroundView.xib */,
+				ADA51AA228A7B1A50099DCA2 /* BackgroundView.swift */,
+			);
+			path = BackgroundView;
+			sourceTree = "<group>";
+		};
+		ADA51AA928A7B3950099DCA2 /* PaymentEWalletMethod */ = {
+			isa = PBXGroup;
+			children = (
+				ADA51AAA28A7B3950099DCA2 /* PaymentEWalletMethodViewController.xib */,
+				ADA51AB428A7B4D30099DCA2 /* PaymentEWalletMethodRouter.swift */,
+				ADA51AB528A7B4D30099DCA2 /* PaymentEWalletMethodInteractorInput.swift */,
+				ADA51AB628A7B4D30099DCA2 /* PaymentEWalletMethodViewController.swift */,
+				ADA51AB728A7B4D30099DCA2 /* PaymentEWalletMethodViewModel.swift */,
+			);
+			path = PaymentEWalletMethod;
+			sourceTree = "<group>";
+		};
+		ADA51ABF28A7B7280099DCA2 /* CreateMenu */ = {
+			isa = PBXGroup;
+			children = (
+				ADF1EF2628A7E03D00C36065 /* Dish */,
+				ADA51AC028A7B73F0099DCA2 /* ListMenu */,
+			);
+			path = CreateMenu;
+			sourceTree = "<group>";
+		};
+		ADA51AC028A7B73F0099DCA2 /* ListMenu */ = {
+			isa = PBXGroup;
+			children = (
+				ADF1EF2128A7CF7800C36065 /* ListMenuCell */,
+				ADA51AC128A7B7650099DCA2 /* ListMenuRouter.swift */,
+				ADA51AC228A7B7650099DCA2 /* ListMenuInteractorInput.swift */,
+				ADA51AC428A7B7650099DCA2 /* ListMenuViewModel.swift */,
+				ADA51AC328A7B7650099DCA2 /* ListMenuViewController.swift */,
+				ADA51AC528A7B7650099DCA2 /* ListMenuViewController.xib */,
+			);
+			path = ListMenu;
+			sourceTree = "<group>";
+		};
+		ADF1EF2128A7CF7800C36065 /* ListMenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				ADF1EF2228A7CFC400C36065 /* ListMenuCellTableViewCell.swift */,
+				ADF1EF2328A7CFC400C36065 /* ListMenuCellTableViewCell.xib */,
+			);
+			path = ListMenuCell;
+			sourceTree = "<group>";
+		};
+		ADF1EF2628A7E03D00C36065 /* Dish */ = {
+			isa = PBXGroup;
+			children = (
+				ADF1EF2728A7E07B00C36065 /* DishRouter.swift */,
+				ADF1EF2828A7E07B00C36065 /* DishInteractorInput.swift */,
+				ADF1EF2928A7E07B00C36065 /* DishViewController.swift */,
+				ADF1EF2A28A7E07B00C36065 /* DishViewModel.swift */,
+				ADF1EF2B28A7E07B00C36065 /* DishViewController.xib */,
+			);
+			path = Dish;
+			sourceTree = "<group>";
+		};
 		DDDAC1AEF6D896C5FE5F67B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -811,34 +1036,44 @@
 				52CB18ED289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-BlackItalic_1.otf in Resources */,
 				52CB190B289FF36300B2DFEC /* LoginViewController.xib in Resources */,
 				FF4033BD28A0B9CA00EFCD24 /* Inter-ExtraBold.ttf in Resources */,
+				ADA51A9928A7B0C80099DCA2 /* ServicePackViewController.xib in Resources */,
 				52CB18EA289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Bold_1.otf in Resources */,
 				52CB18EB289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Regular_3.otf in Resources */,
 				52CB18EF289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-SemiboldItalic_1.otf in Resources */,
+				ADA51A8F28A7B0C80099DCA2 /* PopupPaymentSuccessViewController.xib in Resources */,
 				FF4033BF28A0B9CA00EFCD24 /* Inter-Black.ttf in Resources */,
 				FF4033BE28A0B9CA00EFCD24 /* Inter-ExtraLight.ttf in Resources */,
 				52CB18F1289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-ExtraboldItalic_1.otf in Resources */,
 				529617D628A157FA00C7BFE4 /* ConfirmSignUpViewController.xib in Resources */,
+				ADA51AA328A7B1A50099DCA2 /* BackgroundView.xib in Resources */,
 				52CB18E6289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-ThinItalic_1.otf in Resources */,
 				52CB18F2289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Black_1.otf in Resources */,
 				52CB18F0289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Light_1.otf in Resources */,
 				FF4033BC28A0B9CA00EFCD24 /* Inter-Regular.ttf in Resources */,
+				ADF1EF2528A7CFC400C36065 /* ListMenuCellTableViewCell.xib in Resources */,
 				FF4033B928A0B9CA00EFCD24 /* Inter-Light.ttf in Resources */,
 				52CB18EC289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Thin_1.otf in Resources */,
 				52CB1901289FF34600B2DFEC /* SplashViewController.xib in Resources */,
 				52C05E6428A5552E006A68A2 /* PaymentMethodViewController.xib in Resources */,
 				52C05E5928A549AC006A68A2 /* RestaurantUpdateViewController.xib in Resources */,
+				ADF1EF3028A7E07B00C36065 /* DishViewController.xib in Resources */,
 				52CB18CF289FF1B700B2DFEC /* Color.xcassets in Resources */,
 				52CB18F5289FF2D800B2DFEC /* Intelligent Design - AvertaStdCy-Extrathin_1.otf in Resources */,
 				52CB18F4289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-LightItalic_1.otf in Resources */,
 				FF4033BB28A0B9CA00EFCD24 /* Inter-Bold.ttf in Resources */,
 				FF4033B828A0B9CA00EFCD24 /* Inter-Medium.ttf in Resources */,
 				52191AB1289E9E1E0054D72E /* Assets.xcassets in Resources */,
+				ADA51A9B28A7B0C80099DCA2 /* CreditCardViewController.xib in Resources */,
 				FF4033BA28A0B9CA00EFCD24 /* Inter-Thin.ttf in Resources */,
 				52CB18E9289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-BoldItalic_1.otf in Resources */,
+				ADA51AAF28A7B3950099DCA2 /* PaymentEWalletMethodViewController.xib in Resources */,
 				52CB18F3289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Extrabold_1.otf in Resources */,
+				ADA51A8D28A7B0C80099DCA2 /* ServicePackTableViewCell.xib in Resources */,
 				52CB18EE289FF2D800B2DFEC /* Intelligent Design - AvertaStdCy-ExtrathinItalic_1.otf in Resources */,
 				52CB18E8289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-RegularItalic_1.otf in Resources */,
+				ADA51ACA28A7B7650099DCA2 /* ListMenuViewController.xib in Resources */,
 				FF4033C028A0B9CA00EFCD24 /* Inter-SemiBold.ttf in Resources */,
+				ADA51A9728A7B0C80099DCA2 /* ServicePackDetailViewController.xib in Resources */,
 				52CB18E7289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Semibold_1.otf in Resources */,
 				FF4033CB28A0D9B000EFCD24 /* SignUpViewController.xib in Resources */,
 				52191AAF289E9E1B0054D72E /* Main.storyboard in Resources */,
@@ -916,28 +1151,41 @@
 				52CB18D3289FF29D00B2DFEC /* BaseViewController.swift in Sources */,
 				52C05E5528A549AC006A68A2 /* RestaurantUpdateRouter.swift in Sources */,
 				52D9A9D6289FEE560085A327 /* Encodable.swift in Sources */,
+				ADF1EF2428A7CFC400C36065 /* ListMenuCellTableViewCell.swift in Sources */,
 				52D9A9C9289FEE560085A327 /* UIView.swift in Sources */,
+				ADA51A9828A7B0C80099DCA2 /* ServicePackDetailViewController.swift in Sources */,
 				52D9A9F3289FEE570085A327 /* PanModalPresenter.swift in Sources */,
 				52D9A9FD289FEE570085A327 /* TagView.swift in Sources */,
 				52D9A9CE289FEE560085A327 /* UIImageView.swift in Sources */,
+				ADA51A9A28A7B0C80099DCA2 /* CreditCardRouter.swift in Sources */,
 				52D9A9E6289FEE570085A327 /* BaseModel.swift in Sources */,
+				ADA51A9528A7B0C80099DCA2 /* ServicePackDetailViewModel.swift in Sources */,
+				ADF1EF2D28A7E07B00C36065 /* DishInteractorInput.swift in Sources */,
 				529617D528A157FA00C7BFE4 /* ConfirmSignUpViewModel.swift in Sources */,
+				ADA51A9D28A7B0C80099DCA2 /* CreditCardViewModel.swift in Sources */,
+				ADF1EF2C28A7E07B00C36065 /* DishRouter.swift in Sources */,
 				52D9A9E1289FEE560085A327 /* APIError.swift in Sources */,
+				ADA51ABC28A7B4D30099DCA2 /* PaymentEWalletMethodViewModel.swift in Sources */,
 				52CB18FD289FF34600B2DFEC /* SplashRouter.swift in Sources */,
+				ADA51A8C28A7B0C80099DCA2 /* ServicePackInteractorInput.swift in Sources */,
+				ADA51AA828A7B1B20099DCA2 /* CustomView.swift in Sources */,
 				52D9A9EC289FEE570085A327 /* Network.swift in Sources */,
 				52D9A9FB289FEE570085A327 /* KeyChainManager.swift in Sources */,
 				52D9A9D0289FEE560085A327 /* EmptyDataSetView.swift in Sources */,
 				52D9A9F7289FEE570085A327 /* PanModalPresentationController.swift in Sources */,
 				52D9A9D7289FEE560085A327 /* String.swift in Sources */,
+				ADA51AC628A7B7650099DCA2 /* ListMenuRouter.swift in Sources */,
 				52D9AA02289FEE570085A327 /* SKUserDefault.swift in Sources */,
 				52D9A9DA289FEE560085A327 /* NotificationName.swift in Sources */,
 				52D9A9D3289FEE560085A327 /* EmptyDataSetDelegate.swift in Sources */,
+				ADA51AC928A7B7650099DCA2 /* ListMenuViewModel.swift in Sources */,
 				52D9A965289FEAA90085A327 /* Format_Name.swift in Sources */,
 				52D9A9D9289FEE560085A327 /* Constant.swift in Sources */,
 				52D9A9F5289FEE570085A327 /* PanModalAnimator.swift in Sources */,
 				52D9A9DD289FEE560085A327 /* Key.swift in Sources */,
 				52D9A9E4289FEE570085A327 /* BaseService.swift in Sources */,
 				52D9A9C7289FEE560085A327 /* Date.swift in Sources */,
+				ADA51AA728A7B1B20099DCA2 /* InterfaceRepresentable.swift in Sources */,
 				52D9A9E5289FEE570085A327 /* ApiUrlProtocols.swift in Sources */,
 				52D9A9FF289FEE570085A327 /* PushNotiModel.swift in Sources */,
 				52191AA8289E9E1B0054D72E /* AppDelegate.swift in Sources */,
@@ -948,50 +1196,70 @@
 				52CB18CD289FF12600B2DFEC /* R.generated.swift in Sources */,
 				52D9A9E3289FEE560085A327 /* Result.swift in Sources */,
 				52CB18FE289FF34600B2DFEC /* SplashInteractorInput.swift in Sources */,
+				ADA51A8528A7B0C80099DCA2 /* ServicePackRouter.swift in Sources */,
 				52C05E5828A549AC006A68A2 /* RestaurantUpdateViewModel.swift in Sources */,
+				ADA51AB928A7B4D30099DCA2 /* PaymentEWalletMethodRouter.swift in Sources */,
 				52D9A9FC289FEE570085A327 /* CloseButton.swift in Sources */,
 				52D9A9D2289FEE560085A327 /* EmptyDataSetSource.swift in Sources */,
+				ADA51A9128A7B0C80099DCA2 /* PopupPaymentSuccessViewController.swift in Sources */,
 				52D9AA01289FEE570085A327 /* SKToast.swift in Sources */,
 				52D9A966289FEAA90085A327 /* IBOutlet_Name.swift in Sources */,
 				52D9A9F4289FEE570085A327 /* PanModalPresentationDelegate.swift in Sources */,
 				52D9A9DE289FEE560085A327 /* ProgressPosition.swift in Sources */,
+				ADA51A9C28A7B0C80099DCA2 /* CreditCardInteractorInput.swift in Sources */,
 				52D9A9F8289FEE570085A327 /* PanContainerView.swift in Sources */,
 				52D9A9CA289FEE560085A327 /* UIColor.swift in Sources */,
 				529617D328A157FA00C7BFE4 /* ConfirmSignUpInteractorInput.swift in Sources */,
 				52D9A9EE289FEE570085A327 /* PanModalPresentable.swift in Sources */,
 				52CB1907289FF36300B2DFEC /* LoginRouter.swift in Sources */,
 				52C05E5728A549AC006A68A2 /* RestaurantUpdateViewController.swift in Sources */,
+				ADA51A9228A7B0C80099DCA2 /* PopupPaymentSuccessViewModel.swift in Sources */,
+				ADA51A9E28A7B0C80099DCA2 /* CreditCardViewController.swift in Sources */,
+				ADA51A9428A7B0C80099DCA2 /* ServicePackDetailInteractorInput.swift in Sources */,
 				52D9A9EA289FEE570085A327 /* Utils.swift in Sources */,
 				52D9A9E2289FEE560085A327 /* Log.swift in Sources */,
+				ADA51A9328A7B0C80099DCA2 /* PopupPaymentSuccessInteractorInput.swift in Sources */,
 				52D9A9DC289FEE560085A327 /* SignInConfig.swift in Sources */,
 				52CB1900289FF34600B2DFEC /* SplashViewModel.swift in Sources */,
 				52D9A9D8289FEE560085A327 /* TimeInterval.swift in Sources */,
+				ADF1EF2E28A7E07B00C36065 /* DishViewController.swift in Sources */,
 				52D9A9E9289FEE570085A327 /* Units.swift in Sources */,
 				52D9A9DF289FEE560085A327 /* ServiceAPI.swift in Sources */,
+				ADA51ABB28A7B4D30099DCA2 /* PaymentEWalletMethodViewController.swift in Sources */,
 				FF4033C728A0D9B000EFCD24 /* SignUpRouter.swift in Sources */,
 				529617D428A157FA00C7BFE4 /* ConfirmSignUpViewController.swift in Sources */,
+				ADA51A9028A7B0C80099DCA2 /* PopupPaymentSuccessRouter.swift in Sources */,
 				52D9A9F0289FEE570085A327 /* PanModalHeight.swift in Sources */,
 				52191AAA289E9E1B0054D72E /* SceneDelegate.swift in Sources */,
 				52D9A9DB289FEE560085A327 /* Common.swift in Sources */,
+				ADA51A8628A7B0C80099DCA2 /* ServicePackViewController.swift in Sources */,
 				52CB18FF289FF34600B2DFEC /* SplashViewController.swift in Sources */,
 				FF4033C928A0D9B000EFCD24 /* SignUpViewController.swift in Sources */,
 				52D9A9CC289FEE560085A327 /* UITableView.swift in Sources */,
 				FF4033C828A0D9B000EFCD24 /* SignUpInteractorInput.swift in Sources */,
+				ADA51A9628A7B0C80099DCA2 /* ServicePackDetailRouter.swift in Sources */,
+				ADA51AC828A7B7650099DCA2 /* ListMenuViewController.swift in Sources */,
 				52C05E5628A549AC006A68A2 /* RestaurantUpdateInteractorInput.swift in Sources */,
 				52D9A9D5289FEE560085A327 /* Number.swift in Sources */,
 				52C05E6328A5552D006A68A2 /* PaymentMethodViewModel.swift in Sources */,
 				529617D228A157FA00C7BFE4 /* ConfirmSignUpRouter.swift in Sources */,
+				ADA51ABA28A7B4D30099DCA2 /* PaymentEWalletMethodInteractorInput.swift in Sources */,
 				52D9A9CF289FEE560085A327 /* UIAlertController.swift in Sources */,
 				52CB1908289FF36300B2DFEC /* LoginInteractorInput.swift in Sources */,
+				ADA51A8428A7B0C80099DCA2 /* ServicePackViewModel.swift in Sources */,
+				ADA51AA428A7B1A50099DCA2 /* BackgroundView.swift in Sources */,
 				52D9A9C8289FEE560085A327 /* Error.swift in Sources */,
 				52D9AA00289FEE570085A327 /* LocalNotification.swift in Sources */,
 				FF4033CA28A0D9B000EFCD24 /* SignUpViewModel.swift in Sources */,
 				52D9AA03289FEE570085A327 /* InternetConnection.swift in Sources */,
 				52D9A9FE289FEE570085A327 /* TagListView.swift in Sources */,
 				52D9A9CD289FEE560085A327 /* UIDevice.swift in Sources */,
+				ADA51AC728A7B7650099DCA2 /* ListMenuInteractorInput.swift in Sources */,
 				52D9A9F6289FEE570085A327 /* PanModalPresentationAnimator.swift in Sources */,
+				ADA51A8E28A7B0C80099DCA2 /* ServicePackTableViewCell.swift in Sources */,
 				52D9A9D4289FEE560085A327 /* EmptyDataSet.swift in Sources */,
 				52CB190A289FF36300B2DFEC /* LoginViewModel.swift in Sources */,
+				ADF1EF2F28A7E07B00C36065 /* DishViewModel.swift in Sources */,
 				52D9A9F2289FEE570085A327 /* UIViewController+PanModalPresenter.swift in Sources */,
 				52D9A9EB289FEE570085A327 /* ErrorView.swift in Sources */,
 				52D9A9ED289FEE570085A327 /* PanModalPresentable+Defaults.swift in Sources */,

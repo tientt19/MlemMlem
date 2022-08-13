@@ -25,8 +25,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="MlemMlem" customModuleProvider="target">
             <connections>
-                <outlet property="img_element" destination="gTk-GN-aGm" id="t91-kM-9sH"/>
-                <outlet property="lbl_login" destination="HlJ-vw-Xcy" id="ha7-Bw-BE3"/>
+                <outlet property="img_element" destination="gTk-GN-aGm" id="cRG-3h-wr2"/>
+                <outlet property="lbl_login" destination="HlJ-vw-Xcy" id="t4g-Gb-kvA"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="view_background" destination="i6m-ae-Hn3" id="PJC-cb-QOV"/>
                 <outlet property="view_loginComponents" destination="vLX-s2-PQb" id="Bbj-Jj-kUF"/>
@@ -285,7 +285,7 @@
                 <constraint firstItem="i6m-ae-Hn3" firstAttribute="leading" secondItem="KlH-tW-6zV" secondAttribute="leading" id="mgw-as-bhl"/>
                 <constraint firstItem="vLX-s2-PQb" firstAttribute="leading" secondItem="KlH-tW-6zV" secondAttribute="leading" id="vsG-iY-AxU"/>
             </constraints>
-            <point key="canvasLocation" x="-268" y="-232"/>
+            <point key="canvasLocation" x="297" y="-34"/>
         </view>
     </objects>
     <resources>
