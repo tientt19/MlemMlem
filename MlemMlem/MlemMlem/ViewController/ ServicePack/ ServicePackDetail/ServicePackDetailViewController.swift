@@ -48,7 +48,7 @@ class ServicePackDetailViewController: BaseViewController {
     }
     // MARK: - Action
     @IBAction func pcikNowTap(_ sender: UIButton) {
-        self.router.gotoPaymentMethod()
+        self.router.gotoPaymentEWalletMethod()
     }
     
 }

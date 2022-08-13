@@ -24,10 +24,10 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaymentMethodViewController" customModule="MlemMlem" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaymentEWalletMethodViewController" customModule="MlemMlem" customModuleProvider="target">
             <connections>
-                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
-                <outlet property="view_background" destination="uHW-tt-vQS" id="PKu-44-YDH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="obp-Jp-SIC"/>
+                <outlet property="view_background" destination="uHW-tt-vQS" id="Y35-ls-INW"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -444,7 +444,7 @@
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                             <connections>
-                                <action selector="paymentTap:" destination="-1" eventType="touchUpInside" id="3wo-Wr-1tV"/>
+                                <action selector="paymentTap:" destination="-1" eventType="touchUpInside" id="udq-Mr-Vuo"/>
                             </connections>
                         </button>
                     </subviews>

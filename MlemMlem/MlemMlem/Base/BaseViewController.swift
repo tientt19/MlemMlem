@@ -30,6 +30,10 @@ class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
         self.setObserverInternetConnection()
         self.addIndicator()
     }
+    
+    override func viewWillLayoutSubviews() {
+        super.updateViewConstraints()
+    }
 }
 
 // MARK: Navigation View
