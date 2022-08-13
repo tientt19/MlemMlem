@@ -1,16 +1,16 @@
 //
 //  
-//  PaymentMethodViewModel.swift
+//  DishViewModel.swift
 //  MlemMlem
 //
-//  Created by TruongTV2 on 11/08/2022.
+//  Created by MaiNT6 on 8/13/22.
 //
 //
 
 import UIKit
 
 // MARK: - ViewModelProtocol
-protocol PaymentMethodViewModelProtocol {
+protocol DishViewModelProtocol {
     func onViewDidLoad()
     //func onViewDidAppear()
     
@@ -26,25 +26,25 @@ protocol PaymentMethodViewModelProtocol {
     //func didSelectItem(at indexPath: IndexPath)
 }
 
-// MARK: - PaymentMethod ViewModel
-class PaymentMethodViewModel {
-    weak var view: PaymentMethodViewProtocol?
-    private var interactor: PaymentMethodInteractorInputProtocol
+// MARK: - Dish ViewModel
+class DishViewModel {
+    weak var view: DishViewProtocol?
+    private var interactor: DishInteractorInputProtocol
 
-    init(interactor: PaymentMethodInteractorInputProtocol) {
+    init(interactor: DishInteractorInputProtocol) {
         self.interactor = interactor
     }
 
 }
 
-// MARK: - PaymentMethod ViewModelProtocol
-extension PaymentMethodViewModel: PaymentMethodViewModelProtocol {
+// MARK: - Dish ViewModelProtocol
+extension DishViewModel: DishViewModelProtocol {
     func onViewDidLoad() {
         
     }
 }
 
-// MARK: - PaymentMethod InteractorOutputProtocol
-extension PaymentMethodViewModel: PaymentMethodInteractorOutputProtocol {
+// MARK: - Dish InteractorOutputProtocol
+extension DishViewModel: DishInteractorOutputProtocol {
 
 }

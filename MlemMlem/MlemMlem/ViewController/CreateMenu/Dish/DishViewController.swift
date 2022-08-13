@@ -1,16 +1,16 @@
 //
 //  
-//  PaymentMethodViewController.swift
+//  DishViewController.swift
 //  MlemMlem
 //
-//  Created by TruongTV2 on 11/08/2022.
+//  Created by MaiNT6 on 8/13/22.
 //
 //
 
 import UIKit
 
 // MARK: - ViewProtocol
-protocol PaymentMethodViewProtocol: AnyObject {
+protocol DishViewProtocol: AnyObject {
     func showHud()
     func hideHud()
     
@@ -18,15 +18,15 @@ protocol PaymentMethodViewProtocol: AnyObject {
     //func onReloadData()
 }
 
-// MARK: - PaymentMethod ViewController
-class PaymentMethodViewController: BaseViewController {
-    var router: PaymentMethodRouterProtocol!
-    var viewModel: PaymentMethodViewModelProtocol!
+// MARK: - Dish ViewController
+class DishViewController: BaseViewController {
+    var router: DishRouterProtocol!
+    var viewModel: DishViewModelProtocol!
     
     
     @IBOutlet weak var view_background: BackgroundView!{
         didSet {
-            view_background.setTitle("Hình thức thanh toán").setBackListener{
+            view_background.setTitle("Thực đơn").setBackListener{
                 self.dismiss(animated: true)
             }.done()
         }
@@ -45,14 +45,11 @@ class PaymentMethodViewController: BaseViewController {
     }
     
     // MARK: - Action
-    @IBAction func paymentTap(_ sender: Any) {
-        self.router.gotoCreditCard()
-    }
     
 }
 
-// MARK: - PaymentMethod ViewProtocol
-extension PaymentMethodViewController: PaymentMethodViewProtocol {
+// MARK: - Dish ViewProtocol
+extension DishViewController: DishViewProtocol {
     func showHud() {
         self.showProgressHud()
     }
