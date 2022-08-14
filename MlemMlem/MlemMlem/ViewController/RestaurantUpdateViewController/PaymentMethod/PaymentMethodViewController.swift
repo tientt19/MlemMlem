@@ -23,7 +23,14 @@ class PaymentMethodViewController: BaseViewController {
     var router: PaymentMethodRouterProtocol!
     var viewModel: PaymentMethodViewModelProtocol!
     
-    @IBOutlet weak var view_imageBackground: UIView!
+    @IBOutlet weak var view_background: BackgroundView! {
+        didSet {
+            view_background.setTitle("Hình thức thanh toán").setBackListener{
+                self.navigationController?.popViewController(animated: true)
+            }.done()
+        }
+    }
+    
     @IBOutlet weak var view_EWallet: UIView!
     @IBOutlet weak var view_Credit: UIView!
     
@@ -49,10 +56,6 @@ class PaymentMethodViewController: BaseViewController {
     
     // MARK: - Init
     private func setupInit() {
-        self.view_imageBackground.clipsToBounds = true
-        self.view_imageBackground.cornerRadius = 35
-        self.view_imageBackground.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
-        
         self.view_CashTap.backgroundColor = UIColor(hex: "FE7A3E")
         self.btn_CashTap.setImage(R.image.ic_check_chosen(), for: .normal)
         self.lbl_CashTitle.textColor = .white
@@ -110,8 +113,8 @@ class PaymentMethodViewController: BaseViewController {
         self.view_Credit.isHidden = false
     }
     
-    @IBAction func onDismiss(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
+    @IBAction func onToMenuAction(_ sender: UIButton) {
+        self.router.gotoMenu()
     }
 }
 

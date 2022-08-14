@@ -24,6 +24,13 @@ class ConfirmSignUpViewController: BaseViewController {
     var viewModel: ConfirmSignUpViewModelProtocol!
     
     @IBOutlet weak var view_Components: UIView!
+    @IBOutlet weak var view_background: BackgroundView! {
+        didSet {
+            view_background.setTitle("Mã xác nhận").setBackListener{
+                self.navigationController?.popViewController(animated: true)
+            }.done()
+        }
+    }
 
     
     // MARK: - LifeCycle
@@ -41,9 +48,6 @@ class ConfirmSignUpViewController: BaseViewController {
     }
     
     // MARK: - Action
-    @IBAction func onDismis(_ sender: UIButton) {
-        self.navigationController?.popViewController(animated: true)
-    }
     @IBAction func registerTap(_ sender: UIButton) {
         self.router.gotoServicePack()
     }

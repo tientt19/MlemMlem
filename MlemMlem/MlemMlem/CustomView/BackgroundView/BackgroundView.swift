@@ -20,6 +20,7 @@ class BackgroundView: CustomView {
             titleLB.text = title
             titleLB.minimumScaleFactor = 0.5
             titleLB.adjustsFontSizeToFitWidth = true
+            
         } else {
             titleLB.isHidden = true
         }
