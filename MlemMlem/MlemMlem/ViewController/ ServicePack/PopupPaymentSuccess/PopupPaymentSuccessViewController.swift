@@ -23,6 +23,7 @@ class PopupPaymentSuccessViewController: BaseViewController {
     var router: PopupPaymentSuccessRouterProtocol!
     var viewModel: PopupPaymentSuccessViewModelProtocol!
     
+    @IBOutlet weak var view_backgroundDismiss: UIView!
     
     
     // MARK: - LifeCycle
@@ -35,10 +36,19 @@ class PopupPaymentSuccessViewController: BaseViewController {
     // MARK: - Init
     private func setupInit() {
 
+        let tap = UITapGestureRecognizer(target: self, action: #selector(self.dismissTap(_:)))
+        view_backgroundDismiss.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissTap(_ sender: UITapGestureRecognizer? = nil) {
+        self.dismiss(animated: true)
     }
     
     // MARK: - Action
     
+    @IBAction func onCreateMenuAction(_ sender: UIButton) {
+        self.router.gotoListMenu()
+    }
 }
 
 // MARK: - PopupPaymentSuccess ViewProtocol

@@ -38,8 +38,6 @@ class ServicePackDetailRouter {
 extension ServicePackDetailRouter: ServicePackDetailRouterProtocol {
     func gotoPaymentEWalletMethod() {
         let viewController = PaymentEWalletMethodRouter.setupModule()
-        viewController.modalPresentationStyle = .overFullScreen
-        viewController.modalTransitionStyle = .crossDissolve
-        self.viewController?.present(viewController, animated: true)
+        self.viewController?.navigationController?.pushViewController(viewController, animated: true)
     }
 }

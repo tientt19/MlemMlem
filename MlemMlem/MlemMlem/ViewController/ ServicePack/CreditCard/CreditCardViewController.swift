@@ -26,7 +26,7 @@ class CreditCardViewController: BaseViewController {
     @IBOutlet weak var view_background: BackgroundView!{
         didSet {
             view_background.setTitle("Thẻ tín dụng").setBackListener{
-                self.dismiss(animated: true)
+                self.navigationController?.popViewController(animated: true)
             }.done()
         }
     }

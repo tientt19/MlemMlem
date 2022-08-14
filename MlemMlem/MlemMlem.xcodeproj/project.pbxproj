@@ -117,6 +117,8 @@
 		52D9AA01289FEE570085A327 /* SKToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C2289FEE560085A327 /* SKToast.swift */; };
 		52D9AA02289FEE570085A327 /* SKUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C4289FEE560085A327 /* SKUserDefault.swift */; };
 		52D9AA03289FEE570085A327 /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C6289FEE560085A327 /* InternetConnection.swift */; };
+		AD85AD4728A8E23B00731BC7 /* PaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD85AD4528A8E23B00731BC7 /* PaymentMethodView.swift */; };
+		AD85AD4828A8E23B00731BC7 /* PaymentMethodView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD85AD4628A8E23B00731BC7 /* PaymentMethodView.xib */; };
 		ADA51A8428A7B0C80099DCA2 /* ServicePackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A6428A7B0C80099DCA2 /* ServicePackViewModel.swift */; };
 		ADA51A8528A7B0C80099DCA2 /* ServicePackRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A6528A7B0C80099DCA2 /* ServicePackRouter.swift */; };
 		ADA51A8628A7B0C80099DCA2 /* ServicePackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A6628A7B0C80099DCA2 /* ServicePackViewController.swift */; };
@@ -290,6 +292,8 @@
 		52D9A9C2289FEE560085A327 /* SKToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKToast.swift; sourceTree = "<group>"; };
 		52D9A9C4289FEE560085A327 /* SKUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKUserDefault.swift; sourceTree = "<group>"; };
 		52D9A9C6289FEE560085A327 /* InternetConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
+		AD85AD4528A8E23B00731BC7 /* PaymentMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodView.swift; sourceTree = "<group>"; };
+		AD85AD4628A8E23B00731BC7 /* PaymentMethodView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentMethodView.xib; sourceTree = "<group>"; };
 		ADA51A6428A7B0C80099DCA2 /* ServicePackViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicePackViewModel.swift; sourceTree = "<group>"; };
 		ADA51A6528A7B0C80099DCA2 /* ServicePackRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicePackRouter.swift; sourceTree = "<group>"; };
 		ADA51A6628A7B0C80099DCA2 /* ServicePackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicePackViewController.swift; sourceTree = "<group>"; };
@@ -793,6 +797,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		AD85AD4428A8E20C00731BC7 /* PaymentMethodView */ = {
+			isa = PBXGroup;
+			children = (
+				AD85AD4528A8E23B00731BC7 /* PaymentMethodView.swift */,
+				AD85AD4628A8E23B00731BC7 /* PaymentMethodView.xib */,
+			);
+			path = PaymentMethodView;
+			sourceTree = "<group>";
+		};
 		ADA51A6328A7B0C80099DCA2 /*  ServicePack */ = {
 			isa = PBXGroup;
 			children = (
@@ -858,6 +871,7 @@
 		ADA51A9F28A7B1A50099DCA2 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				AD85AD4428A8E20C00731BC7 /* PaymentMethodView */,
 				ADA51AA028A7B1A50099DCA2 /* BackgroundView */,
 			);
 			path = CustomView;
@@ -866,8 +880,8 @@
 		ADA51AA028A7B1A50099DCA2 /* BackgroundView */ = {
 			isa = PBXGroup;
 			children = (
-				ADA51AA128A7B1A50099DCA2 /* BackgroundView.xib */,
 				ADA51AA228A7B1A50099DCA2 /* BackgroundView.swift */,
+				ADA51AA128A7B1A50099DCA2 /* BackgroundView.xib */,
 			);
 			path = BackgroundView;
 			sourceTree = "<group>";
@@ -1076,6 +1090,7 @@
 				ADA51A9728A7B0C80099DCA2 /* ServicePackDetailViewController.xib in Resources */,
 				52CB18E7289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Semibold_1.otf in Resources */,
 				FF4033CB28A0D9B000EFCD24 /* SignUpViewController.xib in Resources */,
+				AD85AD4828A8E23B00731BC7 /* PaymentMethodView.xib in Resources */,
 				52191AAF289E9E1B0054D72E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1206,6 +1221,7 @@
 				52D9A966289FEAA90085A327 /* IBOutlet_Name.swift in Sources */,
 				52D9A9F4289FEE570085A327 /* PanModalPresentationDelegate.swift in Sources */,
 				52D9A9DE289FEE560085A327 /* ProgressPosition.swift in Sources */,
+				AD85AD4728A8E23B00731BC7 /* PaymentMethodView.swift in Sources */,
 				ADA51A9C28A7B0C80099DCA2 /* CreditCardInteractorInput.swift in Sources */,
 				52D9A9F8289FEE570085A327 /* PanContainerView.swift in Sources */,
 				52D9A9CA289FEE560085A327 /* UIColor.swift in Sources */,

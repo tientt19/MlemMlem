@@ -26,8 +26,19 @@ class PaymentEWalletMethodViewController: BaseViewController {
     @IBOutlet weak var view_background: BackgroundView!{
         didSet {
             view_background.setTitle("Hình thức thanh toán").setBackListener{
-                self.dismiss(animated: true)
+                self.navigationController?.popViewController(animated: true)
             }.done()
+        }
+    }
+    @IBOutlet weak var view_eWalletMethod: PaymentMethodView! {
+        didSet {
+            view_eWalletMethod.setTypePaymentMethod(.eWallet).done()
+        }
+    }
+    @IBOutlet weak var view_cashMethod: PaymentMethodView!
+    {
+        didSet {
+            view_cashMethod.setTypePaymentMethod(.cash).done()
         }
     }
     
@@ -44,9 +55,24 @@ class PaymentEWalletMethodViewController: BaseViewController {
     }
     
     // MARK: - Action
-    @IBAction func paymentTap(_ sender: Any) {
+    @IBAction func onPaymentAction(_ sender: Any) {
         self.router.gotoCreditCard()
     }
+    
+    @IBAction func onChoosePaymentMethodAction(_ sender: UIButton) {
+        if sender.tag == 0 {
+            
+            view_eWalletMethod.checkPaymentMethod(true)
+            view_cashMethod.checkPaymentMethod(false)
+            
+        } else {
+            
+            view_eWalletMethod.checkPaymentMethod(false)
+            view_cashMethod.checkPaymentMethod(true)
+            
+        }
+    }
+    
 }
 
 // MARK: - PaymentEWalletMethod ViewProtocol

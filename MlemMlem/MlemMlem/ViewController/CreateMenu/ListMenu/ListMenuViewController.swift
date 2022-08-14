@@ -26,7 +26,7 @@ class ListMenuViewController: BaseViewController {
     @IBOutlet weak var view_background: BackgroundView!{
         didSet {
             view_background.setTitle("Danh sách Menu").setBackListener{
-                self.dismiss(animated: true)
+                self.navigationController?.popViewController(animated: true)
             }.done()
         }
     }
@@ -56,17 +56,20 @@ class ListMenuViewController: BaseViewController {
     // MARK: - Action
     @IBAction func onDropDownMenuAction(_ sender: UIButton) {
         sender.isSelected = !sender.isSelected
-            if sender.isSelected {
-                
-                self.constraint_height_tbv?.constant = self.tbv_outstanding.contentSize.height + 40
-                
-            } else {
-                
-                self.constraint_height_tbv?.constant = 0
-                
-            }
+        if sender.isSelected {
+            
+            self.constraint_height_tbv?.constant = self.tbv_outstanding.contentSize.height
+            
+        } else {
+            
+            self.constraint_height_tbv?.constant = 0
+            
+        }
     }
     
+    @IBAction func onGotoDishAction(_ sender: UIButton) {
+        router.gotoMenuDish()
+    }
 }
 
 extension ListMenuViewController: UITableViewDataSource {
@@ -85,7 +88,7 @@ extension ListMenuViewController: UITableViewDataSource {
 
 extension ListMenuViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-//        self.viewWillLayoutSubviews()
+        //        self.viewWillLayoutSubviews()
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

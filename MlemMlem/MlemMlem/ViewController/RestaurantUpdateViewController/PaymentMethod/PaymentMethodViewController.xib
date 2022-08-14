@@ -1002,7 +1002,7 @@
                 <constraint firstItem="KlH-tW-6zV" firstAttribute="bottom" secondItem="iKe-6F-ggf" secondAttribute="bottom" id="Z90-Bm-Gld"/>
                 <constraint firstItem="KlH-tW-6zV" firstAttribute="trailing" secondItem="iKe-6F-ggf" secondAttribute="trailing" id="icm-K7-ifB"/>
             </constraints>
-            <point key="canvasLocation" x="398.55072463768118" y="22.767857142857142"/>
+            <point key="canvasLocation" x="117" y="-12"/>
         </view>
     </objects>
     <resources>

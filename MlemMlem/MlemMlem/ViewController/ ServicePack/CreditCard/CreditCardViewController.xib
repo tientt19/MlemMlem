@@ -200,7 +200,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QBl-Ns-5qf">
                                             <rect key="frame" x="0.0" y="141.5" width="334" height="50"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="mastercard" translatesAutoresizingMaskIntoConstraints="NO" id="BNB-Ha-s7M">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_mastercard" translatesAutoresizingMaskIntoConstraints="NO" id="BNB-Ha-s7M">
                                                     <rect key="frame" x="50" y="10" width="46" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="NkS-Rm-uSU"/>
@@ -526,9 +526,9 @@
     <resources>
         <image name="Visa" width="46" height="15"/>
         <image name="ic_calendar" width="15" height="15"/>
+        <image name="ic_mastercard" width="28" height="18"/>
         <image name="ic_selected" width="20" height="20"/>
         <image name="ic_unselected" width="20" height="20"/>
-        <image name="mastercard" width="28" height="18"/>
         <namedColor name="Gray#4F596A">
             <color red="0.30980392156862746" green="0.34901960784313724" blue="0.41568627450980394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

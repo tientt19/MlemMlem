@@ -37,8 +37,11 @@ class CreditCardRouter {
 // MARK: - CreditCard RouterProtocol
 extension CreditCardRouter: CreditCardRouterProtocol {
     func gotoPaymentSuccess() {
-        let viewController = PopupPaymentSuccessRouter.setupModule()
-        viewController.modalPresentationStyle = .overFullScreen
+        let viewController = BaseNavigationController(rootViewController: PopupPaymentSuccessRouter.setupModule())
+        viewController.setHiddenNavigationBarViewControllers([PopupPaymentSuccessViewController.self,
+                                                              ListMenuViewController.self,
+                                                              DishViewController.self])
+        viewController.modalPresentationStyle = .fullScreen
         viewController.modalTransitionStyle = .crossDissolve
         self.viewController?.present(viewController, animated: true)
     }
