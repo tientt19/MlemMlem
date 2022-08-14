@@ -23,11 +23,14 @@ class SignUpViewController: BaseViewController {
     var router: SignUpRouterProtocol!
     var viewModel: SignUpViewModelProtocol!
     
-    @IBOutlet weak var view_background: UIView!
     @IBOutlet weak var view_loginComponents: UIView!
-    @IBOutlet weak var img_element: UIImageView!
-    @IBOutlet weak var lbl_login: UILabel!
-    @IBOutlet weak var btn_back: UIButton!
+    @IBOutlet weak var view_background: BackgroundView! {
+        didSet {
+            view_background.setTitle("Đăng ký").setBackListener{
+                self.navigationController?.popViewController(animated: true)
+            }.done()
+        }
+    }
     
     // MARK: - LifeCycle
     override func viewDidLoad() {
@@ -44,11 +47,6 @@ class SignUpViewController: BaseViewController {
     }
     
     // MARK: - Action
-    
-    @IBAction func onDismis(_ sender: UIButton) {
-        self.navigationController?.popViewController(animated: true)
-    }
-    
     @IBAction func onGotoConfirmSignUp(_ sender: UIButton) {
         self.router.onConfirmSignUp()
     }

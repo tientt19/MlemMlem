@@ -11,7 +11,7 @@ import UIKit
 
 // MARK: - RouterProtocol
 protocol PaymentMethodRouterProtocol {
-
+    func gotoMenu()
 }
 
 // MARK: - PaymentMethod Router
@@ -36,5 +36,9 @@ class PaymentMethodRouter {
 
 // MARK: - PaymentMethod RouterProtocol
 extension PaymentMethodRouter: PaymentMethodRouterProtocol {
-    
+    func gotoMenu() {
+        let viewController = ListMenuRouter.setupModule()
+        viewController.modalPresentationStyle = .fullScreen
+        self.viewController?.navigationController?.show(viewController, sender: nil)
+    }
 }

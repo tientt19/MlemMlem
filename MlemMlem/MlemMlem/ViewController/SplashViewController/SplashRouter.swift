@@ -43,7 +43,9 @@ extension SplashRouter: SplashRouterProtocol {
                                                               ConfirmSignUpViewController.self,
                                                               RestaurantUpdateViewController.self,
                                                               PaymentMethodViewController.self,
-                                                              ServicePackViewController.self])
+                                                              ServicePackViewController.self,
+                                                              ListMenuViewController.self,
+                                                              DishViewController.self])
         viewController.modalPresentationStyle = .fullScreen
         self.viewController?.present(viewController, animated: true)
     }

@@ -23,6 +23,14 @@ class RestaurantUpdateViewController: BaseViewController {
     var router: RestaurantUpdateRouterProtocol!
     var viewModel: RestaurantUpdateViewModelProtocol!
     
+    @IBOutlet weak var view_background: BackgroundView! {
+        didSet {
+            view_background.setTitle("Cập nhật nhà hàng").setBackListener{
+                self.navigationController?.popViewController(animated: true)
+            }.done()
+        }
+    }
+    
     @IBOutlet weak var view_Content: UIView!
 
     

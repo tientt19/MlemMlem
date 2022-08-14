@@ -31,10 +31,9 @@ class ServicePackViewController: BaseViewController{
         }
     }
     @IBOutlet weak var tableView: UITableView!
+    
     var router: ServicePackRouterProtocol!
     var viewModel: ServicePackViewModelProtocol!
-    
-    
     
     // MARK: - LifeCycle
     override func viewDidLoad() {

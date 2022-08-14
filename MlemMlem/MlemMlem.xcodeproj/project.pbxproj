@@ -535,11 +535,11 @@
 		52D9A969289FEAE50085A327 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				ADA51ABF28A7B7280099DCA2 /* CreateMenu */,
-				ADA51A6328A7B0C80099DCA2 /*  ServicePack */,
 				52CB18F6289FF2E400B2DFEC /* SplashViewController */,
-				52CB18F7289FF2F800B2DFEC /* LoginViewController */,
 				FF4033C128A0D98D00EFCD24 /* SignUpViewController */,
+				ADA51A6328A7B0C80099DCA2 /* ServicePack */,
+				ADA51ABF28A7B7280099DCA2 /* CreateMenu */,
+				52CB18F7289FF2F800B2DFEC /* LoginViewController */,
 				52C05E4F28A54956006A68A2 /* RestaurantUpdateViewController */,
 			);
 			path = ViewController;
@@ -806,7 +806,7 @@
 			path = PaymentMethodView;
 			sourceTree = "<group>";
 		};
-		ADA51A6328A7B0C80099DCA2 /*  ServicePack */ = {
+		ADA51A6328A7B0C80099DCA2 /* ServicePack */ = {
 			isa = PBXGroup;
 			children = (
 				ADA51AA928A7B3950099DCA2 /* PaymentEWalletMethod */,
@@ -820,7 +820,7 @@
 				ADA51A7728A7B0C80099DCA2 /*  ServicePackDetail */,
 				ADA51A7E28A7B0C80099DCA2 /* CreditCard */,
 			);
-			path = " ServicePack";
+			path = ServicePack;
 			sourceTree = "<group>";
 		};
 		ADA51A6E28A7B0C80099DCA2 /* Cell */ = {

@@ -15,18 +15,12 @@
         <array key="Inter-Regular.ttf">
             <string>Inter-Regular</string>
         </array>
-        <array key="Inter-SemiBold.ttf">
-            <string>Inter-SemiBold</string>
-        </array>
     </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignUpViewController" customModule="MlemMlem" customModuleProvider="target">
             <connections>
-                <outlet property="btn_back" destination="o51-qA-psR" id="aI1-go-ewH"/>
-                <outlet property="img_element" destination="8FX-pV-2pp" id="frR-2b-h6T"/>
-                <outlet property="lbl_login" destination="Cer-Jj-xrG" id="8zF-ap-tHv"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
-                <outlet property="view_background" destination="PWV-hX-Am2" id="Ju0-mS-yiY"/>
+                <outlet property="view_background" destination="VZx-Iu-zE8" id="s7U-E7-5Lo"/>
                 <outlet property="view_loginComponents" destination="AJc-pU-fIG" id="osH-b0-5SB"/>
             </connections>
         </placeholder>
@@ -38,34 +32,10 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PWV-hX-Am2">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bacjground" translatesAutoresizingMaskIntoConstraints="NO" id="cCV-rM-XP5">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VZx-Iu-zE8" customClass="BackgroundView" customModule="MlemMlem" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        </imageView>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o51-qA-psR">
-                            <rect key="frame" x="25" y="43.5" width="30" height="30"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="30" id="8As-6a-eBw"/>
-                                <constraint firstAttribute="width" constant="30" id="x2f-ok-KaP"/>
-                            </constraints>
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" image="chevron.backward" catalog="system"/>
-                            <connections>
-                                <action selector="onDismis:" destination="-1" eventType="touchUpInside" id="O7H-wv-Dz2"/>
-                            </connections>
-                        </button>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_groundElements" translatesAutoresizingMaskIntoConstraints="NO" id="8FX-pV-2pp">
-                            <rect key="frame" x="-60" y="0.0" width="474" height="200"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="200" id="9ag-V2-FDS"/>
-                            </constraints>
-                        </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Đăng Ký" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cer-Jj-xrG">
-                            <rect key="frame" x="179" y="50" width="56" height="17"/>
-                            <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="14"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <nil key="highlightedColor"/>
-                        </label>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AJc-pU-fIG">
                             <rect key="frame" x="0.0" y="100" width="414" height="796"/>
                             <subviews>
@@ -322,21 +292,14 @@
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="trailing" secondItem="cCV-rM-XP5" secondAttribute="trailing" id="03q-hh-8n6"/>
-                        <constraint firstItem="8FX-pV-2pp" firstAttribute="leading" secondItem="PWV-hX-Am2" secondAttribute="leading" constant="-60" id="28M-dU-kx6"/>
                         <constraint firstItem="AJc-pU-fIG" firstAttribute="leading" secondItem="PWV-hX-Am2" secondAttribute="leading" id="3kZ-Ko-Jxc"/>
-                        <constraint firstItem="Cer-Jj-xrG" firstAttribute="top" secondItem="PWV-hX-Am2" secondAttribute="top" constant="50" id="7en-km-uRa"/>
-                        <constraint firstItem="cCV-rM-XP5" firstAttribute="leading" secondItem="PWV-hX-Am2" secondAttribute="leading" id="7jZ-8J-TRf"/>
-                        <constraint firstItem="8FX-pV-2pp" firstAttribute="top" secondItem="PWV-hX-Am2" secondAttribute="top" id="Bh7-tU-vNH"/>
-                        <constraint firstAttribute="bottom" secondItem="cCV-rM-XP5" secondAttribute="bottom" id="E7E-rk-iDd"/>
-                        <constraint firstItem="cCV-rM-XP5" firstAttribute="top" secondItem="PWV-hX-Am2" secondAttribute="top" id="Mgs-nh-Vrn"/>
-                        <constraint firstItem="o51-qA-psR" firstAttribute="leading" secondItem="PWV-hX-Am2" secondAttribute="leading" constant="25" id="Sym-Wk-nsj"/>
+                        <constraint firstAttribute="bottom" secondItem="VZx-Iu-zE8" secondAttribute="bottom" id="Gfa-kf-r7F"/>
+                        <constraint firstAttribute="trailing" secondItem="VZx-Iu-zE8" secondAttribute="trailing" id="Zb4-lX-eBQ"/>
+                        <constraint firstItem="VZx-Iu-zE8" firstAttribute="leading" secondItem="PWV-hX-Am2" secondAttribute="leading" id="cTg-Hr-GHV"/>
                         <constraint firstAttribute="bottom" secondItem="AJc-pU-fIG" secondAttribute="bottom" id="koV-LK-Isk"/>
-                        <constraint firstAttribute="trailing" secondItem="8FX-pV-2pp" secondAttribute="trailing" id="l7s-19-5Is"/>
-                        <constraint firstItem="o51-qA-psR" firstAttribute="centerY" secondItem="Cer-Jj-xrG" secondAttribute="centerY" id="naS-zB-Yig"/>
+                        <constraint firstItem="VZx-Iu-zE8" firstAttribute="top" secondItem="PWV-hX-Am2" secondAttribute="top" id="l1o-7j-9MA"/>
                         <constraint firstAttribute="trailing" secondItem="AJc-pU-fIG" secondAttribute="trailing" id="v7S-H1-hIF"/>
                         <constraint firstItem="AJc-pU-fIG" firstAttribute="top" secondItem="PWV-hX-Am2" secondAttribute="top" constant="100" id="wMP-fA-LOz"/>
-                        <constraint firstItem="Cer-Jj-xrG" firstAttribute="centerX" secondItem="PWV-hX-Am2" secondAttribute="centerX" id="zN5-lu-8mD"/>
                     </constraints>
                 </view>
             </subviews>
@@ -352,9 +315,6 @@
         </view>
     </objects>
     <resources>
-        <image name="bg_groundElements" width="375" height="215"/>
-        <image name="chevron.backward" catalog="system" width="96" height="128"/>
-        <image name="ic_bacjground" width="375" height="667"/>
         <image name="ic_eye-off" width="17" height="8"/>
         <image name="ic_waving" width="16" height="17"/>
         <systemColor name="systemBackgroundColor">
