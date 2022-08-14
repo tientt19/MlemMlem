@@ -47,4 +47,11 @@ class BackgroundView: CustomView {
         backButtonListener?()
     }
     
+    func hideBackButton() {
+        self.backButton.isHidden = true
+    }
+    
+    func showBackButton() {
+        self.backButton.isHidden = false
+    }
 }

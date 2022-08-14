@@ -45,7 +45,9 @@ class DishViewController: BaseViewController {
     }
     
     // MARK: - Action
-    
+    @IBAction func onMoveToHome(_ sender: Any) {
+        self.router.goToHome()
+    }
 }
 
 // MARK: - Dish ViewProtocol

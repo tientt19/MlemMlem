@@ -11,7 +11,7 @@ import UIKit
 
 // MARK: - RouterProtocol
 protocol DishRouterProtocol {
-
+    func goToHome()
 }
 
 // MARK: - Dish Router
@@ -36,5 +36,11 @@ class DishRouter {
 
 // MARK: - Dish RouterProtocol
 extension DishRouter: DishRouterProtocol {
-    
+    func goToHome() {
+        let viewController = HomeRouter.setupModule()
+//        viewController.setHiddenNavigationBarViewControllers([LoginRestaurantViewController.self,
+//                                                              HomeViewController.self])
+        viewController.modalPresentationStyle = .fullScreen
+        self.viewController?.navigationController?.pushViewController(viewController, animated: true)
+    }
 }
