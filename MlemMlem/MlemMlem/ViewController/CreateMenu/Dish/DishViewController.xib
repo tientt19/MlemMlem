@@ -298,6 +298,9 @@
                             <real key="value" value="15"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="onMoveToHome:" destination="-1" eventType="touchUpInside" id="gEd-F5-sjO"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="KlH-tW-6zV"/>

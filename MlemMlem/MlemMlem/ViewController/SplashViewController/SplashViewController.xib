@@ -103,11 +103,11 @@
                 <constraint firstItem="rKm-gF-tvd" firstAttribute="leading" secondItem="KlH-tW-6zV" secondAttribute="leading" constant="-60" id="kOk-2A-dPh"/>
                 <constraint firstItem="rKm-gF-tvd" firstAttribute="trailing" secondItem="KlH-tW-6zV" secondAttribute="trailing" id="yGx-vL-wDb"/>
             </constraints>
-            <point key="canvasLocation" x="246" y="102"/>
+            <point key="canvasLocation" x="-728" y="82"/>
         </view>
     </objects>
     <resources>
         <image name="bg_groundElements" width="375" height="215"/>
-        <image name="ic_logo" width="102" height="102"/>
+        <image name="ic_logo" width="127" height="128"/>
     </resources>
 </document>
