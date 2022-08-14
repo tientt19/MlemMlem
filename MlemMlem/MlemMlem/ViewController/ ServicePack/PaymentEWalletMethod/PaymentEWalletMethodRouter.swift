@@ -38,8 +38,6 @@ class PaymentEWalletMethodRouter {
 extension PaymentEWalletMethodRouter: PaymentEWalletMethodRouterProtocol {
     func gotoCreditCard() {
         let viewController = CreditCardRouter.setupModule()
-        viewController.modalPresentationStyle = .overFullScreen
-        viewController.modalTransitionStyle = .crossDissolve
-        self.viewController?.present(viewController, animated: true)
+        self.viewController?.navigationController?.pushViewController(viewController, animated: true)
     }
 }

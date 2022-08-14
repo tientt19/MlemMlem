@@ -11,7 +11,7 @@ import UIKit
 
 // MARK: - RouterProtocol
 protocol PopupPaymentSuccessRouterProtocol {
-
+    func gotoListMenu()
 }
 
 // MARK: - PopupPaymentSuccess Router
@@ -36,5 +36,10 @@ class PopupPaymentSuccessRouter {
 
 // MARK: - PopupPaymentSuccess RouterProtocol
 extension PopupPaymentSuccessRouter: PopupPaymentSuccessRouterProtocol {
+    func gotoListMenu() {
+        let viewController = ListMenuRouter.setupModule()
+        self.viewController?.navigationController?.pushViewController(viewController, animated: true)
+    }
+    
     
 }

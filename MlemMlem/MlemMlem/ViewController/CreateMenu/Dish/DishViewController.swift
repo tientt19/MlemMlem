@@ -27,7 +27,7 @@ class DishViewController: BaseViewController {
     @IBOutlet weak var view_background: BackgroundView!{
         didSet {
             view_background.setTitle("Thực đơn").setBackListener{
-                self.dismiss(animated: true)
+                self.navigationController?.popViewController(animated: true)
             }.done()
         }
     }

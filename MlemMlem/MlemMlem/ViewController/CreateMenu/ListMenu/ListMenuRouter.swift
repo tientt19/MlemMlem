@@ -11,7 +11,7 @@ import UIKit
 
 // MARK: - RouterProtocol
 protocol ListMenuRouterProtocol {
-
+    func gotoMenuDish()
 }
 
 // MARK: - ListMenu Router
@@ -36,5 +36,10 @@ class ListMenuRouter {
 
 // MARK: - ListMenu RouterProtocol
 extension ListMenuRouter: ListMenuRouterProtocol {
+    func gotoMenuDish() {
+        let viewController = DishRouter.setupModule()
+        self.viewController?.navigationController?.pushViewController(viewController, animated: true)
+    }
+    
     
 }

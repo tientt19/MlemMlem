@@ -37,7 +37,10 @@ class ServicePackRouter {
 // MARK: - ServicePack RouterProtocol
 extension ServicePackRouter: ServicePackRouterProtocol {
     func gotoServicePackDetail() {
-        let viewController = ServicePackDetailRouter.setupModule()
+        let viewController = BaseNavigationController(rootViewController: ServicePackDetailRouter.setupModule())
+        viewController.setHiddenNavigationBarViewControllers([ServicePackDetailViewController.self,
+                                                              PaymentEWalletMethodViewController.self,
+                                                              CreditCardViewController.self])
         viewController.modalPresentationStyle = .overFullScreen
         viewController.modalTransitionStyle = .crossDissolve
         self.viewController?.present(viewController, animated: true)
