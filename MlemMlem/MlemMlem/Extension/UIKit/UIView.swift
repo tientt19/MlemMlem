@@ -183,6 +183,16 @@ extension UIView {
 
 // MARK: Round Corners View
 extension UIView {
+    @IBInspectable var cornerTop: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set(value) {
+            clipsToBounds = true
+            layer.cornerRadius = value
+            layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner]
+        }
+    }
     func roundCorner(corners: UIRectCorner, radius: CGFloat) {
         if #available(iOS 11.0, *) {
             self.layer.cornerRadius = radius

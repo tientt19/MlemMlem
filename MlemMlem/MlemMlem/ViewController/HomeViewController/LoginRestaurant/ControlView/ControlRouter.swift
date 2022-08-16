@@ -11,7 +11,7 @@ import UIKit
 
 // MARK: - RouterProtocol
 protocol ControlRouterProtocol {
-
+    func gotoKitchenView()
 }
 
 // MARK: - Control Router
@@ -36,5 +36,9 @@ class ControlRouter {
 
 // MARK: - Control RouterProtocol
 extension ControlRouter: ControlRouterProtocol {
-    
+    func gotoKitchenView() {
+        let viewController = KitchenViewRouter.setupModule()
+        viewController.modalPresentationStyle = .fullScreen
+        self.viewController?.present(viewController, animated: true)
+    }
 }
