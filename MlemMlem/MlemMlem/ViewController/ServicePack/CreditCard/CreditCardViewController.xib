@@ -292,6 +292,14 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
                                                     <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="13"/>
                                                     <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="paddingLeftCustom">
+                                                            <real key="value" value="16"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="paddingRightCustom">
+                                                            <real key="value" value="16"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </textField>
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -327,6 +335,14 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
                                                     <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="13"/>
                                                     <textInputTraits key="textInputTraits"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="paddingLeftCustom">
+                                                            <real key="value" value="16"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="paddingRightCustom">
+                                                            <real key="value" value="16"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </textField>
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -369,6 +385,14 @@
                                                                     <color key="textColor" name="Gray#7A8598"/>
                                                                     <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="13"/>
                                                                     <textInputTraits key="textInputTraits"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="paddingLeftCustom">
+                                                                            <real key="value" value="16"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="paddingRightCustom">
+                                                                            <real key="value" value="16"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
                                                                 </textField>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_calendar" translatesAutoresizingMaskIntoConstraints="NO" id="iig-iB-k9Y">
                                                                     <rect key="frame" x="127" y="17.5" width="15" height="15"/>
@@ -418,6 +442,14 @@
                                                                     <rect key="frame" x="0.0" y="0.0" width="152" height="50"/>
                                                                     <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="13"/>
                                                                     <textInputTraits key="textInputTraits"/>
+                                                                    <userDefinedRuntimeAttributes>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="paddingLeftCustom">
+                                                                            <real key="value" value="16"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                        <userDefinedRuntimeAttribute type="number" keyPath="paddingRightCustom">
+                                                                            <real key="value" value="16"/>
+                                                                        </userDefinedRuntimeAttribute>
+                                                                    </userDefinedRuntimeAttributes>
                                                                 </textField>
                                                             </subviews>
                                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -489,7 +521,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="Skn-Sr-pnv" firstAttribute="leading" secondItem="liu-dx-fO7" secondAttribute="leading" id="0NR-EV-HjT"/>
                         <constraint firstAttribute="trailing" secondItem="Skn-Sr-pnv" secondAttribute="trailing" id="B8X-GL-o3F"/>

@@ -43,10 +43,10 @@
                     <rect key="frame" x="20" y="124" width="374" height="642"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RsF-H9-LhG">
-                            <rect key="frame" x="0.0" y="0.0" width="374" height="499"/>
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="545"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yh3-hL-Oyu">
-                                    <rect key="frame" x="20" y="0.0" width="334" height="499"/>
+                                    <rect key="frame" x="20" y="23" width="334" height="499"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sushi Feast - Quận 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FuV-Vf-aB5">
                                             <rect key="frame" x="0.0" y="0.0" width="334" height="17"/>
@@ -256,13 +256,14 @@
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
-                                <constraint firstAttribute="bottom" secondItem="yh3-hL-Oyu" secondAttribute="bottom" id="3SO-ho-nAM"/>
+                                <constraint firstAttribute="bottom" secondItem="yh3-hL-Oyu" secondAttribute="bottom" constant="23" id="3SO-ho-nAM"/>
                                 <constraint firstAttribute="trailing" secondItem="yh3-hL-Oyu" secondAttribute="trailing" constant="20" id="4G2-Xy-Hnc"/>
                                 <constraint firstItem="yh3-hL-Oyu" firstAttribute="leading" secondItem="RsF-H9-LhG" secondAttribute="leading" constant="20" id="5uz-DW-CA9"/>
-                                <constraint firstItem="yh3-hL-Oyu" firstAttribute="top" secondItem="RsF-H9-LhG" secondAttribute="top" id="qub-Hd-ihh"/>
+                                <constraint firstItem="yh3-hL-Oyu" firstAttribute="top" secondItem="RsF-H9-LhG" secondAttribute="top" constant="23" id="qub-Hd-ihh"/>
                             </constraints>
                         </view>
                     </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="RsF-H9-LhG" firstAttribute="width" secondItem="GlG-P6-Tcp" secondAttribute="width" id="9pq-2k-cAy"/>
                         <constraint firstAttribute="bottom" secondItem="RsF-H9-LhG" secondAttribute="bottom" id="Ujd-LE-9pB"/>
