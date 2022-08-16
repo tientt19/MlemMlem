@@ -38,8 +38,6 @@ class DishRouter {
 extension DishRouter: DishRouterProtocol {
     func goToHome() {
         let viewController = HomeRouter.setupModule()
-//        viewController.setHiddenNavigationBarViewControllers([LoginRestaurantViewController.self,
-//                                                              HomeViewController.self])
         viewController.modalPresentationStyle = .fullScreen
         self.viewController?.navigationController?.pushViewController(viewController, animated: true)
     }

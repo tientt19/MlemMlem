@@ -203,6 +203,12 @@
 		ADF1EF2E28A7E07B00C36065 /* DishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF1EF2928A7E07B00C36065 /* DishViewController.swift */; };
 		ADF1EF2F28A7E07B00C36065 /* DishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF1EF2A28A7E07B00C36065 /* DishViewModel.swift */; };
 		ADF1EF3028A7E07B00C36065 /* DishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF1EF2B28A7E07B00C36065 /* DishViewController.xib */; };
+		CA1538CB28ABA9BF002FF900 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1538CA28ABA9BF002FF900 /* UITextField.swift */; };
+		CA1EC04028ABC17F00913958 /* KitchenViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC03B28ABC17F00913958 /* KitchenViewRouter.swift */; };
+		CA1EC04128ABC17F00913958 /* KitchenViewInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC03C28ABC17F00913958 /* KitchenViewInteractorInput.swift */; };
+		CA1EC04228ABC17F00913958 /* KitchenViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC03D28ABC17F00913958 /* KitchenViewViewController.swift */; };
+		CA1EC04328ABC17F00913958 /* KitchenViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC03E28ABC17F00913958 /* KitchenViewViewModel.swift */; };
+		CA1EC04428ABC17F00913958 /* KitchenViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA1EC03F28ABC17F00913958 /* KitchenViewViewController.xib */; };
 		FF4033B828A0B9CA00EFCD24 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033AF28A0B9CA00EFCD24 /* Inter-Medium.ttf */; };
 		FF4033B928A0B9CA00EFCD24 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B028A0B9CA00EFCD24 /* Inter-Light.ttf */; };
 		FF4033BA28A0B9CA00EFCD24 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B128A0B9CA00EFCD24 /* Inter-Thin.ttf */; };
@@ -419,6 +425,12 @@
 		ADF1EF2928A7E07B00C36065 /* DishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishViewController.swift; sourceTree = "<group>"; };
 		ADF1EF2A28A7E07B00C36065 /* DishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishViewModel.swift; sourceTree = "<group>"; };
 		ADF1EF2B28A7E07B00C36065 /* DishViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishViewController.xib; sourceTree = "<group>"; };
+		CA1538CA28ABA9BF002FF900 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		CA1EC03B28ABC17F00913958 /* KitchenViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenViewRouter.swift; sourceTree = "<group>"; };
+		CA1EC03C28ABC17F00913958 /* KitchenViewInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenViewInteractorInput.swift; sourceTree = "<group>"; };
+		CA1EC03D28ABC17F00913958 /* KitchenViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenViewViewController.swift; sourceTree = "<group>"; };
+		CA1EC03E28ABC17F00913958 /* KitchenViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenViewViewModel.swift; sourceTree = "<group>"; };
+		CA1EC03F28ABC17F00913958 /* KitchenViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KitchenViewViewController.xib; sourceTree = "<group>"; };
 		F84CB0CA2E650CB51B41FFF7 /* Pods-MlemMlem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MlemMlem.release.xcconfig"; path = "Target Support Files/Pods-MlemMlem/Pods-MlemMlem.release.xcconfig"; sourceTree = "<group>"; };
 		FF4033AF28A0B9CA00EFCD24 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 		FF4033B028A0B9CA00EFCD24 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
@@ -540,6 +552,7 @@
 		522479B128A94C3500C1D092 /* ControlView */ = {
 			isa = PBXGroup;
 			children = (
+				CAEED3AA28ABC02300BB8E11 /* KitchenView */,
 				522479B628A94C7800C1D092 /* ControlRouter.swift */,
 				522479B728A94C7800C1D092 /* ControlInteractorInput.swift */,
 				522479B828A94C7800C1D092 /* ControlViewController.swift */,
@@ -764,6 +777,7 @@
 				52D9A97A289FEE560085A327 /* UIDevice.swift */,
 				52D9A97B289FEE560085A327 /* UIImageView.swift */,
 				52D9A97C289FEE560085A327 /* UIAlertController.swift */,
+				CA1538CA28ABA9BF002FF900 /* UITextField.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -1136,6 +1150,18 @@
 			path = Dish;
 			sourceTree = "<group>";
 		};
+		CAEED3AA28ABC02300BB8E11 /* KitchenView */ = {
+			isa = PBXGroup;
+			children = (
+				CA1EC03B28ABC17F00913958 /* KitchenViewRouter.swift */,
+				CA1EC03C28ABC17F00913958 /* KitchenViewInteractorInput.swift */,
+				CA1EC03D28ABC17F00913958 /* KitchenViewViewController.swift */,
+				CA1EC03E28ABC17F00913958 /* KitchenViewViewModel.swift */,
+				CA1EC03F28ABC17F00913958 /* KitchenViewViewController.xib */,
+			);
+			path = KitchenView;
+			sourceTree = "<group>";
+		};
 		DDDAC1AEF6D896C5FE5F67B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1263,6 +1289,7 @@
 				52CB18F2289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Black_1.otf in Resources */,
 				52CB18F0289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Light_1.otf in Resources */,
 				FF4033BC28A0B9CA00EFCD24 /* Inter-Regular.ttf in Resources */,
+				CA1EC04428ABC17F00913958 /* KitchenViewViewController.xib in Resources */,
 				ADF1EF2528A7CFC400C36065 /* ListMenuCellTableViewCell.xib in Resources */,
 				FF4033B928A0B9CA00EFCD24 /* Inter-Light.ttf in Resources */,
 				522479C928A94C8F00C1D092 /* AccountViewController.xib in Resources */,
@@ -1395,6 +1422,7 @@
 				52D9A9FB289FEE570085A327 /* KeyChainManager.swift in Sources */,
 				52D9A9D0289FEE560085A327 /* EmptyDataSetView.swift in Sources */,
 				52D9A9F7289FEE570085A327 /* PanModalPresentationController.swift in Sources */,
+				CA1EC04128ABC17F00913958 /* KitchenViewInteractorInput.swift in Sources */,
 				522479BB28A94C7800C1D092 /* ControlRouter.swift in Sources */,
 				522479DB28A94CCF00C1D092 /* SaleReportViewController.swift in Sources */,
 				522479A328A9451300C1D092 /* LoginRestaurantRouter.swift in Sources */,
@@ -1422,10 +1450,13 @@
 				52D9A9E5289FEE570085A327 /* ApiUrlProtocols.swift in Sources */,
 				52D9A9FF289FEE570085A327 /* PushNotiModel.swift in Sources */,
 				52191AA8289E9E1B0054D72E /* AppDelegate.swift in Sources */,
+				CA1538CB28ABA9BF002FF900 /* UITextField.swift in Sources */,
 				52D9A9F9289FEE570085A327 /* DimmedView.swift in Sources */,
+				CA1EC04228ABC17F00913958 /* KitchenViewViewController.swift in Sources */,
 				52C05E6028A5552D006A68A2 /* PaymentMethodRouter.swift in Sources */,
 				52D9A9D1289FEE560085A327 /* EmptyDataSetView+Extension.swift in Sources */,
 				52CB1909289FF36300B2DFEC /* LoginViewController.swift in Sources */,
+				CA1EC04328ABC17F00913958 /* KitchenViewViewModel.swift in Sources */,
 				52CB18CD289FF12600B2DFEC /* R.generated.swift in Sources */,
 				52D9A9E3289FEE560085A327 /* Result.swift in Sources */,
 				52CB18FE289FF34600B2DFEC /* SplashInteractorInput.swift in Sources */,
@@ -1514,6 +1545,7 @@
 				ADF1EF2F28A7E07B00C36065 /* DishViewModel.swift in Sources */,
 				52D9A9F2289FEE570085A327 /* UIViewController+PanModalPresenter.swift in Sources */,
 				52D9A9EB289FEE570085A327 /* ErrorView.swift in Sources */,
+				CA1EC04028ABC17F00913958 /* KitchenViewRouter.swift in Sources */,
 				52D9A9ED289FEE570085A327 /* PanModalPresentable+Defaults.swift in Sources */,
 				52C05E6128A5552D006A68A2 /* PaymentMethodInteractorInput.swift in Sources */,
 				52CB18D4289FF29D00B2DFEC /* BaseNavigationController.swift in Sources */,
@@ -1668,7 +1700,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CY4CXRJ4H3;
+				DEVELOPMENT_TEAM = 9LRPNF797C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Support Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1698,7 +1730,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CY4CXRJ4H3;
+				DEVELOPMENT_TEAM = 9LRPNF797C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Support Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

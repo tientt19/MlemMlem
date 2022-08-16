@@ -39,7 +39,7 @@
                     <rect key="frame" x="20" y="124" width="374" height="642"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WaJ-Uh-7T7">
-                            <rect key="frame" x="0.0" y="0.0" width="374" height="575"/>
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="555"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nT3-PA-05C">
                                     <rect key="frame" x="20" y="23" width="334" height="84"/>
@@ -182,7 +182,7 @@
                                     </constraints>
                                 </view>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ezM-M8-Fbs">
-                                    <rect key="frame" x="20" y="274" width="334" height="92"/>
+                                    <rect key="frame" x="20" y="274" width="334" height="82"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Pg3-VP-pcb">
                                             <rect key="frame" x="0.0" y="0.0" width="334" height="17"/>
@@ -202,7 +202,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Nbn-yg-mBM">
-                                            <rect key="frame" x="0.0" y="32" width="334" height="60"/>
+                                            <rect key="frame" x="0.0" y="32" width="334" height="50"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rRt-6r-79P">
                                                     <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
@@ -243,10 +243,10 @@
                                                     </constraints>
                                                 </view>
                                                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="D1U-HH-PyM">
-                                                    <rect key="frame" x="0.0" y="50" width="334" height="10"/>
+                                                    <rect key="frame" x="0.0" y="50" width="334" height="0.0"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="10" id="4S4-t1-hUS"/>
+                                                        <constraint firstAttribute="height" id="4S4-t1-hUS"/>
                                                     </constraints>
                                                 </tableView>
                                             </subviews>
@@ -265,14 +265,14 @@
                                     </subviews>
                                 </stackView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AKl-Yy-CIe" userLabel="Line">
-                                    <rect key="frame" x="0.0" y="381" width="374" height="1"/>
+                                    <rect key="frame" x="0.0" y="371" width="374" height="1"/>
                                     <color key="backgroundColor" name="Gray#F1F1F4"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="1" id="aYa-nG-ojV"/>
                                     </constraints>
                                 </view>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="KuW-mQ-kLL">
-                                    <rect key="frame" x="20" y="402" width="334" height="92"/>
+                                    <rect key="frame" x="20" y="392" width="334" height="82"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fss-MF-lMm">
                                             <rect key="frame" x="0.0" y="0.0" width="334" height="17"/>
@@ -292,7 +292,7 @@
                                             </subviews>
                                         </stackView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EYm-ln-qeC">
-                                            <rect key="frame" x="0.0" y="32" width="334" height="60"/>
+                                            <rect key="frame" x="0.0" y="32" width="334" height="50"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ikj-Wh-gYp">
                                                     <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
@@ -333,10 +333,10 @@
                                                     </constraints>
                                                 </view>
                                                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="k39-ts-BwK">
-                                                    <rect key="frame" x="0.0" y="50" width="334" height="10"/>
+                                                    <rect key="frame" x="0.0" y="50" width="334" height="0.0"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="10" id="LuN-AV-UAa"/>
+                                                        <constraint firstAttribute="height" id="LuN-AV-UAa"/>
                                                     </constraints>
                                                 </tableView>
                                             </subviews>
@@ -355,14 +355,14 @@
                                     </subviews>
                                 </stackView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wam-WB-deJ" userLabel="Line">
-                                    <rect key="frame" x="0.0" y="509" width="374" height="1"/>
+                                    <rect key="frame" x="0.0" y="489" width="374" height="1"/>
                                     <color key="backgroundColor" name="Gray#F1F1F4"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="1" id="od0-uH-QzG"/>
                                     </constraints>
                                 </view>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ku1-Yz-72P">
-                                    <rect key="frame" x="20" y="533" width="117" height="22"/>
+                                    <rect key="frame" x="20" y="513" width="117" height="22"/>
                                     <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="-15" maxY="0.0"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     <state key="normal" title="Thêm Menu" image="ic_plus">

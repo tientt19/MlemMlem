@@ -24,6 +24,11 @@ class ControlViewController: BaseViewController {
     var viewModel: ControlViewModelProtocol!
     
     
+    @IBOutlet weak var view_background: BackgroundView! {
+        didSet {
+            view_background.setTitle("Trang chủ").done()
+        }
+    }
     
     // MARK: - LifeCycle
     override func viewDidLoad() {
@@ -32,12 +37,25 @@ class ControlViewController: BaseViewController {
         self.viewModel.onViewDidLoad()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
     // MARK: - Init
     private func setupInit() {
 
     }
     
     // MARK: - Action
+    @IBAction func onKitchenAction(_ sender: UIButton) {
+        router.gotoKitchenView()
+    }
     
 }
 

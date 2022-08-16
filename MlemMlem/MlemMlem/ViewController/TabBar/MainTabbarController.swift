@@ -21,6 +21,7 @@ class MainTabbarController: UITabBarController {
         //self.setInitATTrackingAuthorization()
 //        self.setInitSocketIOConnection()
         //self.setVerifyPhoneNumber()
+        
     }
     
 //    func setInitSocketIOConnection() {
@@ -41,6 +42,7 @@ class MainTabbarController: UITabBarController {
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         let navigation = self.selectedViewController as? BaseNavigationController
+        navigationController?.setNavigationBarHidden(false, animated: true)
         return navigation?.supportedInterfaceOrientations ?? .portrait
     }
 

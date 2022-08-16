@@ -216,7 +216,7 @@
                 <constraint firstItem="KlH-tW-6zV" firstAttribute="trailing" secondItem="fDQ-BV-SoE" secondAttribute="trailing" constant="25" id="lOx-o7-oWZ"/>
                 <constraint firstItem="KlH-tW-6zV" firstAttribute="bottom" secondItem="x2B-C3-0N3" secondAttribute="bottom" constant="20" id="pWu-xV-y5g"/>
             </constraints>
-            <point key="canvasLocation" x="535" y="25"/>
+            <point key="canvasLocation" x="17" y="102"/>
         </view>
     </objects>
     <resources>
