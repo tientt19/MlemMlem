@@ -40,12 +40,13 @@ extension ControlRouter: ControlRouterProtocol {
     func gotoKitchenView() {
         let viewController = KitchenViewRouter.setupModule()
         viewController.modalPresentationStyle = .fullScreen
-        self.viewController?.navigationController?.pushViewController(viewController, animated: true)
+        viewController.hidesBottomBarWhenPushed = true
+        self.viewController?.navigationController?.show(viewController, sender: nil)
     }
     
     func gotoTableRestaurant() {
         let viewController = TableRestaurantRouter.setupModule()
         viewController.modalPresentationStyle = .fullScreen
-        self.viewController?.navigationController?.pushViewController(viewController, animated: true)
+        self.viewController?.navigationController?.show(viewController, sender: nil)
     }
 }

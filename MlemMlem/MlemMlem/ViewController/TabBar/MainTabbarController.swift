@@ -75,8 +75,8 @@ class MainTabbarController: UITabBarController {
         UITabBar.appearance().isTranslucent = false
         UITabBar.appearance().barStyle = .default
         
-        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 20)], for: .normal)
-        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 20)], for: .selected)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 18)], for: .normal)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 18)], for: .selected)
         
         let verticalSize: CGFloat = -1 // -3.0
         
@@ -86,7 +86,7 @@ class MainTabbarController: UITabBarController {
         controlController.tabBarItem.tag = 1
         controlController.tabBarItem.title  = "."
         controlController.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: verticalSize)
-        controlController.tabBarItem.imageInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        controlController.tabBarItem.imageInsets = UIEdgeInsets(top: 5, left: 0, bottom: 0, right: 0)
         controlController.tabBarItem.image = R.image.ic_tab1_unselected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         controlController.tabBarItem.selectedImage = R.image.ic_tab1_selected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         let controlNavController = BaseNavigationController(rootViewController: controlController)
@@ -99,18 +99,18 @@ class MainTabbarController: UITabBarController {
         accountController.tabBarItem.tag = 2
         accountController.tabBarItem.title  = "."
         accountController.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: verticalSize)
-        accountController.tabBarItem.imageInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        accountController.tabBarItem.imageInsets = UIEdgeInsets(top: 5, left: 0, bottom: 0, right: 0)
         accountController.tabBarItem.image = R.image.ic_tab2_unselected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         accountController.tabBarItem.selectedImage = R.image.ic_tab2_selected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         let accountNavController = BaseNavigationController(rootViewController: accountController)
-        accountNavController.setHiddenNavigationBarViewControllers([])
+        accountNavController.setHiddenNavigationBarViewControllers([AccountViewController.self])
         
         // MARK: Page 3
         let menuController = MenuRouter.setupModule()
         menuController.tabBarItem.tag = 3
         menuController.tabBarItem.title  = "."
         menuController.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: verticalSize)
-        menuController.tabBarItem.imageInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        menuController.tabBarItem.imageInsets = UIEdgeInsets(top: 5, left: 0, bottom: 0, right: 0)
         menuController.tabBarItem.image = R.image.ic_tab3_unselected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         menuController.tabBarItem.selectedImage = R.image.ic_tab3_selected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         let menuNavController = BaseNavigationController(rootViewController: menuController)
@@ -121,7 +121,7 @@ class MainTabbarController: UITabBarController {
         saleController.tabBarItem.tag = 4
         saleController.tabBarItem.title  = "."
         saleController.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: verticalSize)
-        saleController.tabBarItem.imageInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        saleController.tabBarItem.imageInsets = UIEdgeInsets(top: 5, left: 0, bottom: 0, right: 0)
         saleController.tabBarItem.image = R.image.ic_tab4_unselected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         saleController.tabBarItem.selectedImage = R.image.ic_tab4_selected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         let saleNavController = BaseNavigationController(rootViewController: saleController)
@@ -132,7 +132,7 @@ class MainTabbarController: UITabBarController {
         SCMController.tabBarItem.tag = 5
         SCMController.tabBarItem.title  = "."
         SCMController.tabBarItem.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: verticalSize)
-        SCMController.tabBarItem.imageInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        SCMController.tabBarItem.imageInsets = UIEdgeInsets(top: 5, left: 0, bottom: 0, right: 0)
         SCMController.tabBarItem.image = R.image.ic_tab5_unselected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         SCMController.tabBarItem.selectedImage = R.image.ic_tab5_selected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         let SCMNavController = BaseNavigationController(rootViewController: SCMController)
