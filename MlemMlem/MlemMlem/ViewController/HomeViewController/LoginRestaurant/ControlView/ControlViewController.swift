@@ -57,6 +57,11 @@ class ControlViewController: BaseViewController {
         router.gotoKitchenView()
     }
     
+    @IBAction func onTableRestaurantAction(_ sender: UIButton) {
+        router.gotoTableRestaurant()
+    }
+    
+    
 }
 
 // MARK: - Control ViewProtocol

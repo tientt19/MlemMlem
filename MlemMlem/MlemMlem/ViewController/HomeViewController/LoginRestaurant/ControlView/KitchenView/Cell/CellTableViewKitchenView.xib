@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="106" id="KGk-i7-Jjw" customClass="CellTableViewKitchenView" customModule="MlemMlem" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="106"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="106"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bfG-1V-pJ7">
+                        <rect key="frame" x="20" y="10" width="345" height="86"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Bán" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJs-kE-JJ7">
+                                <rect key="frame" x="0.0" y="0.0" width="51.5" height="86"/>
+                                <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="11"/>
+                                <color key="textColor" name="Gray#7A8598"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y8j-aL-4lj">
+                                <rect key="frame" x="51.5" y="0.0" width="62" height="86"/>
+                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="11"/>
+                                <color key="textColor" name="Orange#FE7A3E"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="TC2-cz-xxi">
+                                <rect key="frame" x="113.5" y="0.0" width="128.5" height="86"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Sashimi Bowl" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n10-22-eHg">
+                                        <rect key="frame" x="0.0" y="0.0" width="128.5" height="13.5"/>
+                                        <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Shrimp Cocktail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQw-ja-Ube">
+                                        <rect key="frame" x="0.0" y="23.5" width="128.5" height="13.5"/>
+                                        <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQJ-WD-eJR">
+                                        <rect key="frame" x="0.0" y="47" width="128.5" height="39"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2k7-ur-jVO">
+                                <rect key="frame" x="242" y="0.0" width="103" height="86"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" ambiguous="YES" text="1" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uti-Js-Qc9">
+                                        <rect key="frame" x="0.0" y="0.0" width="103" height="27.5"/>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="11"/>
+                                        <color key="textColor" name="Gray#7A8598"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" ambiguous="YES" text="1" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Cx-Nc-KXB">
+                                        <rect key="frame" x="0.0" y="37.5" width="103" height="13.5"/>
+                                        <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="11"/>
+                                        <color key="textColor" name="Gray#7A8598"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61v-CR-EoX">
+                                        <rect key="frame" x="0.0" y="61" width="103" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="MFr-rW-V5s"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="11"/>
+                                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
+                                        <state key="normal" title="Hoàn tất" image="ic_done">
+                                            <color key="titleColor" name="Orange#FE7A3E"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" name="Orange#FE7A3E"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="PJs-kE-JJ7" firstAttribute="width" secondItem="TC2-cz-xxi" secondAttribute="width" multiplier="0.4" id="J2T-m1-Zcq"/>
+                            <constraint firstItem="y8j-aL-4lj" firstAttribute="width" secondItem="PJs-kE-JJ7" secondAttribute="width" multiplier="1.2" id="e52-It-8E6"/>
+                            <constraint firstItem="PJs-kE-JJ7" firstAttribute="width" secondItem="2k7-ur-jVO" secondAttribute="width" multiplier="0.5" id="niY-Xr-kx5"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="bfG-1V-pJ7" secondAttribute="trailing" constant="20" id="19R-EC-rWi"/>
+                    <constraint firstItem="bfG-1V-pJ7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="9gW-E7-EB6"/>
+                    <constraint firstItem="bfG-1V-pJ7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="S3M-O0-nEQ"/>
+                    <constraint firstAttribute="bottom" secondItem="bfG-1V-pJ7" secondAttribute="bottom" constant="10" id="YxG-Ff-c9Z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="stack_AmountDish" destination="2k7-ur-jVO" id="Gof-XP-9Yo"/>
+                <outlet property="stack_dish" destination="TC2-cz-xxi" id="Do9-Uz-G6K"/>
+            </connections>
+            <point key="canvasLocation" x="-354" y="-49"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_done" width="15" height="15"/>
+        <namedColor name="Gray#7A8598">
+            <color red="0.47843137254901963" green="0.52156862745098043" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Orange#FE7A3E">
+            <color red="0.99599999189376831" green="0.4779999852180481" blue="0.24300000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
