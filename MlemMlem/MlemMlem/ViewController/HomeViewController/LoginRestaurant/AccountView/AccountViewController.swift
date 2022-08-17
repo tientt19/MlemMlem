@@ -23,7 +23,11 @@ class AccountViewController: BaseViewController {
     var router: AccountRouterProtocol!
     var viewModel: AccountViewModelProtocol!
     
-    
+    @IBOutlet weak var view_background: BackgroundView! {
+        didSet {
+            view_background.setTitle("Tài khoản").done()
+        }
+    }
     
     // MARK: - LifeCycle
     override func viewDidLoad() {
