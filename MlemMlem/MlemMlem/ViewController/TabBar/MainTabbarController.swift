@@ -91,7 +91,8 @@ class MainTabbarController: UITabBarController {
         controlController.tabBarItem.selectedImage = R.image.ic_tab1_selected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         let controlNavController = BaseNavigationController(rootViewController: controlController)
         controlNavController.setHiddenNavigationBarViewControllers([ControlViewController.self,
-                                                                    KitchenViewViewController.self])
+                                                                    KitchenViewViewController.self,
+                                                                    TableRestaurantViewController.self])
         
         // MARK: Page 2
         let accountController = AccountRouter.setupModule()

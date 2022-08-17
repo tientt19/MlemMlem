@@ -4,13 +4,26 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KitchenViewViewController" customModule="MlemMlem" customModuleProvider="target">
             <connections>
+                <outlet property="tbv_TableView" destination="Agu-3H-gqP" id="DLc-ca-xkS"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="view_background" destination="GvO-b8-EHt" id="Wwb-y4-ikg"/>
             </connections>
@@ -26,9 +39,106 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zzw-3v-MJV">
                     <rect key="frame" x="0.0" y="124" width="414" height="728"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MrW-fB-NiY">
+                            <rect key="frame" x="20" y="20" width="374" height="119"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tất cả các đơn hàng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyc-yO-sMN">
+                                    <rect key="frame" x="0.0" y="0.0" width="374" height="22"/>
+                                    <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ktM-XX-7Xb">
+                                    <rect key="frame" x="0.0" y="32" width="374" height="16"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cập nhật ngày:  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YY8-1B-5c1">
+                                            <rect key="frame" x="0.0" y="0.0" width="92.5" height="16"/>
+                                            <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                                            <color key="textColor" name="Gray#4F596A"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="28/02/2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zcl-p1-hlb">
+                                            <rect key="frame" x="92.5" y="0.0" width="281.5" height="16"/>
+                                            <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="13"/>
+                                            <color key="textColor" name="Orange#FE7A3E"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2rJ-Pw-yqD">
+                                    <rect key="frame" x="0.0" y="58" width="374" height="1"/>
+                                    <color key="backgroundColor" name="Gray#EEF1F5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="iZz-Mz-4j2"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FdQ-LE-RM7">
+                                    <rect key="frame" x="0.0" y="69" width="374" height="50"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ejw-0e-ARZ">
+                                            <rect key="frame" x="0.0" y="20" width="374" height="30"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Bán" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2e-Rg-Nn0">
+                                                    <rect key="frame" x="0.0" y="0.0" width="51" height="30"/>
+                                                    <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="13"/>
+                                                    <color key="textColor" name="Orange#FE7A3E"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Mã ĐH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4zD-4w-SSH" userLabel="Mã ĐH">
+                                                    <rect key="frame" x="61" y="0.0" width="63.5" height="30"/>
+                                                    <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="13"/>
+                                                    <color key="textColor" name="Orange#FE7A3E"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Tên món" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cz-2a-nJV">
+                                                    <rect key="frame" x="134.5" y="0.0" width="127.5" height="30"/>
+                                                    <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="13"/>
+                                                    <color key="textColor" name="Orange#FE7A3E"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Số lượng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V97-Jc-Y9a">
+                                                    <rect key="frame" x="272" y="0.0" width="102" height="30"/>
+                                                    <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="13"/>
+                                                    <color key="textColor" name="Orange#FE7A3E"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="r2e-Rg-Nn0" firstAttribute="width" secondItem="V97-Jc-Y9a" secondAttribute="width" multiplier="0.5" id="45P-Gk-auA"/>
+                                                <constraint firstItem="r2e-Rg-Nn0" firstAttribute="width" secondItem="2cz-2a-nJV" secondAttribute="width" multiplier="0.4" id="bEm-a8-reB"/>
+                                                <constraint firstItem="r2e-Rg-Nn0" firstAttribute="width" secondItem="4zD-4w-SSH" secondAttribute="width" multiplier="0.8" id="w08-7A-LxC"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="Ejw-0e-ARZ" secondAttribute="trailing" id="RVz-vc-0dO"/>
+                                        <constraint firstAttribute="bottom" secondItem="Ejw-0e-ARZ" secondAttribute="bottom" id="WPt-Mf-Pcf"/>
+                                        <constraint firstAttribute="height" constant="50" id="gW2-lx-BVj"/>
+                                        <constraint firstItem="Ejw-0e-ARZ" firstAttribute="top" secondItem="FdQ-LE-RM7" secondAttribute="top" constant="20" id="iNV-vl-fwm"/>
+                                        <constraint firstItem="Ejw-0e-ARZ" firstAttribute="leading" secondItem="FdQ-LE-RM7" secondAttribute="leading" id="oWm-NP-qzR"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Agu-3H-gqP">
+                            <rect key="frame" x="0.0" y="139" width="414" height="589"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </tableView>
+                    </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="MrW-fB-NiY" firstAttribute="top" secondItem="zzw-3v-MJV" secondAttribute="top" constant="20" id="0sa-yl-wv1"/>
+                        <constraint firstItem="MrW-fB-NiY" firstAttribute="leading" secondItem="zzw-3v-MJV" secondAttribute="leading" constant="20" id="6gg-2o-uHK"/>
+                        <constraint firstAttribute="trailing" secondItem="Agu-3H-gqP" secondAttribute="trailing" id="Gkq-fg-oZY"/>
+                        <constraint firstAttribute="trailing" secondItem="MrW-fB-NiY" secondAttribute="trailing" constant="20" id="UvZ-h0-sgi"/>
+                        <constraint firstAttribute="bottom" secondItem="Agu-3H-gqP" secondAttribute="bottom" id="cni-Vd-cPF"/>
+                        <constraint firstItem="Agu-3H-gqP" firstAttribute="leading" secondItem="zzw-3v-MJV" secondAttribute="leading" id="g7s-bg-dI3"/>
+                        <constraint firstItem="Agu-3H-gqP" firstAttribute="top" secondItem="MrW-fB-NiY" secondAttribute="bottom" id="mg0-5h-IFs"/>
+                    </constraints>
                     <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="cornerTop">
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                             <real key="value" value="15"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
@@ -46,10 +156,19 @@
                 <constraint firstItem="KlH-tW-6zV" firstAttribute="trailing" secondItem="zzw-3v-MJV" secondAttribute="trailing" id="fdd-37-kxw"/>
                 <constraint firstItem="zzw-3v-MJV" firstAttribute="top" secondItem="KlH-tW-6zV" secondAttribute="top" constant="80" id="wOR-r0-pqD"/>
             </constraints>
-            <point key="canvasLocation" x="162" y="58"/>
+            <point key="canvasLocation" x="539" y="36"/>
         </view>
     </objects>
     <resources>
+        <namedColor name="Gray#4F596A">
+            <color red="0.30980392156862746" green="0.34901960784313724" blue="0.41568627450980394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Gray#EEF1F5">
+            <color red="0.93333333333333335" green="0.94509803921568625" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Orange#FE7A3E">
+            <color red="0.99599999189376831" green="0.4779999852180481" blue="0.24300000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
