@@ -39,7 +39,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </view>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xqP-ZN-vBP">
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqP-ZN-vBP">
                     <rect key="frame" x="20" y="124" width="374" height="715"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="36i-xy-yEZ">
@@ -115,11 +115,22 @@
                                                                     <color key="textColor" name="Orange#FE7A3E"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fb5-Is-YEv">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="157" height="46"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <connections>
+                                                                        <action selector="onTableRestaurantAction:" destination="-1" eventType="touchUpInside" id="VSS-tv-j7q"/>
+                                                                    </connections>
+                                                                </button>
                                                             </subviews>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="bottom" secondItem="Ewa-Ai-abZ" secondAttribute="bottom" id="26K-Ae-8X7"/>
+                                                                <constraint firstItem="fb5-Is-YEv" firstAttribute="top" secondItem="DRg-sk-UvB" secondAttribute="top" id="3NC-uc-v7p"/>
                                                                 <constraint firstAttribute="trailing" secondItem="Ewa-Ai-abZ" secondAttribute="trailing" id="6Vj-uR-Bnj"/>
+                                                                <constraint firstItem="fb5-Is-YEv" firstAttribute="leading" secondItem="DRg-sk-UvB" secondAttribute="leading" id="H1e-3W-Ddf"/>
+                                                                <constraint firstAttribute="trailing" secondItem="fb5-Is-YEv" secondAttribute="trailing" id="hci-Yx-aqH"/>
+                                                                <constraint firstAttribute="bottom" secondItem="fb5-Is-YEv" secondAttribute="bottom" id="rkA-tg-suA"/>
                                                                 <constraint firstItem="Ewa-Ai-abZ" firstAttribute="top" secondItem="DRg-sk-UvB" secondAttribute="top" id="saQ-vM-Mfo"/>
                                                                 <constraint firstItem="Ewa-Ai-abZ" firstAttribute="leading" secondItem="DRg-sk-UvB" secondAttribute="leading" id="yAL-Og-obe"/>
                                                                 <constraint firstAttribute="height" constant="46" id="z1e-Nw-Po9"/>
@@ -156,13 +167,24 @@
                                                                     <color key="textColor" name="Gray#7A8598"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSD-uD-8ie">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="157" height="46"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <connections>
+                                                                        <action selector="onTableRestaurantAction:" destination="-1" eventType="touchUpInside" id="I9I-hO-ena"/>
+                                                                    </connections>
+                                                                </button>
                                                             </subviews>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstItem="h0i-a3-X0E" firstAttribute="top" secondItem="bro-sS-Ah5" secondAttribute="top" id="1ck-SR-fic"/>
+                                                                <constraint firstItem="MSD-uD-8ie" firstAttribute="leading" secondItem="bro-sS-Ah5" secondAttribute="leading" id="8eW-fS-wRg"/>
+                                                                <constraint firstAttribute="bottom" secondItem="MSD-uD-8ie" secondAttribute="bottom" id="Ewu-M8-M8J"/>
+                                                                <constraint firstItem="MSD-uD-8ie" firstAttribute="top" secondItem="bro-sS-Ah5" secondAttribute="top" id="K1B-py-bR8"/>
                                                                 <constraint firstItem="h0i-a3-X0E" firstAttribute="leading" secondItem="bro-sS-Ah5" secondAttribute="leading" id="OhI-0g-TNV"/>
                                                                 <constraint firstAttribute="trailing" secondItem="h0i-a3-X0E" secondAttribute="trailing" id="PHB-xi-X9Q"/>
                                                                 <constraint firstAttribute="height" constant="46" id="hTC-fL-8X3"/>
+                                                                <constraint firstAttribute="trailing" secondItem="MSD-uD-8ie" secondAttribute="trailing" id="s4Q-5l-9fW"/>
                                                                 <constraint firstAttribute="bottom" secondItem="h0i-a3-X0E" secondAttribute="bottom" id="uhW-Sk-SoZ"/>
                                                             </constraints>
                                                             <userDefinedRuntimeAttributes>

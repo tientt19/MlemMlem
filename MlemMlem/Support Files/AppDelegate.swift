@@ -41,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let frame = UIScreen.main.bounds
             let windowSize = CGSize(width: min(frame.width, frame.height), height: max(frame.width, frame.height))
             window = UIWindow(frame: CGRect(origin: .zero, size: windowSize))
-            let rootController = SplashRouter.setupModule()
+            let rootController = MainTabbarController	()
             window?.rootViewController = rootController
             window?.makeKeyAndVisible()
         }
