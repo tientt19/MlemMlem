@@ -144,7 +144,7 @@
                                     </subviews>
                                 </stackView>
                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="iI4-kr-gv5">
-                                    <rect key="frame" x="0.0" y="300" width="374" height="323"/>
+                                    <rect key="frame" x="20" y="300" width="334" height="323"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="323" id="f2g-ac-cVP"/>
@@ -216,11 +216,11 @@
                                 <constraint firstItem="peA-6y-avz" firstAttribute="top" secondItem="w5f-nk-SwU" secondAttribute="top" constant="23" id="D5E-cd-A0a"/>
                                 <constraint firstItem="iI4-kr-gv5" firstAttribute="top" secondItem="peA-6y-avz" secondAttribute="bottom" constant="-25" id="EPD-z0-FAY"/>
                                 <constraint firstAttribute="bottom" secondItem="fzo-e3-cCe" secondAttribute="bottom" constant="20" id="V9H-Lf-QHH"/>
-                                <constraint firstAttribute="trailing" secondItem="iI4-kr-gv5" secondAttribute="trailing" id="Yfq-x1-X9H"/>
+                                <constraint firstAttribute="trailing" secondItem="iI4-kr-gv5" secondAttribute="trailing" constant="20" id="Yfq-x1-X9H"/>
                                 <constraint firstItem="fzo-e3-cCe" firstAttribute="top" secondItem="iI4-kr-gv5" secondAttribute="bottom" constant="20" id="lBd-1U-seF"/>
                                 <constraint firstItem="peA-6y-avz" firstAttribute="leading" secondItem="w5f-nk-SwU" secondAttribute="leading" constant="20" id="nj5-z8-9ZG"/>
                                 <constraint firstItem="fzo-e3-cCe" firstAttribute="leading" secondItem="w5f-nk-SwU" secondAttribute="leading" constant="20" id="vpd-Vs-Niy"/>
-                                <constraint firstItem="iI4-kr-gv5" firstAttribute="leading" secondItem="w5f-nk-SwU" secondAttribute="leading" id="yme-pD-8bq"/>
+                                <constraint firstItem="iI4-kr-gv5" firstAttribute="leading" secondItem="w5f-nk-SwU" secondAttribute="leading" constant="20" id="yme-pD-8bq"/>
                             </constraints>
                         </view>
                     </subviews>
@@ -251,7 +251,7 @@
                 <constraint firstItem="gwm-2M-oKZ" firstAttribute="top" secondItem="KlH-tW-6zV" secondAttribute="top" constant="80" id="jiH-Fi-Qkw"/>
                 <constraint firstItem="KlH-tW-6zV" firstAttribute="trailing" secondItem="gwm-2M-oKZ" secondAttribute="trailing" constant="20" id="u6e-KA-ZXh"/>
             </constraints>
-            <point key="canvasLocation" x="602.89855072463774" y="65.625"/>
+            <point key="canvasLocation" x="139" y="51"/>
         </view>
     </objects>
     <resources>

@@ -22,8 +22,8 @@ protocol TableRestaurantViewProtocol: AnyObject {
 class TableRestaurantViewController: BaseViewController {
     var router: TableRestaurantRouterProtocol!
     var viewModel: TableRestaurantViewModelProtocol!
-    private var insetsSession = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
-    private var itemPerRow:CGFloat = 4.0
+    let insetsSession = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
+    let itemsPerRow: CGFloat = 4.0
     
     
     @IBOutlet weak var constraint_collectionViewHeight: NSLayoutConstraint!
@@ -44,16 +44,17 @@ class TableRestaurantViewController: BaseViewController {
         self.viewModel.onViewDidLoad()
     }
     
-    func ConstraintCollectionViewHeight() {
-        self.constraint_collectionViewHeight.constant = self.coll_CollectionView.collectionViewLayout.collectionViewContentSize.height
-        self.coll_CollectionView.layoutIfNeeded()
-    }
+//    override func viewDidLayoutSubviews() {
+//        super.viewDidLayoutSubviews()
+//        let height = coll_CollectionView.collectionViewLayout.collectionViewContentSize.height
+//        constraint_collectionViewHeight.constant = height
+//        self.view.layoutIfNeeded()
+//    }
     
     
     // MARK: - Init
     private func setupInit() {
         setIntCollectionView()
-        ConstraintCollectionViewHeight()
     }
     
     // MARK: - Action
@@ -62,19 +63,18 @@ class TableRestaurantViewController: BaseViewController {
 
 extension TableRestaurantViewController: UICollectionViewDataSource {
     func setIntCollectionView() {
-        coll_CollectionView.isScrollEnabled = false
-        constraint_collectionViewHeight.isActive = true
         self.coll_CollectionView.registerNib(ofType: CellCollectionViewTableRestaurant.self)
         self.coll_CollectionView.delegate = self
         self.coll_CollectionView.dataSource = self
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 15
+        return 20
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueCell(ofType: CellCollectionViewTableRestaurant.self, for: indexPath)
+        cell.lbl_numberOfTable.text = "\(indexPath.row + 1)"
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = .OrangeFE7A3E
             cell.lbl_numberOfTable.textColor = .white
@@ -91,14 +91,16 @@ extension TableRestaurantViewController: UICollectionViewDataSource {
 }
 
 extension TableRestaurantViewController: UICollectionViewDelegate {
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        router.gotoDetaiTable(indexPath.row + 1)
+    }
 }
 
 extension TableRestaurantViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-//        let paddingSpace = CGFloat((itemPerRow + 1)) * insetsSession.left
-        let availableWidth = self.coll_CollectionView.frame.width
-        let width = availableWidth / itemPerRow
+        let paddingSpace = CGFloat((itemsPerRow + 1)) * insetsSession.left
+        let availableWidth = coll_CollectionView.frame.width - paddingSpace
+        let width = availableWidth / itemsPerRow
         return CGSize(width: width, height: width)
     }
     

@@ -209,6 +209,21 @@
 		CA1EC04228ABC17F00913958 /* KitchenViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC03D28ABC17F00913958 /* KitchenViewViewController.swift */; };
 		CA1EC04328ABC17F00913958 /* KitchenViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC03E28ABC17F00913958 /* KitchenViewViewModel.swift */; };
 		CA1EC04428ABC17F00913958 /* KitchenViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA1EC03F28ABC17F00913958 /* KitchenViewViewController.xib */; };
+		CA3E16CE28AE634A00DB613B /* DetailTableRestaurantRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E16C928AE634A00DB613B /* DetailTableRestaurantRouter.swift */; };
+		CA3E16CF28AE634A00DB613B /* DetailTableRestaurantInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E16CA28AE634A00DB613B /* DetailTableRestaurantInteractorInput.swift */; };
+		CA3E16D028AE634A00DB613B /* DetailTableRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E16CB28AE634A00DB613B /* DetailTableRestaurantViewController.swift */; };
+		CA3E16D128AE634A00DB613B /* DetailTableRestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E16CC28AE634A00DB613B /* DetailTableRestaurantViewModel.swift */; };
+		CA3E16D228AE634A00DB613B /* DetailTableRestaurantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3E16CD28AE634A00DB613B /* DetailTableRestaurantViewController.xib */; };
+		CA7C8CBA28AE6DFC00F36F37 /* KichenShareRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CB528AE6DFC00F36F37 /* KichenShareRouter.swift */; };
+		CA7C8CBB28AE6DFC00F36F37 /* KichenShareInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CB628AE6DFC00F36F37 /* KichenShareInteractorInput.swift */; };
+		CA7C8CBC28AE6DFC00F36F37 /* KichenShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CB728AE6DFC00F36F37 /* KichenShareViewController.swift */; };
+		CA7C8CBD28AE6DFC00F36F37 /* KichenShareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CB828AE6DFC00F36F37 /* KichenShareViewModel.swift */; };
+		CA7C8CBE28AE6DFC00F36F37 /* KichenShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7C8CB928AE6DFC00F36F37 /* KichenShareViewController.xib */; };
+		CA7C8CC528AE70CB00F36F37 /* KichenViewOptionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CC028AE70CB00F36F37 /* KichenViewOptionRouter.swift */; };
+		CA7C8CC628AE70CB00F36F37 /* KichenViewOptionInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CC128AE70CB00F36F37 /* KichenViewOptionInteractorInput.swift */; };
+		CA7C8CC728AE70CB00F36F37 /* KichenViewOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CC228AE70CB00F36F37 /* KichenViewOptionViewController.swift */; };
+		CA7C8CC828AE70CB00F36F37 /* KichenViewOptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CC328AE70CB00F36F37 /* KichenViewOptionViewModel.swift */; };
+		CA7C8CC928AE70CB00F36F37 /* KichenViewOptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7C8CC428AE70CB00F36F37 /* KichenViewOptionViewController.xib */; };
 		CAB59D7628ACFE0600FB5F36 /* CellTableViewKitchenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB59D7428ACFE0600FB5F36 /* CellTableViewKitchenView.swift */; };
 		CAB59D7728ACFE0600FB5F36 /* CellTableViewKitchenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAB59D7528ACFE0600FB5F36 /* CellTableViewKitchenView.xib */; };
 		CAB59D8028AD101E00FB5F36 /* TableRestaurantRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB59D7B28AD101E00FB5F36 /* TableRestaurantRouter.swift */; };
@@ -441,6 +456,21 @@
 		CA1EC03D28ABC17F00913958 /* KitchenViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenViewViewController.swift; sourceTree = "<group>"; };
 		CA1EC03E28ABC17F00913958 /* KitchenViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenViewViewModel.swift; sourceTree = "<group>"; };
 		CA1EC03F28ABC17F00913958 /* KitchenViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KitchenViewViewController.xib; sourceTree = "<group>"; };
+		CA3E16C928AE634A00DB613B /* DetailTableRestaurantRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableRestaurantRouter.swift; sourceTree = "<group>"; };
+		CA3E16CA28AE634A00DB613B /* DetailTableRestaurantInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableRestaurantInteractorInput.swift; sourceTree = "<group>"; };
+		CA3E16CB28AE634A00DB613B /* DetailTableRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableRestaurantViewController.swift; sourceTree = "<group>"; };
+		CA3E16CC28AE634A00DB613B /* DetailTableRestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableRestaurantViewModel.swift; sourceTree = "<group>"; };
+		CA3E16CD28AE634A00DB613B /* DetailTableRestaurantViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableRestaurantViewController.xib; sourceTree = "<group>"; };
+		CA7C8CB528AE6DFC00F36F37 /* KichenShareRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KichenShareRouter.swift; sourceTree = "<group>"; };
+		CA7C8CB628AE6DFC00F36F37 /* KichenShareInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KichenShareInteractorInput.swift; sourceTree = "<group>"; };
+		CA7C8CB728AE6DFC00F36F37 /* KichenShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KichenShareViewController.swift; sourceTree = "<group>"; };
+		CA7C8CB828AE6DFC00F36F37 /* KichenShareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KichenShareViewModel.swift; sourceTree = "<group>"; };
+		CA7C8CB928AE6DFC00F36F37 /* KichenShareViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KichenShareViewController.xib; sourceTree = "<group>"; };
+		CA7C8CC028AE70CB00F36F37 /* KichenViewOptionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KichenViewOptionRouter.swift; sourceTree = "<group>"; };
+		CA7C8CC128AE70CB00F36F37 /* KichenViewOptionInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KichenViewOptionInteractorInput.swift; sourceTree = "<group>"; };
+		CA7C8CC228AE70CB00F36F37 /* KichenViewOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KichenViewOptionViewController.swift; sourceTree = "<group>"; };
+		CA7C8CC328AE70CB00F36F37 /* KichenViewOptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KichenViewOptionViewModel.swift; sourceTree = "<group>"; };
+		CA7C8CC428AE70CB00F36F37 /* KichenViewOptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KichenViewOptionViewController.xib; sourceTree = "<group>"; };
 		CAB59D7428ACFE0600FB5F36 /* CellTableViewKitchenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewKitchenView.swift; sourceTree = "<group>"; };
 		CAB59D7528ACFE0600FB5F36 /* CellTableViewKitchenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTableViewKitchenView.xib; sourceTree = "<group>"; };
 		CAB59D7B28AD101E00FB5F36 /* TableRestaurantRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRestaurantRouter.swift; sourceTree = "<group>"; };
@@ -1172,6 +1202,42 @@
 			path = Dish;
 			sourceTree = "<group>";
 		};
+		CA3E16C828AE632500DB613B /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E16C928AE634A00DB613B /* DetailTableRestaurantRouter.swift */,
+				CA3E16CA28AE634A00DB613B /* DetailTableRestaurantInteractorInput.swift */,
+				CA3E16CB28AE634A00DB613B /* DetailTableRestaurantViewController.swift */,
+				CA3E16CC28AE634A00DB613B /* DetailTableRestaurantViewModel.swift */,
+				CA3E16CD28AE634A00DB613B /* DetailTableRestaurantViewController.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		CA7C8CB428AE6DEA00F36F37 /* KichenShare */ = {
+			isa = PBXGroup;
+			children = (
+				CA7C8CB528AE6DFC00F36F37 /* KichenShareRouter.swift */,
+				CA7C8CB628AE6DFC00F36F37 /* KichenShareInteractorInput.swift */,
+				CA7C8CB728AE6DFC00F36F37 /* KichenShareViewController.swift */,
+				CA7C8CB828AE6DFC00F36F37 /* KichenShareViewModel.swift */,
+				CA7C8CB928AE6DFC00F36F37 /* KichenShareViewController.xib */,
+			);
+			path = KichenShare;
+			sourceTree = "<group>";
+		};
+		CA7C8CBF28AE70B500F36F37 /* KichenViewOption */ = {
+			isa = PBXGroup;
+			children = (
+				CA7C8CC028AE70CB00F36F37 /* KichenViewOptionRouter.swift */,
+				CA7C8CC128AE70CB00F36F37 /* KichenViewOptionInteractorInput.swift */,
+				CA7C8CC228AE70CB00F36F37 /* KichenViewOptionViewController.swift */,
+				CA7C8CC328AE70CB00F36F37 /* KichenViewOptionViewModel.swift */,
+				CA7C8CC428AE70CB00F36F37 /* KichenViewOptionViewController.xib */,
+			);
+			path = KichenViewOption;
+			sourceTree = "<group>";
+		};
 		CAB59D7328ACFDF200FB5F36 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -1184,6 +1250,7 @@
 		CAB59D7A28AD0FEF00FB5F36 /* TheTableOfTheRestaurant */ = {
 			isa = PBXGroup;
 			children = (
+				CA3E16C828AE632500DB613B /* Detail */,
 				CAEAB1D028AD18F000014788 /* Cell */,
 				CAB59D7B28AD101E00FB5F36 /* TableRestaurantRouter.swift */,
 				CAB59D7C28AD101E00FB5F36 /* TableRestaurantInteractorInput.swift */,
@@ -1206,6 +1273,8 @@
 		CAEED3AA28ABC02300BB8E11 /* KitchenView */ = {
 			isa = PBXGroup;
 			children = (
+				CA7C8CBF28AE70B500F36F37 /* KichenViewOption */,
+				CA7C8CB428AE6DEA00F36F37 /* KichenShare */,
 				CAB59D7328ACFDF200FB5F36 /* Cell */,
 				CA1EC03B28ABC17F00913958 /* KitchenViewRouter.swift */,
 				CA1EC03C28ABC17F00913958 /* KitchenViewInteractorInput.swift */,
@@ -1323,6 +1392,7 @@
 			files = (
 				52191AB4289E9E1E0054D72E /* LaunchScreen.storyboard in Resources */,
 				52CB18ED289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-BlackItalic_1.otf in Resources */,
+				CA7C8CC928AE70CB00F36F37 /* KichenViewOptionViewController.xib in Resources */,
 				52CB190B289FF36300B2DFEC /* LoginViewController.xib in Resources */,
 				522479D328A94CA700C1D092 /* MenuViewController.xib in Resources */,
 				FF4033BD28A0B9CA00EFCD24 /* Inter-ExtraBold.ttf in Resources */,
@@ -1332,10 +1402,12 @@
 				52CB18EA289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Bold_1.otf in Resources */,
 				52CB18EB289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Regular_3.otf in Resources */,
 				52CB18EF289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-SemiboldItalic_1.otf in Resources */,
+				CA7C8CBE28AE6DFC00F36F37 /* KichenShareViewController.xib in Resources */,
 				ADA51A8F28A7B0C80099DCA2 /* PopupPaymentSuccessViewController.xib in Resources */,
 				CAEAB1D428AD191C00014788 /* CellCollectionViewTableRestaurant.xib in Resources */,
 				FF4033BF28A0B9CA00EFCD24 /* Inter-Black.ttf in Resources */,
 				522479A728A9451300C1D092 /* LoginRestaurantViewController.xib in Resources */,
+				CA3E16D228AE634A00DB613B /* DetailTableRestaurantViewController.xib in Resources */,
 				FF4033BE28A0B9CA00EFCD24 /* Inter-ExtraLight.ttf in Resources */,
 				52CB18F1289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-ExtraboldItalic_1.otf in Resources */,
 				529617D628A157FA00C7BFE4 /* ConfirmSignUpViewController.xib in Resources */,
@@ -1503,6 +1575,7 @@
 				52D9A9E4289FEE570085A327 /* BaseService.swift in Sources */,
 				52D9A9C7289FEE560085A327 /* Date.swift in Sources */,
 				5224799628A93BF700C1D092 /* HomeViewModel.swift in Sources */,
+				CA3E16CF28AE634A00DB613B /* DetailTableRestaurantInteractorInput.swift in Sources */,
 				ADA51AA728A7B1B20099DCA2 /* InterfaceRepresentable.swift in Sources */,
 				522479B028A94ABD00C1D092 /* MainTabbarController.swift in Sources */,
 				52D9A9E5289FEE570085A327 /* ApiUrlProtocols.swift in Sources */,
@@ -1532,24 +1605,30 @@
 				52D9A966289FEAA90085A327 /* IBOutlet_Name.swift in Sources */,
 				52D9A9F4289FEE570085A327 /* PanModalPresentationDelegate.swift in Sources */,
 				52D9A9DE289FEE560085A327 /* ProgressPosition.swift in Sources */,
+				CA7C8CC828AE70CB00F36F37 /* KichenViewOptionViewModel.swift in Sources */,
 				AD85AD4728A8E23B00731BC7 /* PaymentMethodView.swift in Sources */,
 				ADA51A9C28A7B0C80099DCA2 /* CreditCardInteractorInput.swift in Sources */,
+				CA7C8CBA28AE6DFC00F36F37 /* KichenShareRouter.swift in Sources */,
 				5224799428A93BF700C1D092 /* HomeInteractorInput.swift in Sources */,
 				52D9A9F8289FEE570085A327 /* PanContainerView.swift in Sources */,
+				CA3E16D028AE634A00DB613B /* DetailTableRestaurantViewController.swift in Sources */,
 				52D9A9CA289FEE560085A327 /* UIColor.swift in Sources */,
 				529617D328A157FA00C7BFE4 /* ConfirmSignUpInteractorInput.swift in Sources */,
+				CA7C8CC528AE70CB00F36F37 /* KichenViewOptionRouter.swift in Sources */,
 				52D9A9EE289FEE570085A327 /* PanModalPresentable.swift in Sources */,
 				522479AE28A94ABD00C1D092 /* UITabBarController.swift in Sources */,
 				52CB1907289FF36300B2DFEC /* LoginRouter.swift in Sources */,
 				52C05E5728A549AC006A68A2 /* RestaurantUpdateViewController.swift in Sources */,
 				522479C628A94C8F00C1D092 /* AccountInteractorInput.swift in Sources */,
 				ADA51A9228A7B0C80099DCA2 /* PopupPaymentSuccessViewModel.swift in Sources */,
+				CA7C8CBC28AE6DFC00F36F37 /* KichenShareViewController.swift in Sources */,
 				ADA51A9E28A7B0C80099DCA2 /* CreditCardViewController.swift in Sources */,
 				ADA51A9428A7B0C80099DCA2 /* ServicePackDetailInteractorInput.swift in Sources */,
 				CAEAB1D328AD191C00014788 /* CellCollectionViewTableRestaurant.swift in Sources */,
 				522479E628A94CEE00C1D092 /* SCMViewModel.swift in Sources */,
 				52D9A9EA289FEE570085A327 /* Utils.swift in Sources */,
 				52D9A9E2289FEE560085A327 /* Log.swift in Sources */,
+				CA7C8CBB28AE6DFC00F36F37 /* KichenShareInteractorInput.swift in Sources */,
 				ADA51A9328A7B0C80099DCA2 /* PopupPaymentSuccessInteractorInput.swift in Sources */,
 				522479A428A9451300C1D092 /* LoginRestaurantInteractorInput.swift in Sources */,
 				52D9A9DC289FEE560085A327 /* SignInConfig.swift in Sources */,
@@ -1558,6 +1637,7 @@
 				ADF1EF2E28A7E07B00C36065 /* DishViewController.swift in Sources */,
 				52D9A9E9289FEE570085A327 /* Units.swift in Sources */,
 				522479E428A94CEE00C1D092 /* SCMInteractorInput.swift in Sources */,
+				CA7C8CC628AE70CB00F36F37 /* KichenViewOptionInteractorInput.swift in Sources */,
 				522479E528A94CEE00C1D092 /* SCMViewController.swift in Sources */,
 				52D9A9DF289FEE560085A327 /* ServiceAPI.swift in Sources */,
 				ADA51ABB28A7B4D30099DCA2 /* PaymentEWalletMethodViewController.swift in Sources */,
@@ -1566,10 +1646,12 @@
 				FF4033C728A0D9B000EFCD24 /* SignUpRouter.swift in Sources */,
 				522479CF28A94CA700C1D092 /* MenuRouter.swift in Sources */,
 				529617D428A157FA00C7BFE4 /* ConfirmSignUpViewController.swift in Sources */,
+				CA7C8CBD28AE6DFC00F36F37 /* KichenShareViewModel.swift in Sources */,
 				ADA51A9028A7B0C80099DCA2 /* PopupPaymentSuccessRouter.swift in Sources */,
 				5224799B28A941F600C1D092 /* CellTableViewRestaurant.swift in Sources */,
 				52D9A9F0289FEE570085A327 /* PanModalHeight.swift in Sources */,
 				52191AAA289E9E1B0054D72E /* SceneDelegate.swift in Sources */,
+				CA3E16CE28AE634A00DB613B /* DetailTableRestaurantRouter.swift in Sources */,
 				52D9A9DB289FEE560085A327 /* Common.swift in Sources */,
 				ADA51A8628A7B0C80099DCA2 /* ServicePackViewController.swift in Sources */,
 				52CB18FF289FF34600B2DFEC /* SplashViewController.swift in Sources */,
@@ -1577,6 +1659,7 @@
 				52D9A9CC289FEE560085A327 /* UITableView.swift in Sources */,
 				FF4033C828A0D9B000EFCD24 /* SignUpInteractorInput.swift in Sources */,
 				ADA51A9628A7B0C80099DCA2 /* ServicePackDetailRouter.swift in Sources */,
+				CA3E16D128AE634A00DB613B /* DetailTableRestaurantViewModel.swift in Sources */,
 				ADA51AC828A7B7650099DCA2 /* ListMenuViewController.swift in Sources */,
 				52C05E5628A549AC006A68A2 /* RestaurantUpdateInteractorInput.swift in Sources */,
 				52D9A9D5289FEE560085A327 /* Number.swift in Sources */,
@@ -1594,6 +1677,7 @@
 				FF4033CA28A0D9B000EFCD24 /* SignUpViewModel.swift in Sources */,
 				52D9AA03289FEE570085A327 /* InternetConnection.swift in Sources */,
 				CAB59D8128AD101E00FB5F36 /* TableRestaurantInteractorInput.swift in Sources */,
+				CA7C8CC728AE70CB00F36F37 /* KichenViewOptionViewController.swift in Sources */,
 				52D9A9FE289FEE570085A327 /* TagListView.swift in Sources */,
 				5224799328A93BF700C1D092 /* HomeRouter.swift in Sources */,
 				52D9A9CD289FEE560085A327 /* UIDevice.swift in Sources */,
