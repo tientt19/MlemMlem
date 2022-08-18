@@ -248,6 +248,8 @@
 		FF4033C928A0D9B000EFCD24 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4033C428A0D9B000EFCD24 /* SignUpViewController.swift */; };
 		FF4033CA28A0D9B000EFCD24 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4033C528A0D9B000EFCD24 /* SignUpViewModel.swift */; };
 		FF4033CB28A0D9B000EFCD24 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF4033C628A0D9B000EFCD24 /* SignUpViewController.xib */; };
+		FFA6B68528AE92070080B0A1 /* CellCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA6B68328AE92070080B0A1 /* CellCollectionView.swift */; };
+		FFA6B68628AE92070080B0A1 /* CellCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA6B68428AE92070080B0A1 /* CellCollectionView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -496,6 +498,8 @@
 		FF4033C428A0D9B000EFCD24 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FF4033C528A0D9B000EFCD24 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		FF4033C628A0D9B000EFCD24 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		FFA6B68328AE92070080B0A1 /* CellCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCollectionView.swift; sourceTree = "<group>"; };
+		FFA6B68428AE92070080B0A1 /* CellCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellCollectionView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -633,6 +637,7 @@
 				522479CC28A94CA700C1D092 /* MenuViewController.swift */,
 				522479CD28A94CA700C1D092 /* MenuViewModel.swift */,
 				522479CE28A94CA700C1D092 /* MenuViewController.xib */,
+				FFA6B68228AE91EA0080B0A1 /* Cell CollectionView */,
 			);
 			path = MenuView;
 			sourceTree = "<group>";
@@ -1329,6 +1334,15 @@
 			path = SignUpViewController;
 			sourceTree = "<group>";
 		};
+		FFA6B68228AE91EA0080B0A1 /* Cell CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				FFA6B68328AE92070080B0A1 /* CellCollectionView.swift */,
+				FFA6B68428AE92070080B0A1 /* CellCollectionView.xib */,
+			);
+			path = "Cell CollectionView";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1416,6 +1430,7 @@
 				52CB18F2289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Black_1.otf in Resources */,
 				52CB18F0289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Light_1.otf in Resources */,
 				FF4033BC28A0B9CA00EFCD24 /* Inter-Regular.ttf in Resources */,
+				FFA6B68628AE92070080B0A1 /* CellCollectionView.xib in Resources */,
 				CA1EC04428ABC17F00913958 /* KitchenViewViewController.xib in Resources */,
 				ADF1EF2528A7CFC400C36065 /* ListMenuCellTableViewCell.xib in Resources */,
 				FF4033B928A0B9CA00EFCD24 /* Inter-Light.ttf in Resources */,
@@ -1526,6 +1541,7 @@
 				52CB18D3289FF29D00B2DFEC /* BaseViewController.swift in Sources */,
 				52C05E5528A549AC006A68A2 /* RestaurantUpdateRouter.swift in Sources */,
 				522479DA28A94CCF00C1D092 /* SaleReportInteractorInput.swift in Sources */,
+				FFA6B68528AE92070080B0A1 /* CellCollectionView.swift in Sources */,
 				522479BD28A94C7800C1D092 /* ControlViewController.swift in Sources */,
 				52D9A9D6289FEE560085A327 /* Encodable.swift in Sources */,
 				ADF1EF2428A7CFC400C36065 /* ListMenuCellTableViewCell.swift in Sources */,
