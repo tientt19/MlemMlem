@@ -23,7 +23,7 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djy-SU-1g8">
-                        <rect key="frame" x="0.0" y="0.0" width="122" height="88"/>
+                        <rect key="frame" x="40" y="34.5" width="42" height="19.5"/>
                         <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="16"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -32,10 +32,8 @@
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="djy-SU-1g8" secondAttribute="trailing" id="Dem-7b-jHS"/>
-                <constraint firstItem="djy-SU-1g8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="b8E-30-cii"/>
-                <constraint firstAttribute="bottom" secondItem="djy-SU-1g8" secondAttribute="bottom" id="wJ7-5I-gTJ"/>
-                <constraint firstItem="djy-SU-1g8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xHV-YD-tcA"/>
+                <constraint firstItem="djy-SU-1g8" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="bF0-Nh-at3"/>
+                <constraint firstItem="djy-SU-1g8" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="fIo-vQ-ife"/>
             </constraints>
             <size key="customSize" width="122" height="88"/>
             <userDefinedRuntimeAttributes>

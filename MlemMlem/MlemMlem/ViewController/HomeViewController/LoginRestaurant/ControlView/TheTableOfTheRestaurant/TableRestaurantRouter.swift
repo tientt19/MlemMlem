@@ -11,7 +11,7 @@ import UIKit
 
 // MARK: - RouterProtocol
 protocol TableRestaurantRouterProtocol {
-
+    func gotoDetaiTable(_ numberOfTable: Int)
 }
 
 // MARK: - TableRestaurant Router
@@ -36,5 +36,10 @@ class TableRestaurantRouter {
 
 // MARK: - TableRestaurant RouterProtocol
 extension TableRestaurantRouter: TableRestaurantRouterProtocol {
-    
+    func gotoDetaiTable(_ numberOfTable: Int) {
+        let viewController = DetailTableRestaurantRouter.setupModule()
+        viewController.numberOfTable = numberOfTable
+        viewController.modalPresentationStyle = .fullScreen
+        viewController.navigationController?.pushViewController(viewController, animated: true)
+    }
 }
