@@ -26,6 +26,7 @@ class MenuViewController: BaseViewController {
     @IBOutlet weak var img_Header: UIView!
     @IBOutlet weak var view_Restaurant: UIView!
     @IBOutlet weak var coll_Collection: UICollectionView!
+    @IBOutlet weak var tbv_TableView: UITableView!
     
     // MARK: - LifeCycle
     override func viewDidLoad() {
@@ -38,7 +39,7 @@ class MenuViewController: BaseViewController {
         super.viewWillAppear(animated)
         let indexPathForFirstRow = IndexPath(row: 0, section: 0)
         self.coll_Collection.selectItem(at: indexPathForFirstRow, animated: true, scrollPosition: [.centeredHorizontally])
-        self.collectionView(self.coll_Collection, cellForItemAt: indexPathForFirstRow)
+        let _ = self.collectionView(self.coll_Collection, cellForItemAt: indexPathForFirstRow)
     }
     
     // MARK: - Init
@@ -50,10 +51,51 @@ class MenuViewController: BaseViewController {
         self.view_Restaurant.addShadow(width: 0, height: 2, color: .black, radius: 6, opacity: 0.25)
         
         self.setInitCollectionView()
+        self.setInitTableView()
     }
     
     // MARK: - Action
     
+    @IBAction func onUpdateMenuAction(_ sender: UIButton) {
+        self.router.goToUpdateMenu()
+    }
+}
+
+//MARK: - UITableViewDataSource
+extension MenuViewController: UITableViewDataSource {
+    func setInitTableView() {
+        self.tbv_TableView.registerNib(ofType: CellTableViewMenu.self)
+        self.tbv_TableView.registerHeaderNib(ofType: SectionHeader.self)
+        
+        self.tbv_TableView.delegate = self
+        self.tbv_TableView.dataSource = self
+        self.tbv_TableView.separatorStyle = .none
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 5
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueCell(ofType: CellTableViewMenu.self, for: indexPath)
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let cell = tableView.dequeueHeaderView(ofType: SectionHeader.self)
+        return cell
+    }
+}
+
+//MARK: - UITableViewDelegate
+extension MenuViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 40
+    }
 }
 
 //MARK: - UICollectionViewDataSource
@@ -87,6 +129,7 @@ extension MenuViewController: UICollectionViewDelegate {
     
 }
 
+//MARK: - UICollectionViewDelegateFlowLayout
 extension MenuViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let padding: CGFloat = 12

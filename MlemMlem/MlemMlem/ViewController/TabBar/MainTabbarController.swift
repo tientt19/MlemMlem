@@ -114,7 +114,8 @@ class MainTabbarController: UITabBarController {
         menuController.tabBarItem.image = R.image.ic_tab3_unselected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         menuController.tabBarItem.selectedImage = R.image.ic_tab3_selected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         let menuNavController = BaseNavigationController(rootViewController: menuController)
-        menuNavController.setHiddenNavigationBarViewControllers([MenuViewController.self])
+        menuNavController.setHiddenNavigationBarViewControllers([MenuViewController.self,
+                                                                 RestaurantUpdateViewController.self])
         
         // MARK: Page 4
         let saleController = SaleReportRouter.setupModule()

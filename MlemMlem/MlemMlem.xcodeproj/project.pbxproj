@@ -234,6 +234,12 @@
 		CAEAB1D328AD191C00014788 /* CellCollectionViewTableRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEAB1D128AD191C00014788 /* CellCollectionViewTableRestaurant.swift */; };
 		CAEAB1D428AD191C00014788 /* CellCollectionViewTableRestaurant.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAEAB1D228AD191C00014788 /* CellCollectionViewTableRestaurant.xib */; };
 		CAEAB1D628AD1AC200014788 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEAB1D528AD1AC200014788 /* UICollectionView.swift */; };
+		FF18C5E828AFDF7500554AFD /* CellTableViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18C5E628AFDF7500554AFD /* CellTableViewMenu.swift */; };
+		FF18C5E928AFDF7500554AFD /* CellTableViewMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF18C5E728AFDF7500554AFD /* CellTableViewMenu.xib */; };
+		FF18C5EC28AFE0F300554AFD /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18C5EB28AFE0F300554AFD /* SectionHeader.swift */; };
+		FF18C5EE28AFE0FE00554AFD /* SectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF18C5ED28AFE0FE00554AFD /* SectionHeader.xib */; };
+		FF18C5F228AFE2CC00554AFD /* CellCollectionViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18C5F028AFE2CC00554AFD /* CellCollectionViewMenu.swift */; };
+		FF18C5F328AFE2CC00554AFD /* CellCollectionViewMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF18C5F128AFE2CC00554AFD /* CellCollectionViewMenu.xib */; };
 		FF4033B828A0B9CA00EFCD24 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033AF28A0B9CA00EFCD24 /* Inter-Medium.ttf */; };
 		FF4033B928A0B9CA00EFCD24 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B028A0B9CA00EFCD24 /* Inter-Light.ttf */; };
 		FF4033BA28A0B9CA00EFCD24 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B128A0B9CA00EFCD24 /* Inter-Thin.ttf */; };
@@ -484,6 +490,12 @@
 		CAEAB1D228AD191C00014788 /* CellCollectionViewTableRestaurant.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellCollectionViewTableRestaurant.xib; sourceTree = "<group>"; };
 		CAEAB1D528AD1AC200014788 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		F84CB0CA2E650CB51B41FFF7 /* Pods-MlemMlem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MlemMlem.release.xcconfig"; path = "Target Support Files/Pods-MlemMlem/Pods-MlemMlem.release.xcconfig"; sourceTree = "<group>"; };
+		FF18C5E628AFDF7500554AFD /* CellTableViewMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewMenu.swift; sourceTree = "<group>"; };
+		FF18C5E728AFDF7500554AFD /* CellTableViewMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTableViewMenu.xib; sourceTree = "<group>"; };
+		FF18C5EB28AFE0F300554AFD /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		FF18C5ED28AFE0FE00554AFD /* SectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeader.xib; sourceTree = "<group>"; };
+		FF18C5F028AFE2CC00554AFD /* CellCollectionViewMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCollectionViewMenu.swift; sourceTree = "<group>"; };
+		FF18C5F128AFE2CC00554AFD /* CellCollectionViewMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellCollectionViewMenu.xib; sourceTree = "<group>"; };
 		FF4033AF28A0B9CA00EFCD24 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 		FF4033B028A0B9CA00EFCD24 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
 		FF4033B128A0B9CA00EFCD24 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
@@ -637,6 +649,8 @@
 				522479CC28A94CA700C1D092 /* MenuViewController.swift */,
 				522479CD28A94CA700C1D092 /* MenuViewModel.swift */,
 				522479CE28A94CA700C1D092 /* MenuViewController.xib */,
+				FF18C5EA28AFE0C800554AFD /* SectionHeader */,
+				FF18C5E528AFDF4800554AFD /* Cell TableView */,
 				FFA6B68228AE91EA0080B0A1 /* Cell CollectionView */,
 			);
 			path = MenuView;
@@ -1298,6 +1312,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FF18C5E528AFDF4800554AFD /* Cell TableView */ = {
+			isa = PBXGroup;
+			children = (
+				FF18C5E628AFDF7500554AFD /* CellTableViewMenu.swift */,
+				FF18C5E728AFDF7500554AFD /* CellTableViewMenu.xib */,
+				FF18C5EF28AFE2A500554AFD /* Cell CollectionView Menu */,
+			);
+			path = "Cell TableView";
+			sourceTree = "<group>";
+		};
+		FF18C5EA28AFE0C800554AFD /* SectionHeader */ = {
+			isa = PBXGroup;
+			children = (
+				FF18C5EB28AFE0F300554AFD /* SectionHeader.swift */,
+				FF18C5ED28AFE0FE00554AFD /* SectionHeader.xib */,
+			);
+			path = SectionHeader;
+			sourceTree = "<group>";
+		};
+		FF18C5EF28AFE2A500554AFD /* Cell CollectionView Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FF18C5F028AFE2CC00554AFD /* CellCollectionViewMenu.swift */,
+				FF18C5F128AFE2CC00554AFD /* CellCollectionViewMenu.xib */,
+			);
+			path = "Cell CollectionView Menu";
+			sourceTree = "<group>";
+		};
 		FF4033AD28A0B31800EFCD24 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -1406,6 +1448,7 @@
 			files = (
 				52191AB4289E9E1E0054D72E /* LaunchScreen.storyboard in Resources */,
 				52CB18ED289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-BlackItalic_1.otf in Resources */,
+				FF18C5EE28AFE0FE00554AFD /* SectionHeader.xib in Resources */,
 				CA7C8CC928AE70CB00F36F37 /* KichenViewOptionViewController.xib in Resources */,
 				52CB190B289FF36300B2DFEC /* LoginViewController.xib in Resources */,
 				522479D328A94CA700C1D092 /* MenuViewController.xib in Resources */,
@@ -1434,7 +1477,9 @@
 				CA1EC04428ABC17F00913958 /* KitchenViewViewController.xib in Resources */,
 				ADF1EF2528A7CFC400C36065 /* ListMenuCellTableViewCell.xib in Resources */,
 				FF4033B928A0B9CA00EFCD24 /* Inter-Light.ttf in Resources */,
+				FF18C5E928AFDF7500554AFD /* CellTableViewMenu.xib in Resources */,
 				522479C928A94C8F00C1D092 /* AccountViewController.xib in Resources */,
+				FF18C5F328AFE2CC00554AFD /* CellCollectionViewMenu.xib in Resources */,
 				52CB18EC289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Thin_1.otf in Resources */,
 				52CB1901289FF34600B2DFEC /* SplashViewController.xib in Resources */,
 				52C05E6428A5552E006A68A2 /* PaymentMethodViewController.xib in Resources */,
@@ -1592,6 +1637,7 @@
 				52D9A9C7289FEE560085A327 /* Date.swift in Sources */,
 				5224799628A93BF700C1D092 /* HomeViewModel.swift in Sources */,
 				CA3E16CF28AE634A00DB613B /* DetailTableRestaurantInteractorInput.swift in Sources */,
+				FF18C5E828AFDF7500554AFD /* CellTableViewMenu.swift in Sources */,
 				ADA51AA728A7B1B20099DCA2 /* InterfaceRepresentable.swift in Sources */,
 				522479B028A94ABD00C1D092 /* MainTabbarController.swift in Sources */,
 				52D9A9E5289FEE570085A327 /* ApiUrlProtocols.swift in Sources */,
@@ -1614,6 +1660,7 @@
 				52D9A9FC289FEE570085A327 /* CloseButton.swift in Sources */,
 				CAB59D8028AD101E00FB5F36 /* TableRestaurantRouter.swift in Sources */,
 				52D9A9D2289FEE560085A327 /* EmptyDataSetSource.swift in Sources */,
+				FF18C5F228AFE2CC00554AFD /* CellCollectionViewMenu.swift in Sources */,
 				522479BC28A94C7800C1D092 /* ControlInteractorInput.swift in Sources */,
 				ADA51A9128A7B0C80099DCA2 /* PopupPaymentSuccessViewController.swift in Sources */,
 				522479AD28A94ABD00C1D092 /* TabbarItem.swift in Sources */,
@@ -1698,6 +1745,7 @@
 				5224799328A93BF700C1D092 /* HomeRouter.swift in Sources */,
 				52D9A9CD289FEE560085A327 /* UIDevice.swift in Sources */,
 				522479C728A94C8F00C1D092 /* AccountViewController.swift in Sources */,
+				FF18C5EC28AFE0F300554AFD /* SectionHeader.swift in Sources */,
 				ADA51AC728A7B7650099DCA2 /* ListMenuInteractorInput.swift in Sources */,
 				522479D228A94CA700C1D092 /* MenuViewModel.swift in Sources */,
 				52D9A9F6289FEE570085A327 /* PanModalPresentationAnimator.swift in Sources */,
