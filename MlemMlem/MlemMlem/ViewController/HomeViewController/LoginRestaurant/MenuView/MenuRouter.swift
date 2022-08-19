@@ -11,7 +11,7 @@ import UIKit
 
 // MARK: - RouterProtocol
 protocol MenuRouterProtocol {
-
+    func goToUpdateMenu()
 }
 
 // MARK: - Menu Router
@@ -36,5 +36,10 @@ class MenuRouter {
 
 // MARK: - Menu RouterProtocol
 extension MenuRouter: MenuRouterProtocol {
-    
+    func goToUpdateMenu() {
+        let controller = RestaurantUpdateRouter.setupModule()
+        controller.modalPresentationStyle = .fullScreen
+        controller.hidesBottomBarWhenPushed = true
+        self.viewController?.navigationController?.show(controller, sender: nil)
+    }
 }

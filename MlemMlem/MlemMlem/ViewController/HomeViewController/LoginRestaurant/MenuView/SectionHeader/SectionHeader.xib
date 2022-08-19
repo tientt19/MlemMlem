@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Bold.ttf">
+            <string>Inter-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="XjK-Is-xTU" customClass="SectionHeader" customModule="MlemMlem" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="598" height="93"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Alg-Xi-Tf8">
+                    <rect key="frame" x="0.0" y="0.0" width="598" height="93"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Sellers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rO8-6w-F0S">
+                            <rect key="frame" x="16" y="35.5" width="104.5" height="22"/>
+                            <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="rO8-6w-F0S" firstAttribute="leading" secondItem="Alg-Xi-Tf8" secondAttribute="leading" constant="16" id="0eW-9A-EjG"/>
+                        <constraint firstItem="rO8-6w-F0S" firstAttribute="centerY" secondItem="Alg-Xi-Tf8" secondAttribute="centerY" id="xYc-ym-cQ3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="7ux-a8-0M0"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="7ux-a8-0M0" firstAttribute="trailing" secondItem="Alg-Xi-Tf8" secondAttribute="trailing" id="EJN-5n-MPN"/>
+                <constraint firstItem="Alg-Xi-Tf8" firstAttribute="top" secondItem="XjK-Is-xTU" secondAttribute="top" id="GNg-cP-IOI"/>
+                <constraint firstItem="Alg-Xi-Tf8" firstAttribute="leading" secondItem="XjK-Is-xTU" secondAttribute="leading" id="aEi-32-DHW"/>
+                <constraint firstAttribute="bottom" secondItem="Alg-Xi-Tf8" secondAttribute="bottom" id="rjf-F0-t8s"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-240.57971014492756" y="7.7008928571428568"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
