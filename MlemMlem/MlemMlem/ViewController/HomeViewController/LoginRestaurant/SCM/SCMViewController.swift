@@ -24,6 +24,12 @@ class SCMViewController: BaseViewController {
     var viewModel: SCMViewModelProtocol!
     
     
+    @IBOutlet weak var view_background: BackgroundView!{
+        didSet {
+            view_background.setTitle("Dự Báo Bán Hàng").done()
+        }
+    }
+    @IBOutlet weak var view_expectedRevenue: UIView!
     
     // MARK: - LifeCycle
     override func viewDidLoad() {
@@ -31,7 +37,10 @@ class SCMViewController: BaseViewController {
         self.setupInit()
         self.viewModel.onViewDidLoad()
     }
-    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        view_expectedRevenue.setGradientBackground(colorLeft: .OrangeFDB355, colorRight: .OrangeE63143)
+    }
     // MARK: - Init
     private func setupInit() {
 //        dataSource = self

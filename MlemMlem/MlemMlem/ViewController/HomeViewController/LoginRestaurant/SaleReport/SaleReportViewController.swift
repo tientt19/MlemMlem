@@ -23,6 +23,11 @@ class SaleReportViewController: BaseViewController {
     var router: SaleReportRouterProtocol!
     var viewModel: SaleReportViewModelProtocol!
     
+    @IBOutlet weak var view_background: BackgroundView! {
+        didSet {
+            view_background.setTitle("Báo Cáo Thống Kê").done()
+        }
+    }
     
     
     // MARK: - LifeCycle

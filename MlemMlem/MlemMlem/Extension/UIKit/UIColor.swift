@@ -47,6 +47,7 @@ extension UIColor {
     static var OrangeFE7A3E: UIColor { return UIColor(hex: "FE7A3E")}
     static var OrangeFE8F47: UIColor { return UIColor(hex: "FE8F47")}
     static var OrangeFDECDB: UIColor { return UIColor(hex: "FDECDB")}
+    static var OrangeE63143: UIColor { return UIColor(hex: "E63143")}
     static var RedE63143: UIColor { return UIColor(hex: "E63143")}
     static var Black0E1A2A: UIColor { return UIColor(hex: "0E1A2A")}
 }

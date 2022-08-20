@@ -3,7 +3,7 @@
 //  ListExpectedDishViewController.swift
 //  MlemMlem
 //
-//  Created by TruongTV2 on 24/08/2022.
+//  Created by MaiNT6 on 8/20/22.
 //
 //
 
@@ -24,7 +24,6 @@ class ListExpectedDishViewController: BaseViewController {
     var viewModel: ListExpectedDishViewModelProtocol!
     
     
-    @IBOutlet weak var tbv_TableView: UITableView!
     
     // MARK: - LifeCycle
     override func viewDidLoad() {

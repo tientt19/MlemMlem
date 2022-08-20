@@ -46,7 +46,9 @@ class TableRestaurantViewController: BaseViewController {
     
     // MARK: - Init
     private func setupInit() {
-        setIntCollectionView()
+        self.coll_CollectionView.registerNib(ofType: CellCollectionViewTableRestaurant.self)
+        self.coll_CollectionView.delegate = self
+        self.coll_CollectionView.dataSource = self
     }
     
     // MARK: - Action
