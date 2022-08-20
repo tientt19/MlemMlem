@@ -158,6 +158,11 @@
 		52D9AA01289FEE570085A327 /* SKToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C2289FEE560085A327 /* SKToast.swift */; };
 		52D9AA02289FEE570085A327 /* SKUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C4289FEE560085A327 /* SKUserDefault.swift */; };
 		52D9AA03289FEE570085A327 /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C6289FEE560085A327 /* InternetConnection.swift */; };
+		AD1F123D28B0F61500BAA4BC /* ListExpectedDishRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1F123828B0F61500BAA4BC /* ListExpectedDishRouter.swift */; };
+		AD1F123E28B0F61500BAA4BC /* ListExpectedDishInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1F123928B0F61500BAA4BC /* ListExpectedDishInteractorInput.swift */; };
+		AD1F123F28B0F61500BAA4BC /* ListExpectedDishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1F123A28B0F61500BAA4BC /* ListExpectedDishViewController.swift */; };
+		AD1F124028B0F61500BAA4BC /* ListExpectedDishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1F123B28B0F61500BAA4BC /* ListExpectedDishViewModel.swift */; };
+		AD1F124128B0F61500BAA4BC /* ListExpectedDishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD1F123C28B0F61500BAA4BC /* ListExpectedDishViewController.xib */; };
 		AD85AD4728A8E23B00731BC7 /* PaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD85AD4528A8E23B00731BC7 /* PaymentMethodView.swift */; };
 		AD85AD4828A8E23B00731BC7 /* PaymentMethodView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD85AD4628A8E23B00731BC7 /* PaymentMethodView.xib */; };
 		ADA51A8428A7B0C80099DCA2 /* ServicePackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A6428A7B0C80099DCA2 /* ServicePackViewModel.swift */; };
@@ -1569,6 +1574,7 @@
 				FF4033B828A0B9CA00EFCD24 /* Inter-Medium.ttf in Resources */,
 				CAB59D8428AD101E00FB5F36 /* TableRestaurantViewController.xib in Resources */,
 				52191AB1289E9E1E0054D72E /* Assets.xcassets in Resources */,
+				AD1F124128B0F61500BAA4BC /* ListExpectedDishViewController.xib in Resources */,
 				ADA51A9B28A7B0C80099DCA2 /* CreditCardViewController.xib in Resources */,
 				FF4033BA28A0B9CA00EFCD24 /* Inter-Thin.ttf in Resources */,
 				52CB18E9289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-BoldItalic_1.otf in Resources */,
@@ -1658,6 +1664,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD1F123D28B0F61500BAA4BC /* ListExpectedDishRouter.swift in Sources */,
 				52CB18D3289FF29D00B2DFEC /* BaseViewController.swift in Sources */,
 				52C05E5528A549AC006A68A2 /* RestaurantUpdateRouter.swift in Sources */,
 				522479DA28A94CCF00C1D092 /* SaleReportInteractorInput.swift in Sources */,
@@ -1777,6 +1784,7 @@
 				522479E528A94CEE00C1D092 /* SCMViewController.swift in Sources */,
 				52D9A9DF289FEE560085A327 /* ServiceAPI.swift in Sources */,
 				ADA51ABB28A7B4D30099DCA2 /* PaymentEWalletMethodViewController.swift in Sources */,
+				AD1F124028B0F61500BAA4BC /* ListExpectedDishViewModel.swift in Sources */,
 				522479D128A94CA700C1D092 /* MenuViewController.swift in Sources */,
 				522479D928A94CCF00C1D092 /* SaleReportRouter.swift in Sources */,
 				FF4033C728A0D9B000EFCD24 /* SignUpRouter.swift in Sources */,
@@ -1784,7 +1792,9 @@
 				529617D428A157FA00C7BFE4 /* ConfirmSignUpViewController.swift in Sources */,
 				CA7C8CBD28AE6DFC00F36F37 /* KichenShareViewModel.swift in Sources */,
 				ADA51A9028A7B0C80099DCA2 /* PopupPaymentSuccessRouter.swift in Sources */,
+				AD1F123E28B0F61500BAA4BC /* ListExpectedDishInteractorInput.swift in Sources */,
 				5224799B28A941F600C1D092 /* CellTableViewRestaurant.swift in Sources */,
+				AD1F123F28B0F61500BAA4BC /* ListExpectedDishViewController.swift in Sources */,
 				52D9A9F0289FEE570085A327 /* PanModalHeight.swift in Sources */,
 				52191AAA289E9E1B0054D72E /* SceneDelegate.swift in Sources */,
 				CA3E16CE28AE634A00DB613B /* DetailTableRestaurantRouter.swift in Sources */,
