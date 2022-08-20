@@ -13,7 +13,6 @@ import UIKit
 protocol TableRestaurantViewModelProtocol {
     func onViewDidLoad()
     //func onViewDidAppear()
-    
     // UITableView
     //func numberOfSections() -> Int
     //func numberOfRows() -> Int
