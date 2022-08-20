@@ -54,7 +54,9 @@ class TableRestaurantViewController: BaseViewController {
     
     // MARK: - Init
     private func setupInit() {
-        setIntCollectionView()
+        self.coll_CollectionView.registerNib(ofType: CellCollectionViewTableRestaurant.self)
+        self.coll_CollectionView.delegate = self
+        self.coll_CollectionView.dataSource = self
     }
     
     // MARK: - Action
@@ -62,11 +64,6 @@ class TableRestaurantViewController: BaseViewController {
 }
 
 extension TableRestaurantViewController: UICollectionViewDataSource {
-    func setIntCollectionView() {
-        self.coll_CollectionView.registerNib(ofType: CellCollectionViewTableRestaurant.self)
-        self.coll_CollectionView.delegate = self
-        self.coll_CollectionView.dataSource = self
-    }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 20

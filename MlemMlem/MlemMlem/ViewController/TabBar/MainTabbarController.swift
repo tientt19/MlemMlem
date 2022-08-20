@@ -92,7 +92,8 @@ class MainTabbarController: UITabBarController {
         let controlNavController = BaseNavigationController(rootViewController: controlController)
         controlNavController.setHiddenNavigationBarViewControllers([ControlViewController.self,
                                                                     KitchenViewViewController.self,
-                                                                    TableRestaurantViewController.self])
+                                                                    TableRestaurantViewController.self,
+                                                                    DetailTableRestaurantViewController.self])
         
         // MARK: Page 2
         let accountController = AccountRouter.setupModule()
@@ -126,7 +127,7 @@ class MainTabbarController: UITabBarController {
         saleController.tabBarItem.image = R.image.ic_tab4_unselected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         saleController.tabBarItem.selectedImage = R.image.ic_tab4_selected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         let saleNavController = BaseNavigationController(rootViewController: saleController)
-        saleNavController.setHiddenNavigationBarViewControllers([])
+        saleNavController.setHiddenNavigationBarViewControllers([SaleReportViewController.self])
         
         // MARK: Page 5
         let SCMController = SCMRouter.setupModule()
@@ -137,7 +138,7 @@ class MainTabbarController: UITabBarController {
         SCMController.tabBarItem.image = R.image.ic_tab5_unselected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         SCMController.tabBarItem.selectedImage = R.image.ic_tab5_selected()?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         let SCMNavController = BaseNavigationController(rootViewController: SCMController)
-        SCMNavController.setHiddenNavigationBarViewControllers([])
+        SCMNavController.setHiddenNavigationBarViewControllers([SCMViewController.self])
         
         // MARK:  Add Tabbar
         self.viewControllers = [
