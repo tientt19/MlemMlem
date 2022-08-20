@@ -40,6 +40,6 @@ extension TableRestaurantRouter: TableRestaurantRouterProtocol {
         let viewController = DetailTableRestaurantRouter.setupModule()
         viewController.numberOfTable = numberOfTable
         viewController.modalPresentationStyle = .fullScreen
-        viewController.navigationController?.pushViewController(viewController, animated: true)
+        self.viewController?.navigationController?.show(viewController, sender: nil)
     }
 }

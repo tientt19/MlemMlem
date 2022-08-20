@@ -47,6 +47,7 @@ extension ControlRouter: ControlRouterProtocol {
     func gotoTableRestaurant() {
         let viewController = TableRestaurantRouter.setupModule()
         viewController.modalPresentationStyle = .fullScreen
+        viewController.hidesBottomBarWhenPushed = true
         self.viewController?.navigationController?.show(viewController, sender: nil)
     }
 }
