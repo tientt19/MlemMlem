@@ -489,6 +489,18 @@
 		CA7C8CC228AE70CB00F36F37 /* KichenViewOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KichenViewOptionViewController.swift; sourceTree = "<group>"; };
 		CA7C8CC328AE70CB00F36F37 /* KichenViewOptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KichenViewOptionViewModel.swift; sourceTree = "<group>"; };
 		CA7C8CC428AE70CB00F36F37 /* KichenViewOptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KichenViewOptionViewController.xib; sourceTree = "<group>"; };
+		CA8B5A8328B6436C00C0BF03 /* StatisticalChartRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticalChartRouter.swift; sourceTree = "<group>"; };
+		CA8B5A8428B6436C00C0BF03 /* StatisticalChartInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticalChartInteractorInput.swift; sourceTree = "<group>"; };
+		CA8B5A8528B6436C00C0BF03 /* StatisticalChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticalChartViewController.swift; sourceTree = "<group>"; };
+		CA8B5A8628B6436C00C0BF03 /* StatisticalChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticalChartViewModel.swift; sourceTree = "<group>"; };
+		CA8B5A8728B6436C00C0BF03 /* StatisticalChartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticalChartViewController.xib; sourceTree = "<group>"; };
+		CA8B5A9328B6530A00C0BF03 /* CellTableViewExpectedDish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTableViewExpectedDish.swift; sourceTree = "<group>"; };
+		CA8B5A9428B6530A00C0BF03 /* CellTableViewExpectedDish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellTableViewExpectedDish.xib; sourceTree = "<group>"; };
+		CA8B5A9A28B6538300C0BF03 /* ListExpectedDishRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExpectedDishRouter.swift; sourceTree = "<group>"; };
+		CA8B5A9B28B6538300C0BF03 /* ListExpectedDishInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExpectedDishInteractorInput.swift; sourceTree = "<group>"; };
+		CA8B5A9C28B6538300C0BF03 /* ListExpectedDishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExpectedDishViewController.swift; sourceTree = "<group>"; };
+		CA8B5A9D28B6538300C0BF03 /* ListExpectedDishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExpectedDishViewModel.swift; sourceTree = "<group>"; };
+		CA8B5A9E28B6538300C0BF03 /* ListExpectedDishViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListExpectedDishViewController.xib; sourceTree = "<group>"; };
 		CAB59D7428ACFE0600FB5F36 /* CellTableViewKitchenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewKitchenView.swift; sourceTree = "<group>"; };
 		CAB59D7528ACFE0600FB5F36 /* CellTableViewKitchenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTableViewKitchenView.xib; sourceTree = "<group>"; };
 		CAB59D7B28AD101E00FB5F36 /* TableRestaurantRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRestaurantRouter.swift; sourceTree = "<group>"; };
@@ -496,6 +508,8 @@
 		CAB59D7D28AD101E00FB5F36 /* TableRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRestaurantViewController.swift; sourceTree = "<group>"; };
 		CAB59D7E28AD101E00FB5F36 /* TableRestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRestaurantViewModel.swift; sourceTree = "<group>"; };
 		CAB59D7F28AD101E00FB5F36 /* TableRestaurantViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableRestaurantViewController.xib; sourceTree = "<group>"; };
+		CAE520C528B399BD0093C103 /* CellTableViewExpectedDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewExpectedDish.swift; sourceTree = "<group>"; };
+		CAE520C628B399BD0093C103 /* CellTableViewExpectedDish.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTableViewExpectedDish.xib; sourceTree = "<group>"; };
 		CAEAB1D128AD191C00014788 /* CellCollectionViewTableRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCollectionViewTableRestaurant.swift; sourceTree = "<group>"; };
 		CAEAB1D228AD191C00014788 /* CellCollectionViewTableRestaurant.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellCollectionViewTableRestaurant.xib; sourceTree = "<group>"; };
 		CAEAB1D528AD1AC200014788 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
@@ -546,6 +560,7 @@
 				52D9A967289FEABA0085A327 /* Support Files */,
 				AD0B1A9C6E321A976530C108 /* Pods */,
 				DDDAC1AEF6D896C5FE5F67B9 /* Frameworks */,
+				CA8B5A8F28B6527400C0BF03 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -669,6 +684,7 @@
 		522479B428A94C5B00C1D092 /* SaleReport */ = {
 			isa = PBXGroup;
 			children = (
+				CA8B5A8D28B6437600C0BF03 /*  StatisticalChart */,
 				522479D428A94CCF00C1D092 /* SaleReportRouter.swift */,
 				522479D528A94CCF00C1D092 /* SaleReportInteractorInput.swift */,
 				522479D628A94CCF00C1D092 /* SaleReportViewController.swift */,
@@ -1280,6 +1296,49 @@
 			path = KichenViewOption;
 			sourceTree = "<group>";
 		};
+		CA8B5A8D28B6437600C0BF03 /*  StatisticalChart */ = {
+			isa = PBXGroup;
+			children = (
+				CA8B5A8328B6436C00C0BF03 /* StatisticalChartRouter.swift */,
+				CA8B5A8428B6436C00C0BF03 /* StatisticalChartInteractorInput.swift */,
+				CA8B5A8528B6436C00C0BF03 /* StatisticalChartViewController.swift */,
+				CA8B5A8628B6436C00C0BF03 /* StatisticalChartViewModel.swift */,
+				CA8B5A8728B6436C00C0BF03 /* StatisticalChartViewController.xib */,
+			);
+			path = " StatisticalChart";
+			sourceTree = "<group>";
+		};
+		CA8B5A8F28B6527400C0BF03 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				CAE520C528B399BD0093C103 /* CellTableViewExpectedDish.swift */,
+				CAE520C628B399BD0093C103 /* CellTableViewExpectedDish.xib */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		CA8B5A9028B6530A00C0BF03 /* ListExpectedDish */ = {
+			isa = PBXGroup;
+			children = (
+				CA8B5A9228B6530A00C0BF03 /* Cell */,
+				CA8B5A9A28B6538300C0BF03 /* ListExpectedDishRouter.swift */,
+				CA8B5A9B28B6538300C0BF03 /* ListExpectedDishInteractorInput.swift */,
+				CA8B5A9C28B6538300C0BF03 /* ListExpectedDishViewController.swift */,
+				CA8B5A9D28B6538300C0BF03 /* ListExpectedDishViewModel.swift */,
+				CA8B5A9E28B6538300C0BF03 /* ListExpectedDishViewController.xib */,
+			);
+			path = ListExpectedDish;
+			sourceTree = "<group>";
+		};
+		CA8B5A9228B6530A00C0BF03 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CA8B5A9328B6530A00C0BF03 /* CellTableViewExpectedDish.swift */,
+				CA8B5A9428B6530A00C0BF03 /* CellTableViewExpectedDish.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		CAB59D7328ACFDF200FB5F36 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -1417,9 +1476,7 @@
 			buildPhases = (
 				885CD4A17D66281C27BFFC04 /* [CP] Check Pods Manifest.lock */,
 				52D9A971289FEC6E0085A327 /* ShellScript */,
-				52191AA0289E9E1B0054D72E /* Sources */,
 				52191AA1289E9E1B0054D72E /* Frameworks */,
-				52191AA2289E9E1B0054D72E /* Resources */,
 				242CB91FB59F8516866442C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
