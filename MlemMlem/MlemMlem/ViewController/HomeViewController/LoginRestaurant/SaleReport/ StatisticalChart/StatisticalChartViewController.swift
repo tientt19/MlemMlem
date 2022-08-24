@@ -1,16 +1,16 @@
 //
 //  
-//  SCMViewController.swift
+//  StatisticalChartViewController.swift
 //  MlemMlem
 //
-//  Created by Valerian on 14/08/2022.
+//  Created by TruongTV2 on 24/08/2022.
 //
 //
 
 import UIKit
 
 // MARK: - ViewProtocol
-protocol SCMViewProtocol: AnyObject {
+protocol StatisticalChartViewProtocol: AnyObject {
     func showHud()
     func hideHud()
     
@@ -18,10 +18,10 @@ protocol SCMViewProtocol: AnyObject {
     //func onReloadData()
 }
 
-// MARK: - SCM ViewController
-class SCMViewController: BaseViewController {
-    var router: SCMRouterProtocol!
-    var viewModel: SCMViewModelProtocol!
+// MARK: - StatisticalChart ViewController
+class StatisticalChartViewController: BaseViewController {
+    var router: StatisticalChartRouterProtocol!
+    var viewModel: StatisticalChartViewModelProtocol!
     
     
     
@@ -34,17 +34,15 @@ class SCMViewController: BaseViewController {
     
     // MARK: - Init
     private func setupInit() {
-//        dataSource = self
-//        delegate = self
-//        setViewControllers([viewModel.createSlideViewController(fromIndex: 0)], direction: .forward, animated: true)
+
     }
     
     // MARK: - Action
     
 }
 
-// MARK: - SCM ViewProtocol
-extension SCMViewController: SCMViewProtocol {
+// MARK: - StatisticalChart ViewProtocol
+extension StatisticalChartViewController: StatisticalChartViewProtocol {
     func showHud() {
         self.showProgressHud()
     }

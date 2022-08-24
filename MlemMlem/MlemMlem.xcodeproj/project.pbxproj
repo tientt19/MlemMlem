@@ -8,246 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2D5C6334F0A2E74D26F428F7 /* Pods_MlemMlem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D84F1819E313C814BC82DBE /* Pods_MlemMlem.framework */; };
-		52191AA8289E9E1B0054D72E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52191AA7289E9E1B0054D72E /* AppDelegate.swift */; };
-		52191AAA289E9E1B0054D72E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52191AA9289E9E1B0054D72E /* SceneDelegate.swift */; };
-		52191AAF289E9E1B0054D72E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52191AAD289E9E1B0054D72E /* Main.storyboard */; };
-		52191AB1289E9E1E0054D72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52191AB0289E9E1E0054D72E /* Assets.xcassets */; };
-		52191AB4289E9E1E0054D72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52191AB2289E9E1E0054D72E /* LaunchScreen.storyboard */; };
-		5224799328A93BF700C1D092 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224798E28A93BF700C1D092 /* HomeRouter.swift */; };
-		5224799428A93BF700C1D092 /* HomeInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224798F28A93BF700C1D092 /* HomeInteractorInput.swift */; };
-		5224799528A93BF700C1D092 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224799028A93BF700C1D092 /* HomeViewController.swift */; };
-		5224799628A93BF700C1D092 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224799128A93BF700C1D092 /* HomeViewModel.swift */; };
-		5224799728A93BF700C1D092 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5224799228A93BF700C1D092 /* HomeViewController.xib */; };
-		5224799B28A941F600C1D092 /* CellTableViewRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224799928A941F600C1D092 /* CellTableViewRestaurant.swift */; };
-		5224799C28A941F600C1D092 /* CellTableViewRestaurant.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5224799A28A941F600C1D092 /* CellTableViewRestaurant.xib */; };
-		522479A328A9451300C1D092 /* LoginRestaurantRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224799E28A9451300C1D092 /* LoginRestaurantRouter.swift */; };
-		522479A428A9451300C1D092 /* LoginRestaurantInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224799F28A9451300C1D092 /* LoginRestaurantInteractorInput.swift */; };
-		522479A528A9451300C1D092 /* LoginRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479A028A9451300C1D092 /* LoginRestaurantViewController.swift */; };
-		522479A628A9451300C1D092 /* LoginRestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479A128A9451300C1D092 /* LoginRestaurantViewModel.swift */; };
-		522479A728A9451300C1D092 /* LoginRestaurantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522479A228A9451300C1D092 /* LoginRestaurantViewController.xib */; };
-		522479AD28A94ABD00C1D092 /* TabbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479A928A94ABC00C1D092 /* TabbarItem.swift */; };
-		522479AE28A94ABD00C1D092 /* UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479AA28A94ABC00C1D092 /* UITabBarController.swift */; };
-		522479AF28A94ABD00C1D092 /* MainTabbarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522479AB28A94ABC00C1D092 /* MainTabbarController.xib */; };
-		522479B028A94ABD00C1D092 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479AC28A94ABC00C1D092 /* MainTabbarController.swift */; };
-		522479BB28A94C7800C1D092 /* ControlRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479B628A94C7800C1D092 /* ControlRouter.swift */; };
-		522479BC28A94C7800C1D092 /* ControlInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479B728A94C7800C1D092 /* ControlInteractorInput.swift */; };
-		522479BD28A94C7800C1D092 /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479B828A94C7800C1D092 /* ControlViewController.swift */; };
-		522479BE28A94C7800C1D092 /* ControlViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479B928A94C7800C1D092 /* ControlViewModel.swift */; };
-		522479BF28A94C7800C1D092 /* ControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522479BA28A94C7800C1D092 /* ControlViewController.xib */; };
-		522479C528A94C8F00C1D092 /* AccountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479C028A94C8F00C1D092 /* AccountRouter.swift */; };
-		522479C628A94C8F00C1D092 /* AccountInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479C128A94C8F00C1D092 /* AccountInteractorInput.swift */; };
-		522479C728A94C8F00C1D092 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479C228A94C8F00C1D092 /* AccountViewController.swift */; };
-		522479C828A94C8F00C1D092 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479C328A94C8F00C1D092 /* AccountViewModel.swift */; };
-		522479C928A94C8F00C1D092 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522479C428A94C8F00C1D092 /* AccountViewController.xib */; };
-		522479CF28A94CA700C1D092 /* MenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479CA28A94CA700C1D092 /* MenuRouter.swift */; };
-		522479D028A94CA700C1D092 /* MenuInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479CB28A94CA700C1D092 /* MenuInteractorInput.swift */; };
-		522479D128A94CA700C1D092 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479CC28A94CA700C1D092 /* MenuViewController.swift */; };
-		522479D228A94CA700C1D092 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479CD28A94CA700C1D092 /* MenuViewModel.swift */; };
-		522479D328A94CA700C1D092 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522479CE28A94CA700C1D092 /* MenuViewController.xib */; };
-		522479D928A94CCF00C1D092 /* SaleReportRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479D428A94CCF00C1D092 /* SaleReportRouter.swift */; };
-		522479DA28A94CCF00C1D092 /* SaleReportInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479D528A94CCF00C1D092 /* SaleReportInteractorInput.swift */; };
-		522479DB28A94CCF00C1D092 /* SaleReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479D628A94CCF00C1D092 /* SaleReportViewController.swift */; };
-		522479DC28A94CCF00C1D092 /* SaleReportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479D728A94CCF00C1D092 /* SaleReportViewModel.swift */; };
-		522479DD28A94CCF00C1D092 /* SaleReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522479D828A94CCF00C1D092 /* SaleReportViewController.xib */; };
-		522479E328A94CEE00C1D092 /* SCMRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479DE28A94CEE00C1D092 /* SCMRouter.swift */; };
-		522479E428A94CEE00C1D092 /* SCMInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479DF28A94CEE00C1D092 /* SCMInteractorInput.swift */; };
-		522479E528A94CEE00C1D092 /* SCMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479E028A94CEE00C1D092 /* SCMViewController.swift */; };
-		522479E628A94CEE00C1D092 /* SCMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522479E128A94CEE00C1D092 /* SCMViewModel.swift */; };
-		522479E728A94CEE00C1D092 /* SCMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522479E228A94CEE00C1D092 /* SCMViewController.xib */; };
-		529617D228A157FA00C7BFE4 /* ConfirmSignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529617CD28A157F900C7BFE4 /* ConfirmSignUpRouter.swift */; };
-		529617D328A157FA00C7BFE4 /* ConfirmSignUpInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529617CE28A157F900C7BFE4 /* ConfirmSignUpInteractorInput.swift */; };
-		529617D428A157FA00C7BFE4 /* ConfirmSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529617CF28A157F900C7BFE4 /* ConfirmSignUpViewController.swift */; };
-		529617D528A157FA00C7BFE4 /* ConfirmSignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529617D028A157F900C7BFE4 /* ConfirmSignUpViewModel.swift */; };
-		529617D628A157FA00C7BFE4 /* ConfirmSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529617D128A157F900C7BFE4 /* ConfirmSignUpViewController.xib */; };
-		52C05E5528A549AC006A68A2 /* RestaurantUpdateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5028A549AC006A68A2 /* RestaurantUpdateRouter.swift */; };
-		52C05E5628A549AC006A68A2 /* RestaurantUpdateInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5128A549AC006A68A2 /* RestaurantUpdateInteractorInput.swift */; };
-		52C05E5728A549AC006A68A2 /* RestaurantUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5228A549AC006A68A2 /* RestaurantUpdateViewController.swift */; };
-		52C05E5828A549AC006A68A2 /* RestaurantUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5328A549AC006A68A2 /* RestaurantUpdateViewModel.swift */; };
-		52C05E5928A549AC006A68A2 /* RestaurantUpdateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C05E5428A549AC006A68A2 /* RestaurantUpdateViewController.xib */; };
-		52C05E6028A5552D006A68A2 /* PaymentMethodRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5B28A5552D006A68A2 /* PaymentMethodRouter.swift */; };
-		52C05E6128A5552D006A68A2 /* PaymentMethodInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5C28A5552D006A68A2 /* PaymentMethodInteractorInput.swift */; };
-		52C05E6228A5552D006A68A2 /* PaymentMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5D28A5552D006A68A2 /* PaymentMethodViewController.swift */; };
-		52C05E6328A5552D006A68A2 /* PaymentMethodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C05E5E28A5552D006A68A2 /* PaymentMethodViewModel.swift */; };
-		52C05E6428A5552E006A68A2 /* PaymentMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52C05E5F28A5552D006A68A2 /* PaymentMethodViewController.xib */; };
-		52CB18CD289FF12600B2DFEC /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB18CC289FF12600B2DFEC /* R.generated.swift */; };
-		52CB18CF289FF1B700B2DFEC /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18CE289FF1B700B2DFEC /* Color.xcassets */; };
-		52CB18D3289FF29D00B2DFEC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB18D1289FF29C00B2DFEC /* BaseViewController.swift */; };
-		52CB18D4289FF29D00B2DFEC /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB18D2289FF29C00B2DFEC /* BaseNavigationController.swift */; };
-		52CB18E6289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-ThinItalic_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18D6289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-ThinItalic_1.otf */; };
-		52CB18E7289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Semibold_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18D7289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Semibold_1.otf */; };
-		52CB18E8289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-RegularItalic_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18D8289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-RegularItalic_1.otf */; };
-		52CB18E9289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-BoldItalic_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18D9289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-BoldItalic_1.otf */; };
-		52CB18EA289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Bold_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18DA289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Bold_1.otf */; };
-		52CB18EB289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Regular_3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18DB289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Regular_3.otf */; };
-		52CB18EC289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Thin_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18DC289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Thin_1.otf */; };
-		52CB18ED289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-BlackItalic_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18DD289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-BlackItalic_1.otf */; };
-		52CB18EE289FF2D800B2DFEC /* Intelligent Design - AvertaStdCy-ExtrathinItalic_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18DE289FF2D800B2DFEC /* Intelligent Design - AvertaStdCy-ExtrathinItalic_1.otf */; };
-		52CB18EF289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-SemiboldItalic_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18DF289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-SemiboldItalic_1.otf */; };
-		52CB18F0289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Light_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18E0289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Light_1.otf */; };
-		52CB18F1289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-ExtraboldItalic_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18E1289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-ExtraboldItalic_1.otf */; };
-		52CB18F2289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Black_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18E2289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Black_1.otf */; };
-		52CB18F3289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Extrabold_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18E3289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Extrabold_1.otf */; };
-		52CB18F4289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-LightItalic_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18E4289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-LightItalic_1.otf */; };
-		52CB18F5289FF2D800B2DFEC /* Intelligent Design - AvertaStdCy-Extrathin_1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18E5289FF2D800B2DFEC /* Intelligent Design - AvertaStdCy-Extrathin_1.otf */; };
-		52CB18FD289FF34600B2DFEC /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB18F8289FF34600B2DFEC /* SplashRouter.swift */; };
-		52CB18FE289FF34600B2DFEC /* SplashInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB18F9289FF34600B2DFEC /* SplashInteractorInput.swift */; };
-		52CB18FF289FF34600B2DFEC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB18FA289FF34600B2DFEC /* SplashViewController.swift */; };
-		52CB1900289FF34600B2DFEC /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB18FB289FF34600B2DFEC /* SplashViewModel.swift */; };
-		52CB1901289FF34600B2DFEC /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52CB18FC289FF34600B2DFEC /* SplashViewController.xib */; };
-		52CB1907289FF36300B2DFEC /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB1902289FF36300B2DFEC /* LoginRouter.swift */; };
-		52CB1908289FF36300B2DFEC /* LoginInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB1903289FF36300B2DFEC /* LoginInteractorInput.swift */; };
-		52CB1909289FF36300B2DFEC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB1904289FF36300B2DFEC /* LoginViewController.swift */; };
-		52CB190A289FF36300B2DFEC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB1905289FF36300B2DFEC /* LoginViewModel.swift */; };
-		52CB190B289FF36300B2DFEC /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52CB1906289FF36300B2DFEC /* LoginViewController.xib */; };
-		52D9A965289FEAA90085A327 /* Format_Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A963289FEAA90085A327 /* Format_Name.swift */; };
-		52D9A966289FEAA90085A327 /* IBOutlet_Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A964289FEAA90085A327 /* IBOutlet_Name.swift */; };
-		52D9A9C7289FEE560085A327 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A973289FEE560085A327 /* Date.swift */; };
-		52D9A9C8289FEE560085A327 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A974289FEE560085A327 /* Error.swift */; };
-		52D9A9C9289FEE560085A327 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A976289FEE560085A327 /* UIView.swift */; };
-		52D9A9CA289FEE560085A327 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A977289FEE560085A327 /* UIColor.swift */; };
-		52D9A9CC289FEE560085A327 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A979289FEE560085A327 /* UITableView.swift */; };
-		52D9A9CD289FEE560085A327 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A97A289FEE560085A327 /* UIDevice.swift */; };
-		52D9A9CE289FEE560085A327 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A97B289FEE560085A327 /* UIImageView.swift */; };
-		52D9A9CF289FEE560085A327 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A97C289FEE560085A327 /* UIAlertController.swift */; };
-		52D9A9D0289FEE560085A327 /* EmptyDataSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A97E289FEE560085A327 /* EmptyDataSetView.swift */; };
-		52D9A9D1289FEE560085A327 /* EmptyDataSetView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A97F289FEE560085A327 /* EmptyDataSetView+Extension.swift */; };
-		52D9A9D2289FEE560085A327 /* EmptyDataSetSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A980289FEE560085A327 /* EmptyDataSetSource.swift */; };
-		52D9A9D3289FEE560085A327 /* EmptyDataSetDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A981289FEE560085A327 /* EmptyDataSetDelegate.swift */; };
-		52D9A9D4289FEE560085A327 /* EmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A982289FEE560085A327 /* EmptyDataSet.swift */; };
-		52D9A9D5289FEE560085A327 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A983289FEE560085A327 /* Number.swift */; };
-		52D9A9D6289FEE560085A327 /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A984289FEE560085A327 /* Encodable.swift */; };
-		52D9A9D7289FEE560085A327 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A985289FEE560085A327 /* String.swift */; };
-		52D9A9D8289FEE560085A327 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A986289FEE560085A327 /* TimeInterval.swift */; };
-		52D9A9D9289FEE560085A327 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A988289FEE560085A327 /* Constant.swift */; };
-		52D9A9DA289FEE560085A327 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A989289FEE560085A327 /* NotificationName.swift */; };
-		52D9A9DB289FEE560085A327 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A98A289FEE560085A327 /* Common.swift */; };
-		52D9A9DC289FEE560085A327 /* SignInConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A98B289FEE560085A327 /* SignInConfig.swift */; };
-		52D9A9DD289FEE560085A327 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A98C289FEE560085A327 /* Key.swift */; };
-		52D9A9DE289FEE560085A327 /* ProgressPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A98E289FEE560085A327 /* ProgressPosition.swift */; };
-		52D9A9DF289FEE560085A327 /* ServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A990289FEE560085A327 /* ServiceAPI.swift */; };
-		52D9A9E1289FEE560085A327 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A993289FEE560085A327 /* APIError.swift */; };
-		52D9A9E2289FEE560085A327 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A994289FEE560085A327 /* Log.swift */; };
-		52D9A9E3289FEE560085A327 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A995289FEE560085A327 /* Result.swift */; };
-		52D9A9E4289FEE570085A327 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A996289FEE560085A327 /* BaseService.swift */; };
-		52D9A9E5289FEE570085A327 /* ApiUrlProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A997289FEE560085A327 /* ApiUrlProtocols.swift */; };
-		52D9A9E6289FEE570085A327 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A998289FEE560085A327 /* BaseModel.swift */; };
-		52D9A9E9289FEE570085A327 /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A99C289FEE560085A327 /* Units.swift */; };
-		52D9A9EA289FEE570085A327 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A99D289FEE560085A327 /* Utils.swift */; };
-		52D9A9EB289FEE570085A327 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A99E289FEE560085A327 /* ErrorView.swift */; };
-		52D9A9EC289FEE570085A327 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9A1289FEE560085A327 /* Network.swift */; };
-		52D9A9ED289FEE570085A327 /* PanModalPresentable+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9A4289FEE560085A327 /* PanModalPresentable+Defaults.swift */; };
-		52D9A9EE289FEE570085A327 /* PanModalPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9A5289FEE560085A327 /* PanModalPresentable.swift */; };
-		52D9A9EF289FEE570085A327 /* PanModalPresentable+LayoutHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9A6289FEE560085A327 /* PanModalPresentable+LayoutHelpers.swift */; };
-		52D9A9F0289FEE570085A327 /* PanModalHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9A7289FEE560085A327 /* PanModalHeight.swift */; };
-		52D9A9F1289FEE570085A327 /* PanModalPresentable+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9A8289FEE560085A327 /* PanModalPresentable+UIViewController.swift */; };
-		52D9A9F2289FEE570085A327 /* UIViewController+PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9AA289FEE560085A327 /* UIViewController+PanModalPresenter.swift */; };
-		52D9A9F3289FEE570085A327 /* PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9AB289FEE560085A327 /* PanModalPresenter.swift */; };
-		52D9A9F4289FEE570085A327 /* PanModalPresentationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9AD289FEE560085A327 /* PanModalPresentationDelegate.swift */; };
-		52D9A9F5289FEE570085A327 /* PanModalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9AF289FEE560085A327 /* PanModalAnimator.swift */; };
-		52D9A9F6289FEE570085A327 /* PanModalPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9B0289FEE560085A327 /* PanModalPresentationAnimator.swift */; };
-		52D9A9F7289FEE570085A327 /* PanModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9B2289FEE560085A327 /* PanModalPresentationController.swift */; };
-		52D9A9F8289FEE570085A327 /* PanContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9B4289FEE560085A327 /* PanContainerView.swift */; };
-		52D9A9F9289FEE570085A327 /* DimmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9B5289FEE560085A327 /* DimmedView.swift */; };
-		52D9A9FA289FEE570085A327 /* RemoteConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9B7289FEE560085A327 /* RemoteConfigManager.swift */; };
-		52D9A9FB289FEE570085A327 /* KeyChainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9B9289FEE560085A327 /* KeyChainManager.swift */; };
-		52D9A9FC289FEE570085A327 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9BB289FEE560085A327 /* CloseButton.swift */; };
-		52D9A9FD289FEE570085A327 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9BC289FEE560085A327 /* TagView.swift */; };
-		52D9A9FE289FEE570085A327 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9BD289FEE560085A327 /* TagListView.swift */; };
-		52D9A9FF289FEE570085A327 /* PushNotiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9BF289FEE560085A327 /* PushNotiModel.swift */; };
-		52D9AA00289FEE570085A327 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C0289FEE560085A327 /* LocalNotification.swift */; };
-		52D9AA01289FEE570085A327 /* SKToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C2289FEE560085A327 /* SKToast.swift */; };
-		52D9AA02289FEE570085A327 /* SKUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C4289FEE560085A327 /* SKUserDefault.swift */; };
-		52D9AA03289FEE570085A327 /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D9A9C6289FEE560085A327 /* InternetConnection.swift */; };
-		AD85AD4728A8E23B00731BC7 /* PaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD85AD4528A8E23B00731BC7 /* PaymentMethodView.swift */; };
-		AD85AD4828A8E23B00731BC7 /* PaymentMethodView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD85AD4628A8E23B00731BC7 /* PaymentMethodView.xib */; };
-		ADA51A8428A7B0C80099DCA2 /* ServicePackViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A6428A7B0C80099DCA2 /* ServicePackViewModel.swift */; };
-		ADA51A8528A7B0C80099DCA2 /* ServicePackRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A6528A7B0C80099DCA2 /* ServicePackRouter.swift */; };
-		ADA51A8628A7B0C80099DCA2 /* ServicePackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A6628A7B0C80099DCA2 /* ServicePackViewController.swift */; };
-		ADA51A8C28A7B0C80099DCA2 /* ServicePackInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A6D28A7B0C80099DCA2 /* ServicePackInteractorInput.swift */; };
-		ADA51A8D28A7B0C80099DCA2 /* ServicePackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51A6F28A7B0C80099DCA2 /* ServicePackTableViewCell.xib */; };
-		ADA51A8E28A7B0C80099DCA2 /* ServicePackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7028A7B0C80099DCA2 /* ServicePackTableViewCell.swift */; };
-		ADA51A8F28A7B0C80099DCA2 /* PopupPaymentSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51A7228A7B0C80099DCA2 /* PopupPaymentSuccessViewController.xib */; };
-		ADA51A9028A7B0C80099DCA2 /* PopupPaymentSuccessRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7328A7B0C80099DCA2 /* PopupPaymentSuccessRouter.swift */; };
-		ADA51A9128A7B0C80099DCA2 /* PopupPaymentSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7428A7B0C80099DCA2 /* PopupPaymentSuccessViewController.swift */; };
-		ADA51A9228A7B0C80099DCA2 /* PopupPaymentSuccessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7528A7B0C80099DCA2 /* PopupPaymentSuccessViewModel.swift */; };
-		ADA51A9328A7B0C80099DCA2 /* PopupPaymentSuccessInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7628A7B0C80099DCA2 /* PopupPaymentSuccessInteractorInput.swift */; };
-		ADA51A9428A7B0C80099DCA2 /* ServicePackDetailInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7828A7B0C80099DCA2 /* ServicePackDetailInteractorInput.swift */; };
-		ADA51A9528A7B0C80099DCA2 /* ServicePackDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7928A7B0C80099DCA2 /* ServicePackDetailViewModel.swift */; };
-		ADA51A9628A7B0C80099DCA2 /* ServicePackDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7A28A7B0C80099DCA2 /* ServicePackDetailRouter.swift */; };
-		ADA51A9728A7B0C80099DCA2 /* ServicePackDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51A7B28A7B0C80099DCA2 /* ServicePackDetailViewController.xib */; };
-		ADA51A9828A7B0C80099DCA2 /* ServicePackDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7C28A7B0C80099DCA2 /* ServicePackDetailViewController.swift */; };
-		ADA51A9928A7B0C80099DCA2 /* ServicePackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51A7D28A7B0C80099DCA2 /* ServicePackViewController.xib */; };
-		ADA51A9A28A7B0C80099DCA2 /* CreditCardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A7F28A7B0C80099DCA2 /* CreditCardRouter.swift */; };
-		ADA51A9B28A7B0C80099DCA2 /* CreditCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51A8028A7B0C80099DCA2 /* CreditCardViewController.xib */; };
-		ADA51A9C28A7B0C80099DCA2 /* CreditCardInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A8128A7B0C80099DCA2 /* CreditCardInteractorInput.swift */; };
-		ADA51A9D28A7B0C80099DCA2 /* CreditCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A8228A7B0C80099DCA2 /* CreditCardViewModel.swift */; };
-		ADA51A9E28A7B0C80099DCA2 /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51A8328A7B0C80099DCA2 /* CreditCardViewController.swift */; };
-		ADA51AA328A7B1A50099DCA2 /* BackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51AA128A7B1A50099DCA2 /* BackgroundView.xib */; };
-		ADA51AA428A7B1A50099DCA2 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AA228A7B1A50099DCA2 /* BackgroundView.swift */; };
-		ADA51AA728A7B1B20099DCA2 /* InterfaceRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AA528A7B1B20099DCA2 /* InterfaceRepresentable.swift */; };
-		ADA51AA828A7B1B20099DCA2 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AA628A7B1B20099DCA2 /* CustomView.swift */; };
-		ADA51AAF28A7B3950099DCA2 /* PaymentEWalletMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51AAA28A7B3950099DCA2 /* PaymentEWalletMethodViewController.xib */; };
-		ADA51AB928A7B4D30099DCA2 /* PaymentEWalletMethodRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AB428A7B4D30099DCA2 /* PaymentEWalletMethodRouter.swift */; };
-		ADA51ABA28A7B4D30099DCA2 /* PaymentEWalletMethodInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AB528A7B4D30099DCA2 /* PaymentEWalletMethodInteractorInput.swift */; };
-		ADA51ABB28A7B4D30099DCA2 /* PaymentEWalletMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AB628A7B4D30099DCA2 /* PaymentEWalletMethodViewController.swift */; };
-		ADA51ABC28A7B4D30099DCA2 /* PaymentEWalletMethodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AB728A7B4D30099DCA2 /* PaymentEWalletMethodViewModel.swift */; };
-		ADA51AC628A7B7650099DCA2 /* ListMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AC128A7B7650099DCA2 /* ListMenuRouter.swift */; };
-		ADA51AC728A7B7650099DCA2 /* ListMenuInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AC228A7B7650099DCA2 /* ListMenuInteractorInput.swift */; };
-		ADA51AC828A7B7650099DCA2 /* ListMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AC328A7B7650099DCA2 /* ListMenuViewController.swift */; };
-		ADA51AC928A7B7650099DCA2 /* ListMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA51AC428A7B7650099DCA2 /* ListMenuViewModel.swift */; };
-		ADA51ACA28A7B7650099DCA2 /* ListMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA51AC528A7B7650099DCA2 /* ListMenuViewController.xib */; };
-		ADF1EF2428A7CFC400C36065 /* ListMenuCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF1EF2228A7CFC400C36065 /* ListMenuCellTableViewCell.swift */; };
-		ADF1EF2528A7CFC400C36065 /* ListMenuCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF1EF2328A7CFC400C36065 /* ListMenuCellTableViewCell.xib */; };
-		ADF1EF2C28A7E07B00C36065 /* DishRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF1EF2728A7E07B00C36065 /* DishRouter.swift */; };
-		ADF1EF2D28A7E07B00C36065 /* DishInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF1EF2828A7E07B00C36065 /* DishInteractorInput.swift */; };
-		ADF1EF2E28A7E07B00C36065 /* DishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF1EF2928A7E07B00C36065 /* DishViewController.swift */; };
-		ADF1EF2F28A7E07B00C36065 /* DishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF1EF2A28A7E07B00C36065 /* DishViewModel.swift */; };
-		ADF1EF3028A7E07B00C36065 /* DishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF1EF2B28A7E07B00C36065 /* DishViewController.xib */; };
-		CA1538CB28ABA9BF002FF900 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1538CA28ABA9BF002FF900 /* UITextField.swift */; };
-		CA1EC04028ABC17F00913958 /* KitchenViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC03B28ABC17F00913958 /* KitchenViewRouter.swift */; };
-		CA1EC04128ABC17F00913958 /* KitchenViewInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC03C28ABC17F00913958 /* KitchenViewInteractorInput.swift */; };
-		CA1EC04228ABC17F00913958 /* KitchenViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC03D28ABC17F00913958 /* KitchenViewViewController.swift */; };
-		CA1EC04328ABC17F00913958 /* KitchenViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1EC03E28ABC17F00913958 /* KitchenViewViewModel.swift */; };
-		CA1EC04428ABC17F00913958 /* KitchenViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA1EC03F28ABC17F00913958 /* KitchenViewViewController.xib */; };
-		CA3E16CE28AE634A00DB613B /* DetailTableRestaurantRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E16C928AE634A00DB613B /* DetailTableRestaurantRouter.swift */; };
-		CA3E16CF28AE634A00DB613B /* DetailTableRestaurantInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E16CA28AE634A00DB613B /* DetailTableRestaurantInteractorInput.swift */; };
-		CA3E16D028AE634A00DB613B /* DetailTableRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E16CB28AE634A00DB613B /* DetailTableRestaurantViewController.swift */; };
-		CA3E16D128AE634A00DB613B /* DetailTableRestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E16CC28AE634A00DB613B /* DetailTableRestaurantViewModel.swift */; };
-		CA3E16D228AE634A00DB613B /* DetailTableRestaurantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA3E16CD28AE634A00DB613B /* DetailTableRestaurantViewController.xib */; };
-		CA7C8CBA28AE6DFC00F36F37 /* KichenShareRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CB528AE6DFC00F36F37 /* KichenShareRouter.swift */; };
-		CA7C8CBB28AE6DFC00F36F37 /* KichenShareInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CB628AE6DFC00F36F37 /* KichenShareInteractorInput.swift */; };
-		CA7C8CBC28AE6DFC00F36F37 /* KichenShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CB728AE6DFC00F36F37 /* KichenShareViewController.swift */; };
-		CA7C8CBD28AE6DFC00F36F37 /* KichenShareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CB828AE6DFC00F36F37 /* KichenShareViewModel.swift */; };
-		CA7C8CBE28AE6DFC00F36F37 /* KichenShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7C8CB928AE6DFC00F36F37 /* KichenShareViewController.xib */; };
-		CA7C8CC528AE70CB00F36F37 /* KichenViewOptionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CC028AE70CB00F36F37 /* KichenViewOptionRouter.swift */; };
-		CA7C8CC628AE70CB00F36F37 /* KichenViewOptionInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CC128AE70CB00F36F37 /* KichenViewOptionInteractorInput.swift */; };
-		CA7C8CC728AE70CB00F36F37 /* KichenViewOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CC228AE70CB00F36F37 /* KichenViewOptionViewController.swift */; };
-		CA7C8CC828AE70CB00F36F37 /* KichenViewOptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7C8CC328AE70CB00F36F37 /* KichenViewOptionViewModel.swift */; };
-		CA7C8CC928AE70CB00F36F37 /* KichenViewOptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7C8CC428AE70CB00F36F37 /* KichenViewOptionViewController.xib */; };
-		CAB59D7628ACFE0600FB5F36 /* CellTableViewKitchenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB59D7428ACFE0600FB5F36 /* CellTableViewKitchenView.swift */; };
-		CAB59D7728ACFE0600FB5F36 /* CellTableViewKitchenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAB59D7528ACFE0600FB5F36 /* CellTableViewKitchenView.xib */; };
-		CAB59D8028AD101E00FB5F36 /* TableRestaurantRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB59D7B28AD101E00FB5F36 /* TableRestaurantRouter.swift */; };
-		CAB59D8128AD101E00FB5F36 /* TableRestaurantInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB59D7C28AD101E00FB5F36 /* TableRestaurantInteractorInput.swift */; };
-		CAB59D8228AD101E00FB5F36 /* TableRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB59D7D28AD101E00FB5F36 /* TableRestaurantViewController.swift */; };
-		CAB59D8328AD101E00FB5F36 /* TableRestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB59D7E28AD101E00FB5F36 /* TableRestaurantViewModel.swift */; };
-		CAB59D8428AD101E00FB5F36 /* TableRestaurantViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAB59D7F28AD101E00FB5F36 /* TableRestaurantViewController.xib */; };
-		CAEAB1D328AD191C00014788 /* CellCollectionViewTableRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEAB1D128AD191C00014788 /* CellCollectionViewTableRestaurant.swift */; };
-		CAEAB1D428AD191C00014788 /* CellCollectionViewTableRestaurant.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAEAB1D228AD191C00014788 /* CellCollectionViewTableRestaurant.xib */; };
-		CAEAB1D628AD1AC200014788 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEAB1D528AD1AC200014788 /* UICollectionView.swift */; };
-		FF4033B828A0B9CA00EFCD24 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033AF28A0B9CA00EFCD24 /* Inter-Medium.ttf */; };
-		FF4033B928A0B9CA00EFCD24 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B028A0B9CA00EFCD24 /* Inter-Light.ttf */; };
-		FF4033BA28A0B9CA00EFCD24 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B128A0B9CA00EFCD24 /* Inter-Thin.ttf */; };
-		FF4033BB28A0B9CA00EFCD24 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B228A0B9CA00EFCD24 /* Inter-Bold.ttf */; };
-		FF4033BC28A0B9CA00EFCD24 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B328A0B9CA00EFCD24 /* Inter-Regular.ttf */; };
-		FF4033BD28A0B9CA00EFCD24 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B428A0B9CA00EFCD24 /* Inter-ExtraBold.ttf */; };
-		FF4033BE28A0B9CA00EFCD24 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B528A0B9CA00EFCD24 /* Inter-ExtraLight.ttf */; };
-		FF4033BF28A0B9CA00EFCD24 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B628A0B9CA00EFCD24 /* Inter-Black.ttf */; };
-		FF4033C028A0B9CA00EFCD24 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF4033B728A0B9CA00EFCD24 /* Inter-SemiBold.ttf */; };
-		FF4033C728A0D9B000EFCD24 /* SignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4033C228A0D9B000EFCD24 /* SignUpRouter.swift */; };
-		FF4033C828A0D9B000EFCD24 /* SignUpInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4033C328A0D9B000EFCD24 /* SignUpInteractorInput.swift */; };
-		FF4033C928A0D9B000EFCD24 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4033C428A0D9B000EFCD24 /* SignUpViewController.swift */; };
-		FF4033CA28A0D9B000EFCD24 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4033C528A0D9B000EFCD24 /* SignUpViewModel.swift */; };
-		FF4033CB28A0D9B000EFCD24 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF4033C628A0D9B000EFCD24 /* SignUpViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -471,6 +231,18 @@
 		CA7C8CC228AE70CB00F36F37 /* KichenViewOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KichenViewOptionViewController.swift; sourceTree = "<group>"; };
 		CA7C8CC328AE70CB00F36F37 /* KichenViewOptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KichenViewOptionViewModel.swift; sourceTree = "<group>"; };
 		CA7C8CC428AE70CB00F36F37 /* KichenViewOptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KichenViewOptionViewController.xib; sourceTree = "<group>"; };
+		CA8B5A8328B6436C00C0BF03 /* StatisticalChartRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticalChartRouter.swift; sourceTree = "<group>"; };
+		CA8B5A8428B6436C00C0BF03 /* StatisticalChartInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticalChartInteractorInput.swift; sourceTree = "<group>"; };
+		CA8B5A8528B6436C00C0BF03 /* StatisticalChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticalChartViewController.swift; sourceTree = "<group>"; };
+		CA8B5A8628B6436C00C0BF03 /* StatisticalChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticalChartViewModel.swift; sourceTree = "<group>"; };
+		CA8B5A8728B6436C00C0BF03 /* StatisticalChartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticalChartViewController.xib; sourceTree = "<group>"; };
+		CA8B5A9328B6530A00C0BF03 /* CellTableViewExpectedDish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTableViewExpectedDish.swift; sourceTree = "<group>"; };
+		CA8B5A9428B6530A00C0BF03 /* CellTableViewExpectedDish.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellTableViewExpectedDish.xib; sourceTree = "<group>"; };
+		CA8B5A9A28B6538300C0BF03 /* ListExpectedDishRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExpectedDishRouter.swift; sourceTree = "<group>"; };
+		CA8B5A9B28B6538300C0BF03 /* ListExpectedDishInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExpectedDishInteractorInput.swift; sourceTree = "<group>"; };
+		CA8B5A9C28B6538300C0BF03 /* ListExpectedDishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExpectedDishViewController.swift; sourceTree = "<group>"; };
+		CA8B5A9D28B6538300C0BF03 /* ListExpectedDishViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExpectedDishViewModel.swift; sourceTree = "<group>"; };
+		CA8B5A9E28B6538300C0BF03 /* ListExpectedDishViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListExpectedDishViewController.xib; sourceTree = "<group>"; };
 		CAB59D7428ACFE0600FB5F36 /* CellTableViewKitchenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewKitchenView.swift; sourceTree = "<group>"; };
 		CAB59D7528ACFE0600FB5F36 /* CellTableViewKitchenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTableViewKitchenView.xib; sourceTree = "<group>"; };
 		CAB59D7B28AD101E00FB5F36 /* TableRestaurantRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRestaurantRouter.swift; sourceTree = "<group>"; };
@@ -478,6 +250,8 @@
 		CAB59D7D28AD101E00FB5F36 /* TableRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRestaurantViewController.swift; sourceTree = "<group>"; };
 		CAB59D7E28AD101E00FB5F36 /* TableRestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRestaurantViewModel.swift; sourceTree = "<group>"; };
 		CAB59D7F28AD101E00FB5F36 /* TableRestaurantViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableRestaurantViewController.xib; sourceTree = "<group>"; };
+		CAE520C528B399BD0093C103 /* CellTableViewExpectedDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewExpectedDish.swift; sourceTree = "<group>"; };
+		CAE520C628B399BD0093C103 /* CellTableViewExpectedDish.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTableViewExpectedDish.xib; sourceTree = "<group>"; };
 		CAEAB1D128AD191C00014788 /* CellCollectionViewTableRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCollectionViewTableRestaurant.swift; sourceTree = "<group>"; };
 		CAEAB1D228AD191C00014788 /* CellCollectionViewTableRestaurant.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellCollectionViewTableRestaurant.xib; sourceTree = "<group>"; };
 		CAEAB1D528AD1AC200014788 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
@@ -520,6 +294,7 @@
 				52D9A967289FEABA0085A327 /* Support Files */,
 				AD0B1A9C6E321A976530C108 /* Pods */,
 				DDDAC1AEF6D896C5FE5F67B9 /* Frameworks */,
+				CA8B5A8F28B6527400C0BF03 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -640,6 +415,7 @@
 		522479B428A94C5B00C1D092 /* SaleReport */ = {
 			isa = PBXGroup;
 			children = (
+				CA8B5A8D28B6437600C0BF03 /*  StatisticalChart */,
 				522479D428A94CCF00C1D092 /* SaleReportRouter.swift */,
 				522479D528A94CCF00C1D092 /* SaleReportInteractorInput.swift */,
 				522479D628A94CCF00C1D092 /* SaleReportViewController.swift */,
@@ -652,6 +428,7 @@
 		522479B528A94C6400C1D092 /* SCM */ = {
 			isa = PBXGroup;
 			children = (
+				CA8B5A9028B6530A00C0BF03 /* ListExpectedDish */,
 				522479DE28A94CEE00C1D092 /* SCMRouter.swift */,
 				522479DF28A94CEE00C1D092 /* SCMInteractorInput.swift */,
 				522479E028A94CEE00C1D092 /* SCMViewController.swift */,
@@ -1238,6 +1015,49 @@
 			path = KichenViewOption;
 			sourceTree = "<group>";
 		};
+		CA8B5A8D28B6437600C0BF03 /*  StatisticalChart */ = {
+			isa = PBXGroup;
+			children = (
+				CA8B5A8328B6436C00C0BF03 /* StatisticalChartRouter.swift */,
+				CA8B5A8428B6436C00C0BF03 /* StatisticalChartInteractorInput.swift */,
+				CA8B5A8528B6436C00C0BF03 /* StatisticalChartViewController.swift */,
+				CA8B5A8628B6436C00C0BF03 /* StatisticalChartViewModel.swift */,
+				CA8B5A8728B6436C00C0BF03 /* StatisticalChartViewController.xib */,
+			);
+			path = " StatisticalChart";
+			sourceTree = "<group>";
+		};
+		CA8B5A8F28B6527400C0BF03 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				CAE520C528B399BD0093C103 /* CellTableViewExpectedDish.swift */,
+				CAE520C628B399BD0093C103 /* CellTableViewExpectedDish.xib */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		CA8B5A9028B6530A00C0BF03 /* ListExpectedDish */ = {
+			isa = PBXGroup;
+			children = (
+				CA8B5A9228B6530A00C0BF03 /* Cell */,
+				CA8B5A9A28B6538300C0BF03 /* ListExpectedDishRouter.swift */,
+				CA8B5A9B28B6538300C0BF03 /* ListExpectedDishInteractorInput.swift */,
+				CA8B5A9C28B6538300C0BF03 /* ListExpectedDishViewController.swift */,
+				CA8B5A9D28B6538300C0BF03 /* ListExpectedDishViewModel.swift */,
+				CA8B5A9E28B6538300C0BF03 /* ListExpectedDishViewController.xib */,
+			);
+			path = ListExpectedDish;
+			sourceTree = "<group>";
+		};
+		CA8B5A9228B6530A00C0BF03 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CA8B5A9328B6530A00C0BF03 /* CellTableViewExpectedDish.swift */,
+				CA8B5A9428B6530A00C0BF03 /* CellTableViewExpectedDish.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		CAB59D7328ACFDF200FB5F36 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -1338,9 +1158,7 @@
 			buildPhases = (
 				885CD4A17D66281C27BFFC04 /* [CP] Check Pods Manifest.lock */,
 				52D9A971289FEC6E0085A327 /* ShellScript */,
-				52191AA0289E9E1B0054D72E /* Sources */,
 				52191AA1289E9E1B0054D72E /* Frameworks */,
-				52191AA2289E9E1B0054D72E /* Resources */,
 				242CB91FB59F8516866442C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -1384,78 +1202,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		52191AA2289E9E1B0054D72E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52191AB4289E9E1E0054D72E /* LaunchScreen.storyboard in Resources */,
-				52CB18ED289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-BlackItalic_1.otf in Resources */,
-				CA7C8CC928AE70CB00F36F37 /* KichenViewOptionViewController.xib in Resources */,
-				52CB190B289FF36300B2DFEC /* LoginViewController.xib in Resources */,
-				522479D328A94CA700C1D092 /* MenuViewController.xib in Resources */,
-				FF4033BD28A0B9CA00EFCD24 /* Inter-ExtraBold.ttf in Resources */,
-				5224799728A93BF700C1D092 /* HomeViewController.xib in Resources */,
-				522479E728A94CEE00C1D092 /* SCMViewController.xib in Resources */,
-				ADA51A9928A7B0C80099DCA2 /* ServicePackViewController.xib in Resources */,
-				52CB18EA289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Bold_1.otf in Resources */,
-				52CB18EB289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Regular_3.otf in Resources */,
-				52CB18EF289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-SemiboldItalic_1.otf in Resources */,
-				CA7C8CBE28AE6DFC00F36F37 /* KichenShareViewController.xib in Resources */,
-				ADA51A8F28A7B0C80099DCA2 /* PopupPaymentSuccessViewController.xib in Resources */,
-				CAEAB1D428AD191C00014788 /* CellCollectionViewTableRestaurant.xib in Resources */,
-				FF4033BF28A0B9CA00EFCD24 /* Inter-Black.ttf in Resources */,
-				522479A728A9451300C1D092 /* LoginRestaurantViewController.xib in Resources */,
-				CA3E16D228AE634A00DB613B /* DetailTableRestaurantViewController.xib in Resources */,
-				FF4033BE28A0B9CA00EFCD24 /* Inter-ExtraLight.ttf in Resources */,
-				52CB18F1289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-ExtraboldItalic_1.otf in Resources */,
-				529617D628A157FA00C7BFE4 /* ConfirmSignUpViewController.xib in Resources */,
-				ADA51AA328A7B1A50099DCA2 /* BackgroundView.xib in Resources */,
-				52CB18E6289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-ThinItalic_1.otf in Resources */,
-				52CB18F2289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Black_1.otf in Resources */,
-				52CB18F0289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Light_1.otf in Resources */,
-				FF4033BC28A0B9CA00EFCD24 /* Inter-Regular.ttf in Resources */,
-				CA1EC04428ABC17F00913958 /* KitchenViewViewController.xib in Resources */,
-				ADF1EF2528A7CFC400C36065 /* ListMenuCellTableViewCell.xib in Resources */,
-				FF4033B928A0B9CA00EFCD24 /* Inter-Light.ttf in Resources */,
-				522479C928A94C8F00C1D092 /* AccountViewController.xib in Resources */,
-				52CB18EC289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Thin_1.otf in Resources */,
-				52CB1901289FF34600B2DFEC /* SplashViewController.xib in Resources */,
-				52C05E6428A5552E006A68A2 /* PaymentMethodViewController.xib in Resources */,
-				5224799C28A941F600C1D092 /* CellTableViewRestaurant.xib in Resources */,
-				52C05E5928A549AC006A68A2 /* RestaurantUpdateViewController.xib in Resources */,
-				ADF1EF3028A7E07B00C36065 /* DishViewController.xib in Resources */,
-				522479AF28A94ABD00C1D092 /* MainTabbarController.xib in Resources */,
-				52CB18CF289FF1B700B2DFEC /* Color.xcassets in Resources */,
-				52CB18F5289FF2D800B2DFEC /* Intelligent Design - AvertaStdCy-Extrathin_1.otf in Resources */,
-				52CB18F4289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-LightItalic_1.otf in Resources */,
-				FF4033BB28A0B9CA00EFCD24 /* Inter-Bold.ttf in Resources */,
-				FF4033B828A0B9CA00EFCD24 /* Inter-Medium.ttf in Resources */,
-				CAB59D8428AD101E00FB5F36 /* TableRestaurantViewController.xib in Resources */,
-				52191AB1289E9E1E0054D72E /* Assets.xcassets in Resources */,
-				ADA51A9B28A7B0C80099DCA2 /* CreditCardViewController.xib in Resources */,
-				FF4033BA28A0B9CA00EFCD24 /* Inter-Thin.ttf in Resources */,
-				52CB18E9289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-BoldItalic_1.otf in Resources */,
-				ADA51AAF28A7B3950099DCA2 /* PaymentEWalletMethodViewController.xib in Resources */,
-				52CB18F3289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Extrabold_1.otf in Resources */,
-				ADA51A8D28A7B0C80099DCA2 /* ServicePackTableViewCell.xib in Resources */,
-				CAB59D7728ACFE0600FB5F36 /* CellTableViewKitchenView.xib in Resources */,
-				52CB18EE289FF2D800B2DFEC /* Intelligent Design - AvertaStdCy-ExtrathinItalic_1.otf in Resources */,
-				52CB18E8289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-RegularItalic_1.otf in Resources */,
-				ADA51ACA28A7B7650099DCA2 /* ListMenuViewController.xib in Resources */,
-				FF4033C028A0B9CA00EFCD24 /* Inter-SemiBold.ttf in Resources */,
-				ADA51A9728A7B0C80099DCA2 /* ServicePackDetailViewController.xib in Resources */,
-				52CB18E7289FF2D800B2DFEC /* Intelligent Design - AvertaStdCY-Semibold_1.otf in Resources */,
-				FF4033CB28A0D9B000EFCD24 /* SignUpViewController.xib in Resources */,
-				522479BF28A94C7800C1D092 /* ControlViewController.xib in Resources */,
-				AD85AD4828A8E23B00731BC7 /* PaymentMethodView.xib in Resources */,
-				52191AAF289E9E1B0054D72E /* Main.storyboard in Resources */,
-				522479DD28A94CCF00C1D092 /* SaleReportViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		242CB91FB59F8516866442C3 /* [CP] Embed Pods Frameworks */ = {
@@ -1517,194 +1263,6 @@
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		52191AA0289E9E1B0054D72E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52CB18D3289FF29D00B2DFEC /* BaseViewController.swift in Sources */,
-				52C05E5528A549AC006A68A2 /* RestaurantUpdateRouter.swift in Sources */,
-				522479DA28A94CCF00C1D092 /* SaleReportInteractorInput.swift in Sources */,
-				522479BD28A94C7800C1D092 /* ControlViewController.swift in Sources */,
-				52D9A9D6289FEE560085A327 /* Encodable.swift in Sources */,
-				ADF1EF2428A7CFC400C36065 /* ListMenuCellTableViewCell.swift in Sources */,
-				52D9A9C9289FEE560085A327 /* UIView.swift in Sources */,
-				ADA51A9828A7B0C80099DCA2 /* ServicePackDetailViewController.swift in Sources */,
-				52D9A9F3289FEE570085A327 /* PanModalPresenter.swift in Sources */,
-				52D9A9FD289FEE570085A327 /* TagView.swift in Sources */,
-				52D9A9CE289FEE560085A327 /* UIImageView.swift in Sources */,
-				ADA51A9A28A7B0C80099DCA2 /* CreditCardRouter.swift in Sources */,
-				52D9A9E6289FEE570085A327 /* BaseModel.swift in Sources */,
-				ADA51A9528A7B0C80099DCA2 /* ServicePackDetailViewModel.swift in Sources */,
-				ADF1EF2D28A7E07B00C36065 /* DishInteractorInput.swift in Sources */,
-				529617D528A157FA00C7BFE4 /* ConfirmSignUpViewModel.swift in Sources */,
-				ADA51A9D28A7B0C80099DCA2 /* CreditCardViewModel.swift in Sources */,
-				ADF1EF2C28A7E07B00C36065 /* DishRouter.swift in Sources */,
-				52D9A9E1289FEE560085A327 /* APIError.swift in Sources */,
-				ADA51ABC28A7B4D30099DCA2 /* PaymentEWalletMethodViewModel.swift in Sources */,
-				52CB18FD289FF34600B2DFEC /* SplashRouter.swift in Sources */,
-				522479D028A94CA700C1D092 /* MenuInteractorInput.swift in Sources */,
-				ADA51A8C28A7B0C80099DCA2 /* ServicePackInteractorInput.swift in Sources */,
-				ADA51AA828A7B1B20099DCA2 /* CustomView.swift in Sources */,
-				52D9A9EC289FEE570085A327 /* Network.swift in Sources */,
-				52D9A9FB289FEE570085A327 /* KeyChainManager.swift in Sources */,
-				52D9A9D0289FEE560085A327 /* EmptyDataSetView.swift in Sources */,
-				52D9A9F7289FEE570085A327 /* PanModalPresentationController.swift in Sources */,
-				CA1EC04128ABC17F00913958 /* KitchenViewInteractorInput.swift in Sources */,
-				522479BB28A94C7800C1D092 /* ControlRouter.swift in Sources */,
-				522479DB28A94CCF00C1D092 /* SaleReportViewController.swift in Sources */,
-				522479A328A9451300C1D092 /* LoginRestaurantRouter.swift in Sources */,
-				52D9A9D7289FEE560085A327 /* String.swift in Sources */,
-				ADA51AC628A7B7650099DCA2 /* ListMenuRouter.swift in Sources */,
-				52D9AA02289FEE570085A327 /* SKUserDefault.swift in Sources */,
-				522479A628A9451300C1D092 /* LoginRestaurantViewModel.swift in Sources */,
-				522479C828A94C8F00C1D092 /* AccountViewModel.swift in Sources */,
-				52D9A9DA289FEE560085A327 /* NotificationName.swift in Sources */,
-				522479C528A94C8F00C1D092 /* AccountRouter.swift in Sources */,
-				52D9A9D3289FEE560085A327 /* EmptyDataSetDelegate.swift in Sources */,
-				ADA51AC928A7B7650099DCA2 /* ListMenuViewModel.swift in Sources */,
-				52D9A965289FEAA90085A327 /* Format_Name.swift in Sources */,
-				52D9A9D9289FEE560085A327 /* Constant.swift in Sources */,
-				52D9A9F5289FEE570085A327 /* PanModalAnimator.swift in Sources */,
-				522479BE28A94C7800C1D092 /* ControlViewModel.swift in Sources */,
-				522479A528A9451300C1D092 /* LoginRestaurantViewController.swift in Sources */,
-				CAB59D8328AD101E00FB5F36 /* TableRestaurantViewModel.swift in Sources */,
-				522479DC28A94CCF00C1D092 /* SaleReportViewModel.swift in Sources */,
-				52D9A9DD289FEE560085A327 /* Key.swift in Sources */,
-				52D9A9E4289FEE570085A327 /* BaseService.swift in Sources */,
-				52D9A9C7289FEE560085A327 /* Date.swift in Sources */,
-				5224799628A93BF700C1D092 /* HomeViewModel.swift in Sources */,
-				CA3E16CF28AE634A00DB613B /* DetailTableRestaurantInteractorInput.swift in Sources */,
-				ADA51AA728A7B1B20099DCA2 /* InterfaceRepresentable.swift in Sources */,
-				522479B028A94ABD00C1D092 /* MainTabbarController.swift in Sources */,
-				52D9A9E5289FEE570085A327 /* ApiUrlProtocols.swift in Sources */,
-				52D9A9FF289FEE570085A327 /* PushNotiModel.swift in Sources */,
-				52191AA8289E9E1B0054D72E /* AppDelegate.swift in Sources */,
-				CA1538CB28ABA9BF002FF900 /* UITextField.swift in Sources */,
-				CAEAB1D628AD1AC200014788 /* UICollectionView.swift in Sources */,
-				52D9A9F9289FEE570085A327 /* DimmedView.swift in Sources */,
-				CA1EC04228ABC17F00913958 /* KitchenViewViewController.swift in Sources */,
-				52C05E6028A5552D006A68A2 /* PaymentMethodRouter.swift in Sources */,
-				52D9A9D1289FEE560085A327 /* EmptyDataSetView+Extension.swift in Sources */,
-				52CB1909289FF36300B2DFEC /* LoginViewController.swift in Sources */,
-				CA1EC04328ABC17F00913958 /* KitchenViewViewModel.swift in Sources */,
-				52CB18CD289FF12600B2DFEC /* R.generated.swift in Sources */,
-				52D9A9E3289FEE560085A327 /* Result.swift in Sources */,
-				52CB18FE289FF34600B2DFEC /* SplashInteractorInput.swift in Sources */,
-				ADA51A8528A7B0C80099DCA2 /* ServicePackRouter.swift in Sources */,
-				52C05E5828A549AC006A68A2 /* RestaurantUpdateViewModel.swift in Sources */,
-				ADA51AB928A7B4D30099DCA2 /* PaymentEWalletMethodRouter.swift in Sources */,
-				52D9A9FC289FEE570085A327 /* CloseButton.swift in Sources */,
-				CAB59D8028AD101E00FB5F36 /* TableRestaurantRouter.swift in Sources */,
-				52D9A9D2289FEE560085A327 /* EmptyDataSetSource.swift in Sources */,
-				522479BC28A94C7800C1D092 /* ControlInteractorInput.swift in Sources */,
-				ADA51A9128A7B0C80099DCA2 /* PopupPaymentSuccessViewController.swift in Sources */,
-				522479AD28A94ABD00C1D092 /* TabbarItem.swift in Sources */,
-				52D9AA01289FEE570085A327 /* SKToast.swift in Sources */,
-				52D9A966289FEAA90085A327 /* IBOutlet_Name.swift in Sources */,
-				52D9A9F4289FEE570085A327 /* PanModalPresentationDelegate.swift in Sources */,
-				52D9A9DE289FEE560085A327 /* ProgressPosition.swift in Sources */,
-				CA7C8CC828AE70CB00F36F37 /* KichenViewOptionViewModel.swift in Sources */,
-				AD85AD4728A8E23B00731BC7 /* PaymentMethodView.swift in Sources */,
-				ADA51A9C28A7B0C80099DCA2 /* CreditCardInteractorInput.swift in Sources */,
-				CA7C8CBA28AE6DFC00F36F37 /* KichenShareRouter.swift in Sources */,
-				5224799428A93BF700C1D092 /* HomeInteractorInput.swift in Sources */,
-				52D9A9F8289FEE570085A327 /* PanContainerView.swift in Sources */,
-				CA3E16D028AE634A00DB613B /* DetailTableRestaurantViewController.swift in Sources */,
-				52D9A9CA289FEE560085A327 /* UIColor.swift in Sources */,
-				529617D328A157FA00C7BFE4 /* ConfirmSignUpInteractorInput.swift in Sources */,
-				CA7C8CC528AE70CB00F36F37 /* KichenViewOptionRouter.swift in Sources */,
-				52D9A9EE289FEE570085A327 /* PanModalPresentable.swift in Sources */,
-				522479AE28A94ABD00C1D092 /* UITabBarController.swift in Sources */,
-				52CB1907289FF36300B2DFEC /* LoginRouter.swift in Sources */,
-				52C05E5728A549AC006A68A2 /* RestaurantUpdateViewController.swift in Sources */,
-				522479C628A94C8F00C1D092 /* AccountInteractorInput.swift in Sources */,
-				ADA51A9228A7B0C80099DCA2 /* PopupPaymentSuccessViewModel.swift in Sources */,
-				CA7C8CBC28AE6DFC00F36F37 /* KichenShareViewController.swift in Sources */,
-				ADA51A9E28A7B0C80099DCA2 /* CreditCardViewController.swift in Sources */,
-				ADA51A9428A7B0C80099DCA2 /* ServicePackDetailInteractorInput.swift in Sources */,
-				CAEAB1D328AD191C00014788 /* CellCollectionViewTableRestaurant.swift in Sources */,
-				522479E628A94CEE00C1D092 /* SCMViewModel.swift in Sources */,
-				52D9A9EA289FEE570085A327 /* Utils.swift in Sources */,
-				52D9A9E2289FEE560085A327 /* Log.swift in Sources */,
-				CA7C8CBB28AE6DFC00F36F37 /* KichenShareInteractorInput.swift in Sources */,
-				ADA51A9328A7B0C80099DCA2 /* PopupPaymentSuccessInteractorInput.swift in Sources */,
-				522479A428A9451300C1D092 /* LoginRestaurantInteractorInput.swift in Sources */,
-				52D9A9DC289FEE560085A327 /* SignInConfig.swift in Sources */,
-				52CB1900289FF34600B2DFEC /* SplashViewModel.swift in Sources */,
-				52D9A9D8289FEE560085A327 /* TimeInterval.swift in Sources */,
-				ADF1EF2E28A7E07B00C36065 /* DishViewController.swift in Sources */,
-				52D9A9E9289FEE570085A327 /* Units.swift in Sources */,
-				522479E428A94CEE00C1D092 /* SCMInteractorInput.swift in Sources */,
-				CA7C8CC628AE70CB00F36F37 /* KichenViewOptionInteractorInput.swift in Sources */,
-				522479E528A94CEE00C1D092 /* SCMViewController.swift in Sources */,
-				52D9A9DF289FEE560085A327 /* ServiceAPI.swift in Sources */,
-				ADA51ABB28A7B4D30099DCA2 /* PaymentEWalletMethodViewController.swift in Sources */,
-				522479D128A94CA700C1D092 /* MenuViewController.swift in Sources */,
-				522479D928A94CCF00C1D092 /* SaleReportRouter.swift in Sources */,
-				FF4033C728A0D9B000EFCD24 /* SignUpRouter.swift in Sources */,
-				522479CF28A94CA700C1D092 /* MenuRouter.swift in Sources */,
-				529617D428A157FA00C7BFE4 /* ConfirmSignUpViewController.swift in Sources */,
-				CA7C8CBD28AE6DFC00F36F37 /* KichenShareViewModel.swift in Sources */,
-				ADA51A9028A7B0C80099DCA2 /* PopupPaymentSuccessRouter.swift in Sources */,
-				5224799B28A941F600C1D092 /* CellTableViewRestaurant.swift in Sources */,
-				52D9A9F0289FEE570085A327 /* PanModalHeight.swift in Sources */,
-				52191AAA289E9E1B0054D72E /* SceneDelegate.swift in Sources */,
-				CA3E16CE28AE634A00DB613B /* DetailTableRestaurantRouter.swift in Sources */,
-				52D9A9DB289FEE560085A327 /* Common.swift in Sources */,
-				ADA51A8628A7B0C80099DCA2 /* ServicePackViewController.swift in Sources */,
-				52CB18FF289FF34600B2DFEC /* SplashViewController.swift in Sources */,
-				FF4033C928A0D9B000EFCD24 /* SignUpViewController.swift in Sources */,
-				52D9A9CC289FEE560085A327 /* UITableView.swift in Sources */,
-				FF4033C828A0D9B000EFCD24 /* SignUpInteractorInput.swift in Sources */,
-				ADA51A9628A7B0C80099DCA2 /* ServicePackDetailRouter.swift in Sources */,
-				CA3E16D128AE634A00DB613B /* DetailTableRestaurantViewModel.swift in Sources */,
-				ADA51AC828A7B7650099DCA2 /* ListMenuViewController.swift in Sources */,
-				52C05E5628A549AC006A68A2 /* RestaurantUpdateInteractorInput.swift in Sources */,
-				52D9A9D5289FEE560085A327 /* Number.swift in Sources */,
-				522479E328A94CEE00C1D092 /* SCMRouter.swift in Sources */,
-				52C05E6328A5552D006A68A2 /* PaymentMethodViewModel.swift in Sources */,
-				529617D228A157FA00C7BFE4 /* ConfirmSignUpRouter.swift in Sources */,
-				ADA51ABA28A7B4D30099DCA2 /* PaymentEWalletMethodInteractorInput.swift in Sources */,
-				52D9A9CF289FEE560085A327 /* UIAlertController.swift in Sources */,
-				52CB1908289FF36300B2DFEC /* LoginInteractorInput.swift in Sources */,
-				5224799528A93BF700C1D092 /* HomeViewController.swift in Sources */,
-				ADA51A8428A7B0C80099DCA2 /* ServicePackViewModel.swift in Sources */,
-				ADA51AA428A7B1A50099DCA2 /* BackgroundView.swift in Sources */,
-				52D9A9C8289FEE560085A327 /* Error.swift in Sources */,
-				52D9AA00289FEE570085A327 /* LocalNotification.swift in Sources */,
-				FF4033CA28A0D9B000EFCD24 /* SignUpViewModel.swift in Sources */,
-				52D9AA03289FEE570085A327 /* InternetConnection.swift in Sources */,
-				CAB59D8128AD101E00FB5F36 /* TableRestaurantInteractorInput.swift in Sources */,
-				CA7C8CC728AE70CB00F36F37 /* KichenViewOptionViewController.swift in Sources */,
-				52D9A9FE289FEE570085A327 /* TagListView.swift in Sources */,
-				5224799328A93BF700C1D092 /* HomeRouter.swift in Sources */,
-				52D9A9CD289FEE560085A327 /* UIDevice.swift in Sources */,
-				522479C728A94C8F00C1D092 /* AccountViewController.swift in Sources */,
-				ADA51AC728A7B7650099DCA2 /* ListMenuInteractorInput.swift in Sources */,
-				522479D228A94CA700C1D092 /* MenuViewModel.swift in Sources */,
-				52D9A9F6289FEE570085A327 /* PanModalPresentationAnimator.swift in Sources */,
-				ADA51A8E28A7B0C80099DCA2 /* ServicePackTableViewCell.swift in Sources */,
-				52D9A9D4289FEE560085A327 /* EmptyDataSet.swift in Sources */,
-				52CB190A289FF36300B2DFEC /* LoginViewModel.swift in Sources */,
-				ADF1EF2F28A7E07B00C36065 /* DishViewModel.swift in Sources */,
-				52D9A9F2289FEE570085A327 /* UIViewController+PanModalPresenter.swift in Sources */,
-				52D9A9EB289FEE570085A327 /* ErrorView.swift in Sources */,
-				CA1EC04028ABC17F00913958 /* KitchenViewRouter.swift in Sources */,
-				52D9A9ED289FEE570085A327 /* PanModalPresentable+Defaults.swift in Sources */,
-				52C05E6128A5552D006A68A2 /* PaymentMethodInteractorInput.swift in Sources */,
-				52CB18D4289FF29D00B2DFEC /* BaseNavigationController.swift in Sources */,
-				CAB59D8228AD101E00FB5F36 /* TableRestaurantViewController.swift in Sources */,
-				52D9A9F1289FEE570085A327 /* PanModalPresentable+UIViewController.swift in Sources */,
-				52D9A9EF289FEE570085A327 /* PanModalPresentable+LayoutHelpers.swift in Sources */,
-				CAB59D7628ACFE0600FB5F36 /* CellTableViewKitchenView.swift in Sources */,
-				52C05E6228A5552D006A68A2 /* PaymentMethodViewController.swift in Sources */,
-				52D9A9FA289FEE570085A327 /* RemoteConfigManager.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
 		52191AAD289E9E1B0054D72E /* Main.storyboard */ = {

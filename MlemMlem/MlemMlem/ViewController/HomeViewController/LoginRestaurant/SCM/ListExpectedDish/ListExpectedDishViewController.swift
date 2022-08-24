@@ -1,16 +1,16 @@
 //
 //  
-//  SCMViewController.swift
+//  ListExpectedDishViewController.swift
 //  MlemMlem
 //
-//  Created by Valerian on 14/08/2022.
+//  Created by TruongTV2 on 24/08/2022.
 //
 //
 
 import UIKit
 
 // MARK: - ViewProtocol
-protocol SCMViewProtocol: AnyObject {
+protocol ListExpectedDishViewProtocol: AnyObject {
     func showHud()
     func hideHud()
     
@@ -18,12 +18,13 @@ protocol SCMViewProtocol: AnyObject {
     //func onReloadData()
 }
 
-// MARK: - SCM ViewController
-class SCMViewController: BaseViewController {
-    var router: SCMRouterProtocol!
-    var viewModel: SCMViewModelProtocol!
+// MARK: - ListExpectedDish ViewController
+class ListExpectedDishViewController: BaseViewController {
+    var router: ListExpectedDishRouterProtocol!
+    var viewModel: ListExpectedDishViewModelProtocol!
     
     
+    @IBOutlet weak var tbv_TableView: UITableView!
     
     // MARK: - LifeCycle
     override func viewDidLoad() {
@@ -34,17 +35,15 @@ class SCMViewController: BaseViewController {
     
     // MARK: - Init
     private func setupInit() {
-//        dataSource = self
-//        delegate = self
-//        setViewControllers([viewModel.createSlideViewController(fromIndex: 0)], direction: .forward, animated: true)
+
     }
     
     // MARK: - Action
     
 }
 
-// MARK: - SCM ViewProtocol
-extension SCMViewController: SCMViewProtocol {
+// MARK: - ListExpectedDish ViewProtocol
+extension ListExpectedDishViewController: ListExpectedDishViewProtocol {
     func showHud() {
         self.showProgressHud()
     }
