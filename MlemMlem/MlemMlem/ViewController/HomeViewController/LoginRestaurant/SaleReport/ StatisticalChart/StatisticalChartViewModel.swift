@@ -1,6 +1,6 @@
 //
 //  
-//  ListExpectedDishViewModel.swift
+//  StatisticalChartViewModel.swift
 //  MlemMlem
 //
 //  Created by TruongTV2 on 24/08/2022.
@@ -10,7 +10,7 @@
 import UIKit
 
 // MARK: - ViewModelProtocol
-protocol ListExpectedDishViewModelProtocol {
+protocol StatisticalChartViewModelProtocol {
     func onViewDidLoad()
     //func onViewDidAppear()
     
@@ -26,25 +26,25 @@ protocol ListExpectedDishViewModelProtocol {
     //func didSelectItem(at indexPath: IndexPath)
 }
 
-// MARK: - ListExpectedDish ViewModel
-class ListExpectedDishViewModel {
-    weak var view: ListExpectedDishViewProtocol?
-    private var interactor: ListExpectedDishInteractorInputProtocol
+// MARK: - StatisticalChart ViewModel
+class StatisticalChartViewModel {
+    weak var view: StatisticalChartViewProtocol?
+    private var interactor: StatisticalChartInteractorInputProtocol
 
-    init(interactor: ListExpectedDishInteractorInputProtocol) {
+    init(interactor: StatisticalChartInteractorInputProtocol) {
         self.interactor = interactor
     }
 
 }
 
-// MARK: - ListExpectedDish ViewModelProtocol
-extension ListExpectedDishViewModel: ListExpectedDishViewModelProtocol {
+// MARK: - StatisticalChart ViewModelProtocol
+extension StatisticalChartViewModel: StatisticalChartViewModelProtocol {
     func onViewDidLoad() {
         
     }
 }
 
-// MARK: - ListExpectedDish InteractorOutputProtocol
-extension ListExpectedDishViewModel: ListExpectedDishInteractorOutputProtocol {
+// MARK: - StatisticalChart InteractorOutputProtocol
+extension StatisticalChartViewModel: StatisticalChartInteractorOutputProtocol {
 
 }

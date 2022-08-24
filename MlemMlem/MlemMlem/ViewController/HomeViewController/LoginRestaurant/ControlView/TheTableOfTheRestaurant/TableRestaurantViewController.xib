@@ -27,7 +27,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TableRestaurantViewController" customModule="MlemMlem" customModuleProvider="target">
             <connections>
                 <outlet property="coll_CollectionView" destination="iI4-kr-gv5" id="9cm-gd-HDM"/>
-                <outlet property="constraint_collectionViewHeight" destination="f2g-ac-cVP" id="RIQ-90-IQF"/>
+                <outlet property="constant_collectionViewHeight" destination="f2g-ac-cVP" id="fFn-5Z-WHX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="view_background" destination="BuV-tK-hxv" id="Qby-ln-0S3"/>
             </connections>

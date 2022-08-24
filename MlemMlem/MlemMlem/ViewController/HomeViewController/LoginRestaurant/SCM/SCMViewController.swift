@@ -43,7 +43,9 @@ class SCMViewController: BaseViewController {
     }
     // MARK: - Init
     private func setupInit() {
-
+//        dataSource = self
+//        delegate = self
+//        setViewControllers([viewModel.createSlideViewController(fromIndex: 0)], direction: .forward, animated: true)
     }
     
     // MARK: - Action
