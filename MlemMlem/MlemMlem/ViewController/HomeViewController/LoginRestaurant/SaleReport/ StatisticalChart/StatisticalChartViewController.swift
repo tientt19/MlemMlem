@@ -1,6 +1,6 @@
 //
 //  
-//  ListExpectedDishViewController.swift
+//  StatisticalChartViewController.swift
 //  MlemMlem
 //
 //  Created by TruongTV2 on 24/08/2022.
@@ -10,7 +10,7 @@
 import UIKit
 
 // MARK: - ViewProtocol
-protocol ListExpectedDishViewProtocol: AnyObject {
+protocol StatisticalChartViewProtocol: AnyObject {
     func showHud()
     func hideHud()
     
@@ -18,13 +18,12 @@ protocol ListExpectedDishViewProtocol: AnyObject {
     //func onReloadData()
 }
 
-// MARK: - ListExpectedDish ViewController
-class ListExpectedDishViewController: BaseViewController {
-    var router: ListExpectedDishRouterProtocol!
-    var viewModel: ListExpectedDishViewModelProtocol!
+// MARK: - StatisticalChart ViewController
+class StatisticalChartViewController: BaseViewController {
+    var router: StatisticalChartRouterProtocol!
+    var viewModel: StatisticalChartViewModelProtocol!
     
     
-    @IBOutlet weak var tbv_TableView: UITableView!
     
     // MARK: - LifeCycle
     override func viewDidLoad() {
@@ -42,8 +41,8 @@ class ListExpectedDishViewController: BaseViewController {
     
 }
 
-// MARK: - ListExpectedDish ViewProtocol
-extension ListExpectedDishViewController: ListExpectedDishViewProtocol {
+// MARK: - StatisticalChart ViewProtocol
+extension StatisticalChartViewController: StatisticalChartViewProtocol {
     func showHud() {
         self.showProgressHud()
     }
