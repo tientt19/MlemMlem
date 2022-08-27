@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 import Rswift
 
-class BaseViewController: UIViewController, UIGestureRecognizerDelegate, UIPageViewController {
+class BaseViewController: UIViewController, UIGestureRecognizerDelegate {
     
     private var progressHub: UIActivityIndicatorView?
     private var viewProgressHub: UIView?

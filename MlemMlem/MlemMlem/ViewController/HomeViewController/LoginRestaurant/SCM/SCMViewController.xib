@@ -26,7 +26,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SCMViewController" customModule="MlemMlem" customModuleProvider="target">
             <connections>
-                <outlet property="pageView_ExpectedDish" destination="zUb-Yn-rEG" id="Ydd-Du-WnQ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="view_background" destination="aBL-dK-HJR" id="LkG-jG-8IT"/>
                 <outlet property="view_expectedRevenue" destination="tfm-QD-Kqn" id="QnU-4v-OD8"/>

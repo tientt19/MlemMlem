@@ -16,21 +16,13 @@
             <string>Inter-Medium</string>
         </array>
     </customFonts>
-    <customFonts key="customFonts">
-        <array key="Inter-Bold.ttf">
-            <string>Inter-Bold</string>
-        </array>
-        <array key="Inter-Medium.ttf">
-            <string>Inter-Medium</string>
-        </array>
-    </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuViewController" customModule="MlemMlem" customModule="MlemMlem" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuViewController" customModule="MlemMlem" customModuleProvider="target">
             <connections>
                 <outlet property="coll_Collection" destination="Va7-kx-Myw" id="2sz-sN-fvw"/>
                 <outlet property="img_Header" destination="dQK-g2-f5q" id="ugZ-Mn-rwt"/>
+                <outlet property="tbv_TableView" destination="Tt1-fG-IX9" id="FIG-Z2-rQT"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
-                <outlet property="view_Restaurant" destination="blh-50-OhY" id="Bjs-F9-QOX"/>
                 <outlet property="view_Restaurant" destination="blh-50-OhY" id="Bjs-F9-QOX"/>
             </connections>
         </placeholder>
@@ -43,7 +35,7 @@
                     <rect key="frame" x="0.0" y="-30" width="414" height="926"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EJ7-yC-bEe">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="2750"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dQK-g2-f5q">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="259"/>
@@ -108,24 +100,60 @@
                                         <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                     </collectionViewFlowLayout>
                                 </collectionView>
-                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Tt1-fG-IX9">
-                                    <rect key="frame" x="0.0" y="453" width="414" height="547"/>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Tt1-fG-IX9">
+                                    <rect key="frame" x="0.0" y="453" width="414" height="2132"/>
                                 </tableView>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="XLq-jP-nlB">
+                                    <rect key="frame" x="25" y="2595" width="364" height="55"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qh3-oa-25U">
+                                            <rect key="frame" x="0.0" y="0.0" width="181.5" height="55"/>
+                                            <color key="backgroundColor" red="0.97629326579999998" green="0.48680180309999999" blue="0.1844637096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="14"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Chỉnh sửa">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="onUpdateMenuAction:" destination="-1" eventType="touchUpInside" id="UgT-Hj-NBK"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSL-zu-dTV">
+                                            <rect key="frame" x="182.5" y="0.0" width="181.5" height="55"/>
+                                            <color key="backgroundColor" red="0.97629326579999998" green="0.48680180309999999" blue="0.1844637096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="fontDescription" name="Inter-Bold" family="Inter" pointSize="14"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Tiếp theo">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="55" id="bmq-ny-m2H"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="15"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </stackView>
                             </subviews>
                             <color key="backgroundColor" red="0.94901353119999998" green="0.94901353119999998" blue="0.96266549830000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="blh-50-OhY" secondAttribute="trailing" constant="25" id="2Bm-hJ-z0F"/>
+                                <constraint firstAttribute="bottom" secondItem="XLq-jP-nlB" secondAttribute="bottom" constant="100" id="41w-pP-AKS"/>
                                 <constraint firstItem="dQK-g2-f5q" firstAttribute="top" secondItem="EJ7-yC-bEe" secondAttribute="top" id="9wJ-a0-ibp"/>
                                 <constraint firstItem="Tt1-fG-IX9" firstAttribute="leading" secondItem="EJ7-yC-bEe" secondAttribute="leading" id="APc-CT-Kcs"/>
                                 <constraint firstItem="Va7-kx-Myw" firstAttribute="leading" secondItem="EJ7-yC-bEe" secondAttribute="leading" id="Aas-sv-1Eg"/>
                                 <constraint firstItem="blh-50-OhY" firstAttribute="leading" secondItem="EJ7-yC-bEe" secondAttribute="leading" constant="25" id="D3U-ve-4rB"/>
                                 <constraint firstItem="dQK-g2-f5q" firstAttribute="leading" secondItem="EJ7-yC-bEe" secondAttribute="leading" id="DJf-P8-HUO"/>
-                                <constraint firstAttribute="height" constant="1000" id="FCI-cp-Ss6"/>
+                                <constraint firstAttribute="height" constant="2750" id="FCI-cp-Ss6"/>
+                                <constraint firstItem="XLq-jP-nlB" firstAttribute="leading" secondItem="EJ7-yC-bEe" secondAttribute="leading" constant="25" id="Kdk-ij-SNa"/>
                                 <constraint firstAttribute="trailing" secondItem="Va7-kx-Myw" secondAttribute="trailing" id="O01-9p-jYx"/>
-                                <constraint firstAttribute="bottom" secondItem="Tt1-fG-IX9" secondAttribute="bottom" id="fTH-FF-wMo"/>
                                 <constraint firstAttribute="trailing" secondItem="dQK-g2-f5q" secondAttribute="trailing" id="jkn-mk-wV9"/>
+                                <constraint firstItem="XLq-jP-nlB" firstAttribute="top" secondItem="Tt1-fG-IX9" secondAttribute="bottom" constant="10" id="k2v-Bb-nOd"/>
                                 <constraint firstItem="Tt1-fG-IX9" firstAttribute="top" secondItem="Va7-kx-Myw" secondAttribute="bottom" id="kmX-xe-UL7"/>
+                                <constraint firstAttribute="trailing" secondItem="XLq-jP-nlB" secondAttribute="trailing" constant="25" id="o2a-eC-FBv"/>
                                 <constraint firstItem="blh-50-OhY" firstAttribute="top" secondItem="dQK-g2-f5q" secondAttribute="bottom" constant="20" id="w31-Y3-qwY"/>
                                 <constraint firstItem="Va7-kx-Myw" firstAttribute="top" secondItem="blh-50-OhY" secondAttribute="bottom" constant="30" id="w7s-ax-YF4"/>
                                 <constraint firstAttribute="trailing" secondItem="Tt1-fG-IX9" secondAttribute="trailing" id="y5e-hF-LTI"/>
@@ -150,7 +178,7 @@
                 <constraint firstItem="EJ7-yC-bEe" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="qeV-t4-TCY"/>
                 <constraint firstItem="KlH-tW-6zV" firstAttribute="trailing" secondItem="hZw-SB-PI1" secondAttribute="trailing" id="vpG-b5-nXt"/>
             </constraints>
-            <point key="canvasLocation" x="-83" y="-382"/>
+            <point key="canvasLocation" x="-987" y="-433"/>
         </view>
     </objects>
     <resources>
