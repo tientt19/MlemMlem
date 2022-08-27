@@ -26,7 +26,7 @@ class TableRestaurantViewController: BaseViewController {
     let itemsPerRow: CGFloat = 4.0
     
     
-    @IBOutlet weak var constant_collectionViewHeight: NSLayoutConstraint!
+    @IBOutlet weak var constraint_collectionViewHeight: NSLayoutConstraint!
     @IBOutlet weak var coll_CollectionView: UICollectionView!
     
     @IBOutlet weak var view_background: BackgroundView!{
@@ -44,6 +44,14 @@ class TableRestaurantViewController: BaseViewController {
         self.viewModel.onViewDidLoad()
     }
     
+//    override func viewDidLayoutSubviews() {
+//        super.viewDidLayoutSubviews()
+//        let height = coll_CollectionView.collectionViewLayout.collectionViewContentSize.height
+//        constraint_collectionViewHeight.constant = height
+//        self.view.layoutIfNeeded()
+//    }
+    
+    
     // MARK: - Init
     private func setupInit() {
         self.coll_CollectionView.registerNib(ofType: CellCollectionViewTableRestaurant.self)
@@ -56,15 +64,6 @@ class TableRestaurantViewController: BaseViewController {
 }
 
 extension TableRestaurantViewController: UICollectionViewDataSource {
-    func setIntCollectionView() {
-        self.coll_CollectionView.registerNib(ofType: CellCollectionViewTableRestaurant.self)
-        self.coll_CollectionView.delegate = self
-        self.coll_CollectionView.dataSource = self
-        self.coll_CollectionView.reloadData()
-        self.coll_CollectionView.performBatchUpdates(nil) { [weak self] _ in
-            guard let self = self else { return }
-            self.constant_collectionViewHeight.constant = self.coll_CollectionView.collectionViewLayout.collectionViewContentSize.height
-    }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 20
@@ -98,7 +97,7 @@ extension TableRestaurantViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let paddingSpace = CGFloat((itemsPerRow + 1)) * insetsSession.left
         let availableWidth = coll_CollectionView.frame.width - paddingSpace
-        let width = availableWidth / itemsPerRow - 10
+        let width = availableWidth / itemsPerRow
         return CGSize(width: width, height: width)
     }
     

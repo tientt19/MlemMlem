@@ -24,19 +24,13 @@ protocol SCMViewModelProtocol {
     //func numberOfItems() -> Int
     //func cellForItem(at indexPath: IndexPath) -> Any
     //func didSelectItem(at indexPath: IndexPath)
-    func createPageViewController(fromIndex index: Int) -> UIViewController
-    func getViewController(forViewController vc: UIViewController, isNextController: Bool) -> UIViewController?
 }
 
 // MARK: - SCM ViewModel
 class SCMViewModel {
     weak var view: SCMViewProtocol?
     private var interactor: SCMInteractorInputProtocol
-    var listController: [UIViewController] = [
-        ListExpectedDishRouter.setupModule(),
-        ListExpectedDishRouter.setupModule(),
-        ListExpectedDishRouter.setupModule()
-    ]
+
     init(interactor: SCMInteractorInputProtocol) {
         self.interactor = interactor
     }
@@ -45,29 +39,6 @@ class SCMViewModel {
 
 // MARK: - SCM ViewModelProtocol
 extension SCMViewModel: SCMViewModelProtocol {
-    func getViewController(forViewController vc: UIViewController, isNextController: Bool) -> UIViewController? {
-        var index: Int = 0
-        isNextController ? (index += 1) : (index -= 1)
-        if isNextController {
-            if listController.count > index {
-                return createPageViewController(fromIndex: index)
-            }else{
-                return nil
-            }
-        }else{
-            if index >= 0 {
-                return createPageViewController(fromIndex: index)
-            }else{
-                return nil
-            }
-        }
-    }
-    
-    func createPageViewController(fromIndex index: Int) -> UIViewController {
-        let viewController = listController[index]
-        return viewController
-    }
-    
     func onViewDidLoad() {
         
     }
